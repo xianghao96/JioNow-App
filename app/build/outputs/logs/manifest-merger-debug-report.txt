@@ -1,0 +1,181 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/xianghao/Desktop/material-components-android-codelabs-101-starter 2/java/shrine/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/xianghao/Desktop/material-components-android-codelabs-101-starter 2/java/shrine/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/xianghao/Desktop/material-components-android-codelabs-101-starter 2/java/shrine/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/xianghao/Desktop/material-components-android-codelabs-101-starter 2/java/shrine/app/src/main/AndroidManifest.xml:2:1-24:12
+MERGED from [com.android.support:design:28.0.0-alpha3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/design-28.0.0-alpha3.aar/36d43de41ac82adf00ab84cebb99ee59/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:support-v4:28.0.0-alpha3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0-alpha3.aar/55ae3f8b73b72466a227e017915de292/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.volley:volley:1.1.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/volley-1.1.0.aar/f7be08fed80c668c17fc5d608365d9cb/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:appcompat-v7:28.0.0-alpha3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0-alpha3.aar/7e66191c4b189006c18bee5d44ac0b26/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0-alpha3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0-alpha3.aar/242a05065946cea2f251db79bfe97ef4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0-alpha3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0-alpha3.aar/c1a5e8e27059a81c1a9ca96971d1aa14/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0-alpha3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0-alpha3.aar/8dd26ae58b24b409a8429771bd586884/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0-alpha3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0-alpha3.aar/90137e1dd5e197c9fd311d0c47dec26a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0-alpha3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0-alpha3.aar/442accff18d4c9af4e5cc492234761c8/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0-alpha3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/transition-28.0.0-alpha3.aar/374efc4f88a8476506cadebf2efe34ec/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0-alpha3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0-alpha3.aar/594220ffea4a702d4cd202cfd23643bf/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0-alpha3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0-alpha3.aar/822b4007458fe0bba0044df8575a23e1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0-alpha3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0-alpha3.aar/0d901569cfdf51df42e188764d2664d2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0-alpha3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0-alpha3.aar/d0754e80774e3da1df6b2363ff325d2b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0-alpha3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0-alpha3.aar/ccf1da4d29768a933939e8b5388f2e58/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0-alpha3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/customview-28.0.0-alpha3.aar/8fcdb30b0ff52617adef81e5e7be5af6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0-alpha3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0-alpha3.aar/b05576257f6ff63fc9d2c8801e2cd30d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0-alpha3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0-alpha3.aar/d85e1e40320a327768bb8a66ad8ba8d8/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0-alpha3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/loader-28.0.0-alpha3.aar/27e0b900ef0e41ad0c5ad120516971e4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0-alpha3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0-alpha3.aar/1387d59f93bdd3aa2eaa516d36b0fa07/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0-alpha3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-alpha3.aar/86196844c20ec2a3fb0a8f9854a43444/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:cardview-v7:28.0.0-alpha3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0-alpha3.aar/9e923f9ca8a90219cb6ad5e0e91b2ab3/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/820fb4a9b60a918e6188cfa7773bfb49/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:versionedparcelable:28.0.0-alpha3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0-alpha3.aar/fff6938ee5f1b061d0b24651039e2907/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:interpolator:28.0.0-alpha3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0-alpha3.aar/b36b7ea733169d5b9efdfe9741125724/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cursoradapter:28.0.0-alpha3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0-alpha3.aar/d0546cc7d221eb5ea99426f0dc4b765e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0-alpha3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0-alpha3.aar/fb20e8c12907674ad6762ae86d7c9d48/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0-alpha3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0-alpha3.aar/62a785f89b58169677b1526fd428e4f4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0-alpha3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/print-28.0.0-alpha3.aar/9722e112a27209c6e5d28c5dbe250576/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/33a63d10354d0be7927e3e49032e5429/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/0060644268541d33fb026f7d52c7ad8a/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/2e2c685fe541017367a918382220c5ec/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/xianghao/Desktop/material-components-android-codelabs-101-starter 2/java/shrine/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/xianghao/Desktop/material-components-android-codelabs-101-starter 2/java/shrine/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/xianghao/Desktop/material-components-android-codelabs-101-starter 2/java/shrine/app/src/main/AndroidManifest.xml:2:1-24:12
+	package
+		ADDED from /Users/xianghao/Desktop/material-components-android-codelabs-101-starter 2/java/shrine/app/src/main/AndroidManifest.xml:3:5-50
+		INJECTED from /Users/xianghao/Desktop/material-components-android-codelabs-101-starter 2/java/shrine/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/xianghao/Desktop/material-components-android-codelabs-101-starter 2/java/shrine/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/xianghao/Desktop/material-components-android-codelabs-101-starter 2/java/shrine/app/src/main/AndroidManifest.xml
+		ADDED from /Users/xianghao/Desktop/material-components-android-codelabs-101-starter 2/java/shrine/app/src/main/AndroidManifest.xml:2:1-24:12
+		INJECTED from /Users/xianghao/Desktop/material-components-android-codelabs-101-starter 2/java/shrine/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/xianghao/Desktop/material-components-android-codelabs-101-starter 2/java/shrine/app/src/main/AndroidManifest.xml
+		ADDED from /Users/xianghao/Desktop/material-components-android-codelabs-101-starter 2/java/shrine/app/src/main/AndroidManifest.xml:2:1-24:12
+		INJECTED from /Users/xianghao/Desktop/material-components-android-codelabs-101-starter 2/java/shrine/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/xianghao/Desktop/material-components-android-codelabs-101-starter 2/java/shrine/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/xianghao/Desktop/material-components-android-codelabs-101-starter 2/java/shrine/app/src/main/AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from /Users/xianghao/Desktop/material-components-android-codelabs-101-starter 2/java/shrine/app/src/main/AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/xianghao/Desktop/material-components-android-codelabs-101-starter 2/java/shrine/app/src/main/AndroidManifest.xml:6:5-79
+	android:name
+		ADDED from /Users/xianghao/Desktop/material-components-android-codelabs-101-starter 2/java/shrine/app/src/main/AndroidManifest.xml:6:22-76
+application
+ADDED from /Users/xianghao/Desktop/material-components-android-codelabs-101-starter 2/java/shrine/app/src/main/AndroidManifest.xml:8:5-23:19
+MERGED from [com.android.support:design:28.0.0-alpha3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/design-28.0.0-alpha3.aar/36d43de41ac82adf00ab84cebb99ee59/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0-alpha3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/design-28.0.0-alpha3.aar/36d43de41ac82adf00ab84cebb99ee59/AndroidManifest.xml:22:5-20
+MERGED from [com.android.volley:volley:1.1.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/volley-1.1.0.aar/f7be08fed80c668c17fc5d608365d9cb/AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.1.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/volley-1.1.0.aar/f7be08fed80c668c17fc5d608365d9cb/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0-alpha3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-alpha3.aar/86196844c20ec2a3fb0a8f9854a43444/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0-alpha3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-alpha3.aar/86196844c20ec2a3fb0a8f9854a43444/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0-alpha3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0-alpha3.aar/fff6938ee5f1b061d0b24651039e2907/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0-alpha3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0-alpha3.aar/fff6938ee5f1b061d0b24651039e2907/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0-alpha3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-alpha3.aar/86196844c20ec2a3fb0a8f9854a43444/AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from /Users/xianghao/Desktop/material-components-android-codelabs-101-starter 2/java/shrine/app/src/main/AndroidManifest.xml:13:9-35
+	android:label
+		ADDED from /Users/xianghao/Desktop/material-components-android-codelabs-101-starter 2/java/shrine/app/src/main/AndroidManifest.xml:11:9-45
+	android:roundIcon
+		ADDED from /Users/xianghao/Desktop/material-components-android-codelabs-101-starter 2/java/shrine/app/src/main/AndroidManifest.xml:12:9-54
+	android:icon
+		ADDED from /Users/xianghao/Desktop/material-components-android-codelabs-101-starter 2/java/shrine/app/src/main/AndroidManifest.xml:10:9-43
+	android:allowBackup
+		ADDED from /Users/xianghao/Desktop/material-components-android-codelabs-101-starter 2/java/shrine/app/src/main/AndroidManifest.xml:9:9-35
+	android:theme
+		ADDED from /Users/xianghao/Desktop/material-components-android-codelabs-101-starter 2/java/shrine/app/src/main/AndroidManifest.xml:15:9-44
+	android:name
+		ADDED from /Users/xianghao/Desktop/material-components-android-codelabs-101-starter 2/java/shrine/app/src/main/AndroidManifest.xml:14:9-89
+activity#com.google.codelabs.mdc.java.shrine.MainActivity
+ADDED from /Users/xianghao/Desktop/material-components-android-codelabs-101-starter 2/java/shrine/app/src/main/AndroidManifest.xml:16:9-22:20
+	android:name
+		ADDED from /Users/xianghao/Desktop/material-components-android-codelabs-101-starter 2/java/shrine/app/src/main/AndroidManifest.xml:16:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/xianghao/Desktop/material-components-android-codelabs-101-starter 2/java/shrine/app/src/main/AndroidManifest.xml:17:13-21:29
+action#android.intent.action.MAIN
+ADDED from /Users/xianghao/Desktop/material-components-android-codelabs-101-starter 2/java/shrine/app/src/main/AndroidManifest.xml:18:17-69
+	android:name
+		ADDED from /Users/xianghao/Desktop/material-components-android-codelabs-101-starter 2/java/shrine/app/src/main/AndroidManifest.xml:18:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/xianghao/Desktop/material-components-android-codelabs-101-starter 2/java/shrine/app/src/main/AndroidManifest.xml:20:17-77
+	android:name
+		ADDED from /Users/xianghao/Desktop/material-components-android-codelabs-101-starter 2/java/shrine/app/src/main/AndroidManifest.xml:20:27-74
+uses-sdk
+INJECTED from /Users/xianghao/Desktop/material-components-android-codelabs-101-starter 2/java/shrine/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/xianghao/Desktop/material-components-android-codelabs-101-starter 2/java/shrine/app/src/main/AndroidManifest.xml
+INJECTED from /Users/xianghao/Desktop/material-components-android-codelabs-101-starter 2/java/shrine/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:design:28.0.0-alpha3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/design-28.0.0-alpha3.aar/36d43de41ac82adf00ab84cebb99ee59/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0-alpha3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/design-28.0.0-alpha3.aar/36d43de41ac82adf00ab84cebb99ee59/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0-alpha3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0-alpha3.aar/55ae3f8b73b72466a227e017915de292/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0-alpha3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0-alpha3.aar/55ae3f8b73b72466a227e017915de292/AndroidManifest.xml:20:5-44
+MERGED from [com.android.volley:volley:1.1.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/volley-1.1.0.aar/f7be08fed80c668c17fc5d608365d9cb/AndroidManifest.xml:7:5-43
+MERGED from [com.android.volley:volley:1.1.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/volley-1.1.0.aar/f7be08fed80c668c17fc5d608365d9cb/AndroidManifest.xml:7:5-43
+MERGED from [com.android.support:appcompat-v7:28.0.0-alpha3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0-alpha3.aar/7e66191c4b189006c18bee5d44ac0b26/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0-alpha3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0-alpha3.aar/7e66191c4b189006c18bee5d44ac0b26/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0-alpha3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0-alpha3.aar/242a05065946cea2f251db79bfe97ef4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0-alpha3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0-alpha3.aar/242a05065946cea2f251db79bfe97ef4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0-alpha3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0-alpha3.aar/c1a5e8e27059a81c1a9ca96971d1aa14/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0-alpha3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0-alpha3.aar/c1a5e8e27059a81c1a9ca96971d1aa14/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0-alpha3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0-alpha3.aar/8dd26ae58b24b409a8429771bd586884/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0-alpha3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0-alpha3.aar/8dd26ae58b24b409a8429771bd586884/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0-alpha3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0-alpha3.aar/90137e1dd5e197c9fd311d0c47dec26a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0-alpha3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0-alpha3.aar/90137e1dd5e197c9fd311d0c47dec26a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0-alpha3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0-alpha3.aar/442accff18d4c9af4e5cc492234761c8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0-alpha3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0-alpha3.aar/442accff18d4c9af4e5cc492234761c8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0-alpha3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/transition-28.0.0-alpha3.aar/374efc4f88a8476506cadebf2efe34ec/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0-alpha3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/transition-28.0.0-alpha3.aar/374efc4f88a8476506cadebf2efe34ec/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0-alpha3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0-alpha3.aar/594220ffea4a702d4cd202cfd23643bf/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0-alpha3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0-alpha3.aar/594220ffea4a702d4cd202cfd23643bf/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0-alpha3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0-alpha3.aar/822b4007458fe0bba0044df8575a23e1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0-alpha3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0-alpha3.aar/822b4007458fe0bba0044df8575a23e1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0-alpha3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0-alpha3.aar/0d901569cfdf51df42e188764d2664d2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0-alpha3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0-alpha3.aar/0d901569cfdf51df42e188764d2664d2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0-alpha3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0-alpha3.aar/d0754e80774e3da1df6b2363ff325d2b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0-alpha3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0-alpha3.aar/d0754e80774e3da1df6b2363ff325d2b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0-alpha3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0-alpha3.aar/ccf1da4d29768a933939e8b5388f2e58/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0-alpha3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0-alpha3.aar/ccf1da4d29768a933939e8b5388f2e58/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0-alpha3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/customview-28.0.0-alpha3.aar/8fcdb30b0ff52617adef81e5e7be5af6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0-alpha3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/customview-28.0.0-alpha3.aar/8fcdb30b0ff52617adef81e5e7be5af6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0-alpha3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0-alpha3.aar/b05576257f6ff63fc9d2c8801e2cd30d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0-alpha3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0-alpha3.aar/b05576257f6ff63fc9d2c8801e2cd30d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0-alpha3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0-alpha3.aar/d85e1e40320a327768bb8a66ad8ba8d8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0-alpha3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0-alpha3.aar/d85e1e40320a327768bb8a66ad8ba8d8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0-alpha3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/loader-28.0.0-alpha3.aar/27e0b900ef0e41ad0c5ad120516971e4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0-alpha3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/loader-28.0.0-alpha3.aar/27e0b900ef0e41ad0c5ad120516971e4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0-alpha3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0-alpha3.aar/1387d59f93bdd3aa2eaa516d36b0fa07/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0-alpha3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0-alpha3.aar/1387d59f93bdd3aa2eaa516d36b0fa07/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0-alpha3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-alpha3.aar/86196844c20ec2a3fb0a8f9854a43444/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0-alpha3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-alpha3.aar/86196844c20ec2a3fb0a8f9854a43444/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0-alpha3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0-alpha3.aar/9e923f9ca8a90219cb6ad5e0e91b2ab3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0-alpha3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0-alpha3.aar/9e923f9ca8a90219cb6ad5e0e91b2ab3/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/820fb4a9b60a918e6188cfa7773bfb49/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/820fb4a9b60a918e6188cfa7773bfb49/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0-alpha3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0-alpha3.aar/fff6938ee5f1b061d0b24651039e2907/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0-alpha3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0-alpha3.aar/fff6938ee5f1b061d0b24651039e2907/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0-alpha3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0-alpha3.aar/b36b7ea733169d5b9efdfe9741125724/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0-alpha3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0-alpha3.aar/b36b7ea733169d5b9efdfe9741125724/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0-alpha3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0-alpha3.aar/d0546cc7d221eb5ea99426f0dc4b765e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0-alpha3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0-alpha3.aar/d0546cc7d221eb5ea99426f0dc4b765e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0-alpha3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0-alpha3.aar/fb20e8c12907674ad6762ae86d7c9d48/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0-alpha3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0-alpha3.aar/fb20e8c12907674ad6762ae86d7c9d48/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0-alpha3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0-alpha3.aar/62a785f89b58169677b1526fd428e4f4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0-alpha3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0-alpha3.aar/62a785f89b58169677b1526fd428e4f4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0-alpha3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/print-28.0.0-alpha3.aar/9722e112a27209c6e5d28c5dbe250576/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0-alpha3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/print-28.0.0-alpha3.aar/9722e112a27209c6e5d28c5dbe250576/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/33a63d10354d0be7927e3e49032e5429/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/33a63d10354d0be7927e3e49032e5429/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/0060644268541d33fb026f7d52c7ad8a/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/0060644268541d33fb026f7d52c7ad8a/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/2e2c685fe541017367a918382220c5ec/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/2e2c685fe541017367a918382220c5ec/AndroidManifest.xml:20:5-44
+INJECTED from /Users/xianghao/Desktop/material-components-android-codelabs-101-starter 2/java/shrine/app/src/main/AndroidManifest.xml
+INJECTED from /Users/xianghao/Desktop/material-components-android-codelabs-101-starter 2/java/shrine/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/xianghao/Desktop/material-components-android-codelabs-101-starter 2/java/shrine/app/src/main/AndroidManifest.xml
+		ADDED from /Users/xianghao/Desktop/material-components-android-codelabs-101-starter 2/java/shrine/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/xianghao/Desktop/material-components-android-codelabs-101-starter 2/java/shrine/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/xianghao/Desktop/material-components-android-codelabs-101-starter 2/java/shrine/app/src/main/AndroidManifest.xml
+		ADDED from /Users/xianghao/Desktop/material-components-android-codelabs-101-starter 2/java/shrine/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/xianghao/Desktop/material-components-android-codelabs-101-starter 2/java/shrine/app/src/main/AndroidManifest.xml
