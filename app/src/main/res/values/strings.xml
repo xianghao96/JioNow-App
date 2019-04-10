@@ -1,5 +1,5 @@
 <resources>
-    <string name="shr_app_name">Shrine</string>
+    <string name="shr_app_name">Jio Now</string>
     <string name="shr_hint_username">Username</string>
     <string name="shr_hint_password">Password</string>
     <string name="shr_button_next">Next</string>
@@ -9,6 +9,10 @@
     <string name="shr_search_title">Search</string>
     <string name="shr_product_title">Title</string>
     <string name="shr_product_description">Secondary text</string>
+    <string name="signed_out">Signed Out</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="loading">Loading</string>
+    <string name="signed_in_fmt">Signed in as: %s</string>
 
     <!-- Shrine backdrop menu labels -->
     <string name="shr_featured_label">Featured</string>

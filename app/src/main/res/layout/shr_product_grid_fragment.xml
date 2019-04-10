@@ -3,8 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".ProductGridFragment">
+    android:layout_height="match_parent">
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
@@ -14,7 +13,7 @@
             android:id="@+id/app_bar"
             style="@style/Widget.Shrine.Toolbar"
             android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
+            android:layout_height="wrap_content"
             app:navigationIcon="@drawable/shr_menu"
             app:title="Jio Now" />
     </android.support.design.widget.AppBarLayout>
@@ -78,4 +77,20 @@
             android:gravity="center"
             android:text="Scan Receipt" />
     </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/FifthRow"
+        android:layout_width="fill_parent"
+        android:layout_height="1058dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/sign_out_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/sign_out" />
+    </LinearLayout>
+
 </FrameLayout>
