@@ -20,5 +20,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".EventsDisplay">
+        </activity>
+        <activity android:name=".EventsDetails">
+        </activity>
+        <activity android:name=".OutstandingPayments">
+        </activity>
+        <activity android:name=".Paylah">
+        </activity>
+
     </application>
 </manifest>

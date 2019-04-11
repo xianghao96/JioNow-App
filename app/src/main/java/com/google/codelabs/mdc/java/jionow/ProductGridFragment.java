@@ -1,5 +1,6 @@
 package com.google.codelabs.mdc.java.jionow;
 
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -58,6 +59,25 @@ public class ProductGridFragment extends Fragment {
 //                    startActivity(launchIntent);//null pointer check in case package name was not found
 //                }
 //            }
+        });
+
+        myEventsButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Context context = v.getContext();
+                Intent intent = new Intent(context, EventsDisplay.class);
+                context.startActivity(intent);
+            }
+        });
+
+
+        outstandingPaymentsButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Context context = v.getContext();
+                Intent intent = new Intent(context, OutstandingPayments.class);
+                context.startActivity(intent);
+            }
         });
 
 //        signOutButton.setOnClickListener(new View.OnClickListener() {
