@@ -125,7 +125,7 @@
 
             <TextView
                 android:id="@+id/dish_quantity2"
-                android:layout_width="wrap_content"
+                android:layout_width="41dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="right"
                 android:text="5    x"

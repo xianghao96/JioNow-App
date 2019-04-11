@@ -1,11 +1,11 @@
 [
     {
-        "merged": "/Users/xianghao/JioNow-App/app/build/intermediates/res/merged/debug/layout_design_navigation_item_header.xml.flat",
-        "source": "/Users/xianghao/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/dc8a9e9862963b71938c3f6e953c4d79/res/layout/design_navigation_item_header.xml"
-    },
-    {
         "merged": "/Users/xianghao/JioNow-App/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_list_pressed_holo_light.9.png.flat",
         "source": "/Users/xianghao/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/0f2feea63b314d71cf89390ee9c24f54/res/drawable-hdpi-v4/abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "/Users/xianghao/JioNow-App/app/build/intermediates/res/merged/debug/layout_design_navigation_item_header.xml.flat",
+        "source": "/Users/xianghao/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/dc8a9e9862963b71938c3f6e953c4d79/res/layout/design_navigation_item_header.xml"
     },
     {
         "merged": "/Users/xianghao/JioNow-App/app/build/intermediates/res/merged/debug/color_abc_btn_colored_text_material.xml.flat",
@@ -36,12 +36,12 @@
         "source": "/Users/xianghao/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/0f2feea63b314d71cf89390ee9c24f54/res/drawable/abc_cab_background_internal_bg.xml"
     },
     {
-        "merged": "/Users/xianghao/JioNow-App/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_text_select_handle_right_mtrl_light.png.flat",
-        "source": "/Users/xianghao/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/0f2feea63b314d71cf89390ee9c24f54/res/drawable-xxhdpi-v4/abc_text_select_handle_right_mtrl_light.png"
-    },
-    {
         "merged": "/Users/xianghao/JioNow-App/app/build/intermediates/res/merged/debug/layout-watch-v20_abc_alert_dialog_button_bar_material.xml.flat",
         "source": "/Users/xianghao/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/0f2feea63b314d71cf89390ee9c24f54/res/layout-watch-v20/abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "/Users/xianghao/JioNow-App/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_text_select_handle_right_mtrl_light.png.flat",
+        "source": "/Users/xianghao/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/0f2feea63b314d71cf89390ee9c24f54/res/drawable-xxhdpi-v4/abc_text_select_handle_right_mtrl_light.png"
     },
     {
         "merged": "/Users/xianghao/JioNow-App/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_scrubber_track_mtrl_alpha.9.png.flat",
@@ -156,12 +156,12 @@
         "source": "/Users/xianghao/JioNow-App/app/src/main/res/layout/shr_product_grid_fragment.xml"
     },
     {
-        "merged": "/Users/xianghao/JioNow-App/app/build/intermediates/res/merged/debug/color_abc_tint_edittext.xml.flat",
-        "source": "/Users/xianghao/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/0f2feea63b314d71cf89390ee9c24f54/res/color/abc_tint_edittext.xml"
-    },
-    {
         "merged": "/Users/xianghao/JioNow-App/app/build/intermediates/res/merged/debug/drawable-v21_design_bottom_navigation_item_background.xml.flat",
         "source": "/Users/xianghao/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/dc8a9e9862963b71938c3f6e953c4d79/res/drawable-v21/design_bottom_navigation_item_background.xml"
+    },
+    {
+        "merged": "/Users/xianghao/JioNow-App/app/build/intermediates/res/merged/debug/color_abc_tint_edittext.xml.flat",
+        "source": "/Users/xianghao/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/0f2feea63b314d71cf89390ee9c24f54/res/color/abc_tint_edittext.xml"
     },
     {
         "merged": "/Users/xianghao/JioNow-App/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_list_longpressed_holo.9.png.flat",
@@ -204,12 +204,12 @@
         "source": "/Users/xianghao/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/dc8a9e9862963b71938c3f6e953c4d79/res/animator/mtrl_btn_state_list_anim.xml"
     },
     {
-        "merged": "/Users/xianghao/JioNow-App/app/build/intermediates/res/merged/debug/drawable_design_fab_background.xml.flat",
-        "source": "/Users/xianghao/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/dc8a9e9862963b71938c3f6e953c4d79/res/drawable/design_fab_background.xml"
-    },
-    {
         "merged": "/Users/xianghao/JioNow-App/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat",
         "source": "/Users/xianghao/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/0f2feea63b314d71cf89390ee9c24f54/res/drawable-hdpi-v4/abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/xianghao/JioNow-App/app/build/intermediates/res/merged/debug/drawable_design_fab_background.xml.flat",
+        "source": "/Users/xianghao/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/dc8a9e9862963b71938c3f6e953c4d79/res/drawable/design_fab_background.xml"
     },
     {
         "merged": "/Users/xianghao/JioNow-App/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
@@ -244,20 +244,20 @@
         "source": "/Users/xianghao/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/9588f6adbb42f583c29433161f4e1ae8/res/drawable/notification_bg_low.xml"
     },
     {
-        "merged": "/Users/xianghao/JioNow-App/app/build/intermediates/res/merged/debug/layout_notification_template_big_media.xml.flat",
-        "source": "/Users/xianghao/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0-alpha3.aar/02698c069af4de65e33c375e15607e9e/res/layout/notification_template_big_media.xml"
-    },
-    {
         "merged": "/Users/xianghao/JioNow-App/app/build/intermediates/res/merged/debug/layout_abc_select_dialog_material.xml.flat",
         "source": "/Users/xianghao/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/0f2feea63b314d71cf89390ee9c24f54/res/layout/abc_select_dialog_material.xml"
     },
     {
-        "merged": "/Users/xianghao/JioNow-App/app/build/intermediates/res/merged/debug/drawable_notification_icon_background.xml.flat",
-        "source": "/Users/xianghao/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/9588f6adbb42f583c29433161f4e1ae8/res/drawable/notification_icon_background.xml"
+        "merged": "/Users/xianghao/JioNow-App/app/build/intermediates/res/merged/debug/layout_notification_template_big_media.xml.flat",
+        "source": "/Users/xianghao/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0-alpha3.aar/02698c069af4de65e33c375e15607e9e/res/layout/notification_template_big_media.xml"
     },
     {
         "merged": "/Users/xianghao/JioNow-App/app/build/intermediates/res/merged/debug/layout_abc_screen_content_include.xml.flat",
         "source": "/Users/xianghao/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/0f2feea63b314d71cf89390ee9c24f54/res/layout/abc_screen_content_include.xml"
+    },
+    {
+        "merged": "/Users/xianghao/JioNow-App/app/build/intermediates/res/merged/debug/drawable_notification_icon_background.xml.flat",
+        "source": "/Users/xianghao/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/9588f6adbb42f583c29433161f4e1ae8/res/drawable/notification_icon_background.xml"
     },
     {
         "merged": "/Users/xianghao/JioNow-App/app/build/intermediates/res/merged/debug/layout_notification_template_media.xml.flat",

@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Thu Apr 11 15:10:02 SGT 2019
+#Thu Apr 11 21:36:46 SGT 2019
 1.base=/Users/xianghao/JioNow-App/app/build/intermediates/transforms/dexMerger/debug/1
 2.path=classes2.dex
 0.baseType=DIRECTORY

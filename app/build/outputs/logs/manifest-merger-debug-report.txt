@@ -7,9 +7,10 @@ INJECTED from /Users/xianghao/JioNow-App/app/src/main/AndroidManifest.xml:2:1-24
 MERGED from [com.android.support:design:28.0.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/dc8a9e9862963b71938c3f6e953c4d79/AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:multidex:1.0.2] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/60971a9390b03bb0cd4d7a2cf0edc112/AndroidManifest.xml:17:1-22:12
 MERGED from [com.firebaseui:firebase-ui-firestore:4.1.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/firebase-ui-firestore-4.1.0.aar/bf0aa43bc94c19de6082c22e3d976d28/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.firebase:firebase-firestore:18.2.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/firebase-firestore-18.2.0.aar/87c9a8d9e5df396bf94fb27a116efdcd/AndroidManifest.xml:2:1-24:12
 MERGED from [com.google.android.gms:play-services-auth:16.0.1] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/play-services-auth-16.0.1.aar/f078399bf408dffdcb185b58851fe6fa/AndroidManifest.xml:17:1-39:12
 MERGED from [com.google.android.gms:play-services-identity:16.0.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/play-services-identity-16.0.0.aar/2947762c343b68613f32af51542e3df4/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.firebase:firebase-firestore:17.0.1] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/firebase-firestore-17.0.1.aar/ea1678d43769adc2d178e028cc8b2cca/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/firebase-auth-interop-16.0.1.aar/7dda1d6e3ef46e3e7473c5509348a635/AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-16.0.0.aar/6cf753d1ecb5837c355cd617b5ce65de/AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-16.0.0.aar/b34aa63dc6d76c3b1887a0b58af9ffe9/AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.firebase:firebase-core:16.0.8] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.8.aar/fb132c7ac267c903128b7e5ee6f977ff/AndroidManifest.xml:2:1-9:12
@@ -18,9 +19,8 @@ MERGED from [com.google.android.gms:play-services-measurement-api:16.4.0] /Users
 MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/680d285f1e4a314a8d6d122c968990b0/AndroidManifest.xml:17:1-59:12
 MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.1.aar/103cd68af0ebc3662358c20cf395f2f5/AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/7f5424793dbacbc4f165a669dcc13ebe/AndroidManifest.xml:17:1-29:12
-MERGED from [com.google.firebase:firebase-common:16.0.3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/26e275267d7acd3d692029a1f22eb9f3/AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.firebase:firebase-common:16.1.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/firebase-common-16.1.0.aar/8a84243f6b179e69646cfe790b195bb8/AndroidManifest.xml:2:1-19:12
 MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/70b473980c9ff119d80037ddc57a5d07/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.firebase:firebase-database-collection:15.0.1] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/firebase-database-collection-15.0.1.aar/786bc94681176960969c8cea94991a3a/AndroidManifest.xml:2:1-8:12
 MERGED from [com.google.android.gms:play-services-measurement:16.4.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/play-services-measurement-16.4.0.aar/d810406e9d9b98fd0ad0584463e115d8/AndroidManifest.xml:17:1-55:12
 MERGED from [com.google.android.gms:play-services-measurement-sdk:16.4.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/play-services-measurement-sdk-16.4.0.aar/2224ed67da351cc7d87c727764a8261e/AndroidManifest.xml:17:1-25:12
 MERGED from [com.google.android.gms:play-services-measurement-impl:16.4.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/play-services-measurement-impl-16.4.0.aar/76c8b086a81ffe5fcca72cda626706e4/AndroidManifest.xml:17:1-40:12
@@ -38,6 +38,12 @@ MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/xianghao/.gradle
 MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/1bc0d2cf1f0e9a5349b998cd8b0f7b8a/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-core-ui:28.0.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/a1a4427bcbf6d2171ee88cad2a2c029d/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-core-utils:28.0.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/f6af62d81bd36eac1ba6d7e81c97be55/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/0d55bc1a65557ad704b1d9c26f96606c/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/0eac49de560acec7860bafe8d4c6831c/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/f883adae0728c1794b482805c1ad9d75/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/66922ecbd5f7485a440634c5c516037d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/17ff0e51d51f60e4c9ebeb7cb4779ac1/AndroidManifest.xml:2:1-11:12
+MERGED from [io.grpc:grpc-android:1.16.1] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/grpc-android-1.16.1.aar/1e560e317b61ca075e68f86537408b8f/AndroidManifest.xml:2:1-13:12
 MERGED from [com.android.support:transition:28.0.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/3bd0b5d2fa982263bf44d5c3fbf7fc4b/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-media-compat:28.0.0-alpha3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0-alpha3.aar/02698c069af4de65e33c375e15607e9e/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/173494559056e30944ccd8cbfba2a1ef/AndroidManifest.xml:17:1-22:12
@@ -48,7 +54,6 @@ MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/xianghao/.grad
 MERGED from [com.android.support:customview:28.0.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/fc4c1215b74e1178ac03edce2e2a84ae/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/90f8155bf96147426f32d6f325dc6a2d/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/5fe71307dfe1d939e1cf7ef25351ab70/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:loader:28.0.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/0d55bc1a65557ad704b1d9c26f96606c/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-compat:28.0.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/9588f6adbb42f583c29433161f4e1ae8/AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:cardview-v7:28.0.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/7d93e87268f0858e8305f726e60737b8/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/bd12a6f5dce32dd4f5b05922c9abca1f/AndroidManifest.xml:17:1-25:12
@@ -60,10 +65,8 @@ MERGED from [com.android.support:documentfile:28.0.0] /Users/xianghao/.gradle/ca
 MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/f0dfb6598d599238e4cd8131cafb9ddf/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:print:28.0.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/55c5c510d5130a55eec2864b85ceeb7d/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/27a838461507cb8bfc6050e660974b49/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/0eac49de560acec7860bafe8d4c6831c/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/f883adae0728c1794b482805c1ad9d75/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.1] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/66922ecbd5f7485a440634c5c516037d/AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.firebase:protolite-well-known-types:15.0.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/protolite-well-known-types-15.0.0.aar/7cd5564f4b075dc97bd493fdbf84707a/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:firebase-database-collection:16.0.1] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/firebase-database-collection-16.0.1.aar/ff979dd14641d469354d9648185f4a1f/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:protolite-well-known-types:16.0.1] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/protolite-well-known-types-16.0.1.aar/56bc8e9c6028cb6177c58a6fa77afab7/AndroidManifest.xml:2:1-11:12
 INJECTED from /Users/xianghao/JioNow-App/app/src/main/AndroidManifest.xml:2:1-24:12
 INJECTED from /Users/xianghao/JioNow-App/app/src/main/AndroidManifest.xml:2:1-24:12
 INJECTED from /Users/xianghao/JioNow-App/app/src/main/AndroidManifest.xml:2:1-24:12
@@ -85,6 +88,8 @@ uses-permission#android.permission.INTERNET
 ADDED from /Users/xianghao/JioNow-App/app/src/main/AndroidManifest.xml:5:5-67
 MERGED from [com.firebaseui:firebase-ui-firestore:4.1.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/firebase-ui-firestore-4.1.0.aar/bf0aa43bc94c19de6082c22e3d976d28/AndroidManifest.xml:11:5-67
 MERGED from [com.firebaseui:firebase-ui-firestore:4.1.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/firebase-ui-firestore-4.1.0.aar/bf0aa43bc94c19de6082c22e3d976d28/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-firestore:18.2.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/firebase-firestore-18.2.0.aar/87c9a8d9e5df396bf94fb27a116efdcd/AndroidManifest.xml:14:5-67
+MERGED from [com.google.firebase:firebase-firestore:18.2.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/firebase-firestore-18.2.0.aar/87c9a8d9e5df396bf94fb27a116efdcd/AndroidManifest.xml:14:5-67
 MERGED from [com.google.android.gms:play-services-measurement-api:16.4.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-16.4.0.aar/61f7dedaacbe829189c9641ab20c809b/AndroidManifest.xml:22:5-67
 MERGED from [com.google.android.gms:play-services-measurement-api:16.4.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-16.4.0.aar/61f7dedaacbe829189c9641ab20c809b/AndroidManifest.xml:22:5-67
 MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/680d285f1e4a314a8d6d122c968990b0/AndroidManifest.xml:23:5-67
@@ -99,6 +104,8 @@ MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.4.0] /U
 		ADDED from /Users/xianghao/JioNow-App/app/src/main/AndroidManifest.xml:5:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from /Users/xianghao/JioNow-App/app/src/main/AndroidManifest.xml:6:5-79
+MERGED from [com.google.firebase:firebase-firestore:18.2.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/firebase-firestore-18.2.0.aar/87c9a8d9e5df396bf94fb27a116efdcd/AndroidManifest.xml:13:5-79
+MERGED from [com.google.firebase:firebase-firestore:18.2.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/firebase-firestore-18.2.0.aar/87c9a8d9e5df396bf94fb27a116efdcd/AndroidManifest.xml:13:5-79
 MERGED from [com.google.android.gms:play-services-measurement-api:16.4.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-16.4.0.aar/61f7dedaacbe829189c9641ab20c809b/AndroidManifest.xml:23:5-79
 MERGED from [com.google.android.gms:play-services-measurement-api:16.4.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-16.4.0.aar/61f7dedaacbe829189c9641ab20c809b/AndroidManifest.xml:23:5-79
 MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/680d285f1e4a314a8d6d122c968990b0/AndroidManifest.xml:22:5-79
@@ -109,16 +116,22 @@ MERGED from [com.google.android.gms:play-services-measurement-impl:16.4.0] /User
 MERGED from [com.google.android.gms:play-services-measurement-impl:16.4.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/play-services-measurement-impl-16.4.0.aar/76c8b086a81ffe5fcca72cda626706e4/AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.4.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/play-services-measurement-sdk-api-16.4.0.aar/1b882cd2225b308f7d13e5cdf769e744/AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.4.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/play-services-measurement-sdk-api-16.4.0.aar/1b882cd2225b308f7d13e5cdf769e744/AndroidManifest.xml:24:5-79
+MERGED from [io.grpc:grpc-android:1.16.1] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/grpc-android-1.16.1.aar/1e560e317b61ca075e68f86537408b8f/AndroidManifest.xml:11:5-79
+MERGED from [io.grpc:grpc-android:1.16.1] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/grpc-android-1.16.1.aar/1e560e317b61ca075e68f86537408b8f/AndroidManifest.xml:11:5-79
 	android:name
 		ADDED from /Users/xianghao/JioNow-App/app/src/main/AndroidManifest.xml:6:22-76
 application
 ADDED from /Users/xianghao/JioNow-App/app/src/main/AndroidManifest.xml:8:5-23:19
 MERGED from [com.android.support:design:28.0.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/dc8a9e9862963b71938c3f6e953c4d79/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:design:28.0.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/dc8a9e9862963b71938c3f6e953c4d79/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-firestore:18.2.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/firebase-firestore-18.2.0.aar/87c9a8d9e5df396bf94fb27a116efdcd/AndroidManifest.xml:16:5-22:19
+MERGED from [com.google.firebase:firebase-firestore:18.2.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/firebase-firestore-18.2.0.aar/87c9a8d9e5df396bf94fb27a116efdcd/AndroidManifest.xml:16:5-22:19
 MERGED from [com.google.android.gms:play-services-auth:16.0.1] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/play-services-auth-16.0.1.aar/f078399bf408dffdcb185b58851fe6fa/AndroidManifest.xml:22:5-37:19
 MERGED from [com.google.android.gms:play-services-auth:16.0.1] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/play-services-auth-16.0.1.aar/f078399bf408dffdcb185b58851fe6fa/AndroidManifest.xml:22:5-37:19
 MERGED from [com.google.android.gms:play-services-identity:16.0.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/play-services-identity-16.0.0.aar/2947762c343b68613f32af51542e3df4/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-identity:16.0.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/play-services-identity-16.0.0.aar/2947762c343b68613f32af51542e3df4/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/firebase-auth-interop-16.0.1.aar/7dda1d6e3ef46e3e7473c5509348a635/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/firebase-auth-interop-16.0.1.aar/7dda1d6e3ef46e3e7473c5509348a635/AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.firebase:firebase-core:16.0.8] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.8.aar/fb132c7ac267c903128b7e5ee6f977ff/AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-core:16.0.8] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.8.aar/fb132c7ac267c903128b7e5ee6f977ff/AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-analytics:16.4.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.4.0.aar/b1f303326b6b5564f09cbbafe36ba91c/AndroidManifest.xml:7:5-20
@@ -131,8 +144,8 @@ MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /Users/xianghao/.g
 MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.1.aar/103cd68af0ebc3662358c20cf395f2f5/AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/7f5424793dbacbc4f165a669dcc13ebe/AndroidManifest.xml:22:5-27:19
 MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/7f5424793dbacbc4f165a669dcc13ebe/AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.firebase:firebase-common:16.0.3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/26e275267d7acd3d692029a1f22eb9f3/AndroidManifest.xml:9:5-15:19
-MERGED from [com.google.firebase:firebase-common:16.0.3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/26e275267d7acd3d692029a1f22eb9f3/AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.firebase:firebase-common:16.1.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/firebase-common-16.1.0.aar/8a84243f6b179e69646cfe790b195bb8/AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.firebase:firebase-common:16.1.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/firebase-common-16.1.0.aar/8a84243f6b179e69646cfe790b195bb8/AndroidManifest.xml:11:5-17:19
 MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/70b473980c9ff119d80037ddc57a5d07/AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/70b473980c9ff119d80037ddc57a5d07/AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-measurement:16.4.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/play-services-measurement-16.4.0.aar/d810406e9d9b98fd0ad0584463e115d8/AndroidManifest.xml:28:5-53:19
@@ -155,6 +168,8 @@ MERGED from [com.google.android.gms:play-services-basement:16.2.0] /Users/xiangh
 MERGED from [com.google.android.gms:play-services-basement:16.2.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.2.0.aar/c93d637c20c649400a3c87f607e9f7f6/AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.volley:volley:1.1.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/volley-1.1.0.aar/a8e298da9cb735faa637a1efff162abc/AndroidManifest.xml:9:5-20
 MERGED from [com.android.volley:volley:1.1.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/volley-1.1.0.aar/a8e298da9cb735faa637a1efff162abc/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/17ff0e51d51f60e4c9ebeb7cb4779ac1/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/17ff0e51d51f60e4c9ebeb7cb4779ac1/AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:support-compat:28.0.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/9588f6adbb42f583c29433161f4e1ae8/AndroidManifest.xml:22:5-94
 MERGED from [com.android.support:support-compat:28.0.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/9588f6adbb42f583c29433161f4e1ae8/AndroidManifest.xml:22:5-94
 MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/bd12a6f5dce32dd4f5b05922c9abca1f/AndroidManifest.xml:22:5-23:19
@@ -199,12 +214,14 @@ MERGED from [com.android.support:multidex:1.0.2] /Users/xianghao/.gradle/caches/
 MERGED from [com.android.support:multidex:1.0.2] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/60971a9390b03bb0cd4d7a2cf0edc112/AndroidManifest.xml:20:5-43
 MERGED from [com.firebaseui:firebase-ui-firestore:4.1.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/firebase-ui-firestore-4.1.0.aar/bf0aa43bc94c19de6082c22e3d976d28/AndroidManifest.xml:7:5-9:41
 MERGED from [com.firebaseui:firebase-ui-firestore:4.1.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/firebase-ui-firestore-4.1.0.aar/bf0aa43bc94c19de6082c22e3d976d28/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-firestore:18.2.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/firebase-firestore-18.2.0.aar/87c9a8d9e5df396bf94fb27a116efdcd/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-firestore:18.2.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/firebase-firestore-18.2.0.aar/87c9a8d9e5df396bf94fb27a116efdcd/AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.android.gms:play-services-auth:16.0.1] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/play-services-auth-16.0.1.aar/f078399bf408dffdcb185b58851fe6fa/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-auth:16.0.1] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/play-services-auth-16.0.1.aar/f078399bf408dffdcb185b58851fe6fa/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-identity:16.0.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/play-services-identity-16.0.0.aar/2947762c343b68613f32af51542e3df4/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-identity:16.0.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/play-services-identity-16.0.0.aar/2947762c343b68613f32af51542e3df4/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-firestore:17.0.1] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/firebase-firestore-17.0.1.aar/ea1678d43769adc2d178e028cc8b2cca/AndroidManifest.xml:6:5-8:41
-MERGED from [com.google.firebase:firebase-firestore:17.0.1] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/firebase-firestore-17.0.1.aar/ea1678d43769adc2d178e028cc8b2cca/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/firebase-auth-interop-16.0.1.aar/7dda1d6e3ef46e3e7473c5509348a635/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/firebase-auth-interop-16.0.1.aar/7dda1d6e3ef46e3e7473c5509348a635/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-16.0.0.aar/6cf753d1ecb5837c355cd617b5ce65de/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-16.0.0.aar/6cf753d1ecb5837c355cd617b5ce65de/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-16.0.0.aar/b34aa63dc6d76c3b1887a0b58af9ffe9/AndroidManifest.xml:5:5-44
@@ -221,12 +238,10 @@ MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /Users/xianghao/.g
 MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.1.aar/103cd68af0ebc3662358c20cf395f2f5/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/7f5424793dbacbc4f165a669dcc13ebe/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/7f5424793dbacbc4f165a669dcc13ebe/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-common:16.0.3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/26e275267d7acd3d692029a1f22eb9f3/AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.firebase:firebase-common:16.0.3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/26e275267d7acd3d692029a1f22eb9f3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-common:16.1.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/firebase-common-16.1.0.aar/8a84243f6b179e69646cfe790b195bb8/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:16.1.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/firebase-common-16.1.0.aar/8a84243f6b179e69646cfe790b195bb8/AndroidManifest.xml:6:5-8:41
 MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/70b473980c9ff119d80037ddc57a5d07/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/70b473980c9ff119d80037ddc57a5d07/AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-database-collection:15.0.1] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/firebase-database-collection-15.0.1.aar/786bc94681176960969c8cea94991a3a/AndroidManifest.xml:6:5-44
-MERGED from [com.google.firebase:firebase-database-collection:15.0.1] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/firebase-database-collection-15.0.1.aar/786bc94681176960969c8cea94991a3a/AndroidManifest.xml:6:5-44
 MERGED from [com.google.android.gms:play-services-measurement:16.4.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/play-services-measurement-16.4.0.aar/d810406e9d9b98fd0ad0584463e115d8/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-measurement:16.4.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/play-services-measurement-16.4.0.aar/d810406e9d9b98fd0ad0584463e115d8/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-measurement-sdk:16.4.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/play-services-measurement-sdk-16.4.0.aar/2224ed67da351cc7d87c727764a8261e/AndroidManifest.xml:20:5-44
@@ -261,6 +276,18 @@ MERGED from [com.android.support:support-core-ui:28.0.0] /Users/xianghao/.gradle
 MERGED from [com.android.support:support-core-ui:28.0.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/a1a4427bcbf6d2171ee88cad2a2c029d/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-core-utils:28.0.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/f6af62d81bd36eac1ba6d7e81c97be55/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-core-utils:28.0.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/f6af62d81bd36eac1ba6d7e81c97be55/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/0d55bc1a65557ad704b1d9c26f96606c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/0d55bc1a65557ad704b1d9c26f96606c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/0eac49de560acec7860bafe8d4c6831c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/0eac49de560acec7860bafe8d4c6831c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/f883adae0728c1794b482805c1ad9d75/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/f883adae0728c1794b482805c1ad9d75/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/66922ecbd5f7485a440634c5c516037d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/66922ecbd5f7485a440634c5c516037d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/17ff0e51d51f60e4c9ebeb7cb4779ac1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/17ff0e51d51f60e4c9ebeb7cb4779ac1/AndroidManifest.xml:5:5-7:41
+MERGED from [io.grpc:grpc-android:1.16.1] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/grpc-android-1.16.1.aar/1e560e317b61ca075e68f86537408b8f/AndroidManifest.xml:7:5-9:41
+MERGED from [io.grpc:grpc-android:1.16.1] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/grpc-android-1.16.1.aar/1e560e317b61ca075e68f86537408b8f/AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:transition:28.0.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/3bd0b5d2fa982263bf44d5c3fbf7fc4b/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:transition:28.0.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/3bd0b5d2fa982263bf44d5c3fbf7fc4b/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-media-compat:28.0.0-alpha3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0-alpha3.aar/02698c069af4de65e33c375e15607e9e/AndroidManifest.xml:20:5-44
@@ -281,8 +308,6 @@ MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/xianghao/.gra
 MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/90f8155bf96147426f32d6f325dc6a2d/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/5fe71307dfe1d939e1cf7ef25351ab70/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/5fe71307dfe1d939e1cf7ef25351ab70/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/0d55bc1a65557ad704b1d9c26f96606c/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/0d55bc1a65557ad704b1d9c26f96606c/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-compat:28.0.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/9588f6adbb42f583c29433161f4e1ae8/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-compat:28.0.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/9588f6adbb42f583c29433161f4e1ae8/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:cardview-v7:28.0.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/7d93e87268f0858e8305f726e60737b8/AndroidManifest.xml:20:5-44
@@ -305,14 +330,10 @@ MERGED from [com.android.support:print:28.0.0] /Users/xianghao/.gradle/caches/tr
 MERGED from [com.android.support:print:28.0.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/55c5c510d5130a55eec2864b85ceeb7d/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/27a838461507cb8bfc6050e660974b49/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/27a838461507cb8bfc6050e660974b49/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/0eac49de560acec7860bafe8d4c6831c/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/0eac49de560acec7860bafe8d4c6831c/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/f883adae0728c1794b482805c1ad9d75/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/f883adae0728c1794b482805c1ad9d75/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/66922ecbd5f7485a440634c5c516037d/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/66922ecbd5f7485a440634c5c516037d/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:protolite-well-known-types:15.0.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/protolite-well-known-types-15.0.0.aar/7cd5564f4b075dc97bd493fdbf84707a/AndroidManifest.xml:7:5-9:41
-MERGED from [com.google.firebase:protolite-well-known-types:15.0.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/protolite-well-known-types-15.0.0.aar/7cd5564f4b075dc97bd493fdbf84707a/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-database-collection:16.0.1] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/firebase-database-collection-16.0.1.aar/ff979dd14641d469354d9648185f4a1f/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database-collection:16.0.1] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/firebase-database-collection-16.0.1.aar/ff979dd14641d469354d9648185f4a1f/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:protolite-well-known-types:16.0.1] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/protolite-well-known-types-16.0.1.aar/56bc8e9c6028cb6177c58a6fa77afab7/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:16.0.1] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/protolite-well-known-types-16.0.1.aar/56bc8e9c6028cb6177c58a6fa77afab7/AndroidManifest.xml:7:5-9:41
 INJECTED from /Users/xianghao/JioNow-App/app/src/main/AndroidManifest.xml
 INJECTED from /Users/xianghao/JioNow-App/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
@@ -323,6 +344,22 @@ INJECTED from /Users/xianghao/JioNow-App/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/xianghao/JioNow-App/app/src/main/AndroidManifest.xml
 		ADDED from /Users/xianghao/JioNow-App/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/xianghao/JioNow-App/app/src/main/AndroidManifest.xml
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-firestore:18.2.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/firebase-firestore-18.2.0.aar/87c9a8d9e5df396bf94fb27a116efdcd/AndroidManifest.xml:17:9-21:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.4.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-16.4.0.aar/61f7dedaacbe829189c9641ab20c809b/AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.4.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-16.4.0.aar/61f7dedaacbe829189c9641ab20c809b/AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/680d285f1e4a314a8d6d122c968990b0/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/680d285f1e4a314a8d6d122c968990b0/AndroidManifest.xml:29:9-35:19
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement-api:16.4.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-16.4.0.aar/61f7dedaacbe829189c9641ab20c809b/AndroidManifest.xml:29:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:18.2.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/firebase-firestore-18.2.0.aar/87c9a8d9e5df396bf94fb27a116efdcd/AndroidManifest.xml:17:18-89
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
+ADDED from [com.google.firebase:firebase-firestore:18.2.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/firebase-firestore-18.2.0.aar/87c9a8d9e5df396bf94fb27a116efdcd/AndroidManifest.xml:18:13-20:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:18.2.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/firebase-firestore-18.2.0.aar/87c9a8d9e5df396bf94fb27a116efdcd/AndroidManifest.xml:20:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:18.2.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/firebase-firestore-18.2.0.aar/87c9a8d9e5df396bf94fb27a116efdcd/AndroidManifest.xml:19:17-111
 activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
 ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/play-services-auth-16.0.1.aar/f078399bf408dffdcb185b58851fe6fa/AndroidManifest.xml:23:9-27:75
 	android:excludeFromRecents
@@ -353,14 +390,6 @@ MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.4.0] /U
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.4.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/play-services-measurement-sdk-api-16.4.0.aar/1b882cd2225b308f7d13e5cdf769e744/AndroidManifest.xml:25:5-68
 	android:name
 		ADDED from [com.google.android.gms:play-services-measurement-api:16.4.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-16.4.0.aar/61f7dedaacbe829189c9641ab20c809b/AndroidManifest.xml:24:22-65
-service#com.google.firebase.components.ComponentDiscoveryService
-ADDED from [com.google.android.gms:play-services-measurement-api:16.4.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-16.4.0.aar/61f7dedaacbe829189c9641ab20c809b/AndroidManifest.xml:27:9-33:19
-MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/680d285f1e4a314a8d6d122c968990b0/AndroidManifest.xml:29:9-35:19
-MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/680d285f1e4a314a8d6d122c968990b0/AndroidManifest.xml:29:9-35:19
-	android:exported
-		ADDED from [com.google.android.gms:play-services-measurement-api:16.4.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-16.4.0.aar/61f7dedaacbe829189c9641ab20c809b/AndroidManifest.xml:29:13-37
-	android:name
-		ADDED from [com.google.android.gms:play-services-measurement-api:16.4.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-16.4.0.aar/61f7dedaacbe829189c9641ab20c809b/AndroidManifest.xml:28:13-84
 meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
 ADDED from [com.google.android.gms:play-services-measurement-api:16.4.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-16.4.0.aar/61f7dedaacbe829189c9641ab20c809b/AndroidManifest.xml:30:13-32:85
 	android:value
@@ -414,15 +443,15 @@ ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/xianghao/.g
 	android:name
 		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/7f5424793dbacbc4f165a669dcc13ebe/AndroidManifest.xml:24:13-79
 provider#com.google.firebase.provider.FirebaseInitProvider
-ADDED from [com.google.firebase:firebase-common:16.0.3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/26e275267d7acd3d692029a1f22eb9f3/AndroidManifest.xml:10:9-14:39
+ADDED from [com.google.firebase:firebase-common:16.1.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/firebase-common-16.1.0.aar/8a84243f6b179e69646cfe790b195bb8/AndroidManifest.xml:12:9-16:39
 	android:authorities
-		ADDED from [com.google.firebase:firebase-common:16.0.3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/26e275267d7acd3d692029a1f22eb9f3/AndroidManifest.xml:12:13-72
+		ADDED from [com.google.firebase:firebase-common:16.1.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/firebase-common-16.1.0.aar/8a84243f6b179e69646cfe790b195bb8/AndroidManifest.xml:14:13-72
 	android:exported
-		ADDED from [com.google.firebase:firebase-common:16.0.3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/26e275267d7acd3d692029a1f22eb9f3/AndroidManifest.xml:13:13-37
+		ADDED from [com.google.firebase:firebase-common:16.1.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/firebase-common-16.1.0.aar/8a84243f6b179e69646cfe790b195bb8/AndroidManifest.xml:15:13-37
 	android:initOrder
-		ADDED from [com.google.firebase:firebase-common:16.0.3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/26e275267d7acd3d692029a1f22eb9f3/AndroidManifest.xml:14:13-36
+		ADDED from [com.google.firebase:firebase-common:16.1.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/firebase-common-16.1.0.aar/8a84243f6b179e69646cfe790b195bb8/AndroidManifest.xml:16:13-36
 	android:name
-		ADDED from [com.google.firebase:firebase-common:16.0.3] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/26e275267d7acd3d692029a1f22eb9f3/AndroidManifest.xml:11:13-77
+		ADDED from [com.google.firebase:firebase-common:16.1.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/firebase-common-16.1.0.aar/8a84243f6b179e69646cfe790b195bb8/AndroidManifest.xml:13:13-77
 uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
 ADDED from [com.google.android.gms:play-services-measurement:16.4.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/play-services-measurement-16.4.0.aar/d810406e9d9b98fd0ad0584463e115d8/AndroidManifest.xml:26:5-110
 MERGED from [com.google.android.gms:play-services-measurement-impl:16.4.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/play-services-measurement-impl-16.4.0.aar/76c8b086a81ffe5fcca72cda626706e4/AndroidManifest.xml:26:5-110
