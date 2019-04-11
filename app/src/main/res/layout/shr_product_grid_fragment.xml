@@ -21,7 +21,7 @@
     <LinearLayout
         android:id="@+id/top_layout"
         android:layout_width="fill_parent"
-        android:layout_height="321dp"
+        android:layout_height="200dp"
         android:gravity="center"
         android:orientation="vertical">
 
@@ -36,7 +36,7 @@
     <LinearLayout
         android:id="@+id/SecondRow"
         android:layout_width="fill_parent"
-        android:layout_height="500dp"
+        android:layout_height="400dp"
         android:gravity="center"
         android:orientation="horizontal">
 
@@ -51,7 +51,7 @@
     <LinearLayout
         android:id="@+id/ThirdRow"
         android:layout_width="fill_parent"
-        android:layout_height="690dp"
+        android:layout_height="600dp"
         android:gravity="center"
         android:orientation="horizontal">
 
@@ -66,7 +66,7 @@
     <LinearLayout
         android:id="@+id/FourthRow"
         android:layout_width="fill_parent"
-        android:layout_height="874dp"
+        android:layout_height="800dp"
         android:gravity="center"
         android:orientation="horizontal">
 
@@ -81,7 +81,22 @@
     <LinearLayout
         android:id="@+id/FifthRow"
         android:layout_width="fill_parent"
-        android:layout_height="1058dp"
+        android:layout_height="1000dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/my_events_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="My Events" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/SixthRow"
+        android:layout_width="fill_parent"
+        android:layout_height="1200dp"
         android:gravity="center"
         android:orientation="horizontal">
 

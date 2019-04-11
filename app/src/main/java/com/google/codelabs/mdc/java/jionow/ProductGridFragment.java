@@ -21,7 +21,7 @@ import com.google.android.gms.tasks.Task;
 
 public class ProductGridFragment extends Fragment {
 
-    private Button outstandingPaymentsButton, paymentHistoryButton, calendarButton, scanReceiptButton, signOutButton;
+    private Button outstandingPaymentsButton, paymentHistoryButton, calendarButton, scanReceiptButton, signOutButton, myEventsButton;
     private GoogleApiClient mGoogleApiClient;
     private GoogleSignInClient mGoogleSignInClient;
 
@@ -34,13 +34,14 @@ public class ProductGridFragment extends Fragment {
         MaterialButton paymentHistoryButton = view.findViewById(R.id.paymentHistoryButton);
         MaterialButton calendarButton = view.findViewById(R.id.calendarButton);
         MaterialButton scanReceiptButton = view.findViewById(R.id.scanReceiptButton);
+        MaterialButton myEventsButton = view.findViewById(R.id.my_events_button);
         final Button signOutButton =  view.findViewById(R.id.sign_out_button);
 
 
-        outstandingPaymentsButton.setOnClickListener(new View.OnClickListener() {
+        scanReceiptButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                ((NavigationHost) getActivity()).navigateTo(new ProductGridFragment(), true); // Navigate to Outstanding Payments Fragment
+                ((NavigationHost) getActivity()).navigateTo(new SplitMoneyFragment(), true); // Navigate to Outstanding Payments Fragment
             }
         });
 

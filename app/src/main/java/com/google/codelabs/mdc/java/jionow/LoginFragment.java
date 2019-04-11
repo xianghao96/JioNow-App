@@ -74,7 +74,7 @@ public class LoginFragment extends Fragment implements GoogleApiClient.OnConnect
         } else {
             // If the user has not previously signed in on this device or the sign-in has expired,
             // this asynchronous branch will attempt to sign in the user silently.  Cross-device
-            // single sign-on will occur in this branch.
+            // single sign-in will occur in this branch.
             showProgressDialog();
             opr.setResultCallback(new ResultCallback<GoogleSignInResult>() {
                 @Override
@@ -99,7 +99,7 @@ public class LoginFragment extends Fragment implements GoogleApiClient.OnConnect
             public void onClick(View v) {
                 Intent signInIntent = Auth.GoogleSignInApi.getSignInIntent(mGoogleApiClient);
                 startActivityForResult(signInIntent, RC_SIGN_IN);
-                ((NavigationHost) getActivity()).navigateTo(new ProductGridFragment(), false); // Navigate to the next Fragment
+//                ((NavigationHost) getActivity()).navigateTo(new ProductGridFragment(), false); // Navigate to the next Fragment
             }
         });
 
@@ -118,16 +118,22 @@ public class LoginFragment extends Fragment implements GoogleApiClient.OnConnect
         }
     }
 
-
     private void handleSignInResult(GoogleSignInResult result) {
         Log.d(TAG, "handleSignInResult:" + result.isSuccess());
         if (result.isSuccess()) {
             // Signed in successfully, show authenticated UI.
             GoogleSignInAccount acct = result.getSignInAccount();
              mStatusTextView.setText(getString(R.string.signed_in_fmt, acct.getDisplayName()));
-
-//             ((NavigationHost) getActivity()).navigateTo(new ProductGridFragment(), false); // Navigate to the next Fragment
+             updateUI(true);
             //Similarly you can get the email and photourl using acct.getEmail() and  acct.getPhotoUrl()
+        } else {
+            updateUI(false);
+        }
+    }
+
+    private void updateUI(boolean signedIn) {
+        if (signedIn) {
+            ((NavigationHost) getActivity()).navigateTo(new ProductGridFragment(), false); // Navigate to the next Fragment
         }
     }
 
