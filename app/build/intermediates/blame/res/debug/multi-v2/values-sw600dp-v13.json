@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/xianghao/JioNow-App/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml",
+            "outputFile": "/Users/xianghao/GitHub/JioNow-App/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml",
             "map": [
                 {
                     "source": "/Users/xianghao/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/dc8a9e9862963b71938c3f6e953c4d79/res/values-sw600dp-v13/values-sw600dp-v13.xml",

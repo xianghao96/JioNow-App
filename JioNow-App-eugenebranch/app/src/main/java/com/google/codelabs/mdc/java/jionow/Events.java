@@ -31,9 +31,9 @@ public class Events {
     public String status(){
         long millis=System.currentTimeMillis();
         Date now =new Date(millis);
-        Log.d(TAG, String.valueOf(now));
-        Log.d(TAG, String.valueOf(this.Description));
-        Log.d(TAG, String.valueOf(this.EndDate));
+        //Log.d(TAG, String.valueOf(now));
+        //Log.d(TAG, String.valueOf(this.Description));
+        //Log.d(TAG, String.valueOf(this.EndDate));
         String pattern = "yyyy-MM-dd";
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat(pattern);
 
@@ -50,8 +50,8 @@ public class Events {
     }
 
     public boolean isEventsHost(String User){
-        Log.d(TAG, String.valueOf(this.Host));
-        Log.d(TAG, String.valueOf(User));
+        //Log.d(TAG, String.valueOf(this.Host));
+        //Log.d(TAG, String.valueOf(User));
         if (this.Host.equals(User)){
             return true;
         }

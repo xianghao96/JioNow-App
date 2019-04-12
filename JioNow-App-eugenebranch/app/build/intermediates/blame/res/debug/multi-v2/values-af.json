@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/xianghao/Desktop/JioNow-App-eugenebranch/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-af/values-af.xml",
+            "outputFile": "/Users/xianghao/GitHub/JioNow-App-eugenebranch/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-af/values-af.xml",
             "map": [
                 {
                     "source": "/Users/xianghao/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/9588f6adbb42f583c29433161f4e1ae8/res/values-af/values-af.xml",

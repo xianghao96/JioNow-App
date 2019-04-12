@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/xianghao/JioNow-App/app/src/main/AndroidManifest.xml:2:1-24:12
-INJECTED from /Users/xianghao/JioNow-App/app/src/main/AndroidManifest.xml:2:1-24:12
-INJECTED from /Users/xianghao/JioNow-App/app/src/main/AndroidManifest.xml:2:1-24:12
-INJECTED from /Users/xianghao/JioNow-App/app/src/main/AndroidManifest.xml:2:1-24:12
+ADDED from /Users/xianghao/GitHub/JioNow-App/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /Users/xianghao/GitHub/JioNow-App/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /Users/xianghao/GitHub/JioNow-App/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /Users/xianghao/GitHub/JioNow-App/app/src/main/AndroidManifest.xml:2:1-25:12
 MERGED from [com.android.support:design:28.0.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/dc8a9e9862963b71938c3f6e953c4d79/AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:multidex:1.0.2] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/60971a9390b03bb0cd4d7a2cf0edc112/AndroidManifest.xml:17:1-22:12
 MERGED from [com.firebaseui:firebase-ui-firestore:4.1.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/firebase-ui-firestore-4.1.0.aar/bf0aa43bc94c19de6082c22e3d976d28/AndroidManifest.xml:2:1-13:12
@@ -67,25 +67,25 @@ MERGED from [com.android.support:print:28.0.0] /Users/xianghao/.gradle/caches/tr
 MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/27a838461507cb8bfc6050e660974b49/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-database-collection:16.0.1] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/firebase-database-collection-16.0.1.aar/ff979dd14641d469354d9648185f4a1f/AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.firebase:protolite-well-known-types:16.0.1] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/protolite-well-known-types-16.0.1.aar/56bc8e9c6028cb6177c58a6fa77afab7/AndroidManifest.xml:2:1-11:12
-INJECTED from /Users/xianghao/JioNow-App/app/src/main/AndroidManifest.xml:2:1-24:12
-INJECTED from /Users/xianghao/JioNow-App/app/src/main/AndroidManifest.xml:2:1-24:12
-INJECTED from /Users/xianghao/JioNow-App/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/xianghao/GitHub/JioNow-App/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /Users/xianghao/GitHub/JioNow-App/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /Users/xianghao/GitHub/JioNow-App/app/src/main/AndroidManifest.xml:2:1-25:12
 	package
-		ADDED from /Users/xianghao/JioNow-App/app/src/main/AndroidManifest.xml:3:5-50
-		INJECTED from /Users/xianghao/JioNow-App/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/xianghao/JioNow-App/app/src/main/AndroidManifest.xml
+		ADDED from /Users/xianghao/GitHub/JioNow-App/app/src/main/AndroidManifest.xml:3:5-50
+		INJECTED from /Users/xianghao/GitHub/JioNow-App/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/xianghao/GitHub/JioNow-App/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/xianghao/JioNow-App/app/src/main/AndroidManifest.xml
-		ADDED from /Users/xianghao/JioNow-App/app/src/main/AndroidManifest.xml:2:1-24:12
-		INJECTED from /Users/xianghao/JioNow-App/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/xianghao/GitHub/JioNow-App/app/src/main/AndroidManifest.xml
+		ADDED from /Users/xianghao/GitHub/JioNow-App/app/src/main/AndroidManifest.xml:2:1-25:12
+		INJECTED from /Users/xianghao/GitHub/JioNow-App/app/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /Users/xianghao/JioNow-App/app/src/main/AndroidManifest.xml
-		ADDED from /Users/xianghao/JioNow-App/app/src/main/AndroidManifest.xml:2:1-24:12
-		INJECTED from /Users/xianghao/JioNow-App/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/xianghao/GitHub/JioNow-App/app/src/main/AndroidManifest.xml
+		ADDED from /Users/xianghao/GitHub/JioNow-App/app/src/main/AndroidManifest.xml:2:1-25:12
+		INJECTED from /Users/xianghao/GitHub/JioNow-App/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/xianghao/JioNow-App/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /Users/xianghao/GitHub/JioNow-App/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /Users/xianghao/JioNow-App/app/src/main/AndroidManifest.xml:5:5-67
+ADDED from /Users/xianghao/GitHub/JioNow-App/app/src/main/AndroidManifest.xml:5:5-67
 MERGED from [com.firebaseui:firebase-ui-firestore:4.1.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/firebase-ui-firestore-4.1.0.aar/bf0aa43bc94c19de6082c22e3d976d28/AndroidManifest.xml:11:5-67
 MERGED from [com.firebaseui:firebase-ui-firestore:4.1.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/firebase-ui-firestore-4.1.0.aar/bf0aa43bc94c19de6082c22e3d976d28/AndroidManifest.xml:11:5-67
 MERGED from [com.google.firebase:firebase-firestore:18.2.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/firebase-firestore-18.2.0.aar/87c9a8d9e5df396bf94fb27a116efdcd/AndroidManifest.xml:14:5-67
@@ -101,9 +101,9 @@ MERGED from [com.google.android.gms:play-services-measurement-impl:16.4.0] /User
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.4.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/play-services-measurement-sdk-api-16.4.0.aar/1b882cd2225b308f7d13e5cdf769e744/AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.4.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/play-services-measurement-sdk-api-16.4.0.aar/1b882cd2225b308f7d13e5cdf769e744/AndroidManifest.xml:23:5-67
 	android:name
-		ADDED from /Users/xianghao/JioNow-App/app/src/main/AndroidManifest.xml:5:22-64
+		ADDED from /Users/xianghao/GitHub/JioNow-App/app/src/main/AndroidManifest.xml:5:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from /Users/xianghao/JioNow-App/app/src/main/AndroidManifest.xml:6:5-79
+ADDED from /Users/xianghao/GitHub/JioNow-App/app/src/main/AndroidManifest.xml:6:5-79
 MERGED from [com.google.firebase:firebase-firestore:18.2.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/firebase-firestore-18.2.0.aar/87c9a8d9e5df396bf94fb27a116efdcd/AndroidManifest.xml:13:5-79
 MERGED from [com.google.firebase:firebase-firestore:18.2.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/firebase-firestore-18.2.0.aar/87c9a8d9e5df396bf94fb27a116efdcd/AndroidManifest.xml:13:5-79
 MERGED from [com.google.android.gms:play-services-measurement-api:16.4.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-16.4.0.aar/61f7dedaacbe829189c9641ab20c809b/AndroidManifest.xml:23:5-79
@@ -119,9 +119,9 @@ MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.4.0] /U
 MERGED from [io.grpc:grpc-android:1.16.1] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/grpc-android-1.16.1.aar/1e560e317b61ca075e68f86537408b8f/AndroidManifest.xml:11:5-79
 MERGED from [io.grpc:grpc-android:1.16.1] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/grpc-android-1.16.1.aar/1e560e317b61ca075e68f86537408b8f/AndroidManifest.xml:11:5-79
 	android:name
-		ADDED from /Users/xianghao/JioNow-App/app/src/main/AndroidManifest.xml:6:22-76
+		ADDED from /Users/xianghao/GitHub/JioNow-App/app/src/main/AndroidManifest.xml:6:22-76
 application
-ADDED from /Users/xianghao/JioNow-App/app/src/main/AndroidManifest.xml:8:5-23:19
+ADDED from /Users/xianghao/GitHub/JioNow-App/app/src/main/AndroidManifest.xml:8:5-24:19
 MERGED from [com.android.support:design:28.0.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/dc8a9e9862963b71938c3f6e953c4d79/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:design:28.0.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/dc8a9e9862963b71938c3f6e953c4d79/AndroidManifest.xml:22:5-20
 MERGED from [com.google.firebase:firebase-firestore:18.2.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/firebase-firestore-18.2.0.aar/87c9a8d9e5df396bf94fb27a116efdcd/AndroidManifest.xml:16:5-22:19
@@ -177,37 +177,37 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/xianghao/.gr
 	android:appComponentFactory
 		ADDED from [com.android.support:support-compat:28.0.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/9588f6adbb42f583c29433161f4e1ae8/AndroidManifest.xml:22:18-91
 	android:supportsRtl
-		ADDED from /Users/xianghao/JioNow-App/app/src/main/AndroidManifest.xml:13:9-35
+		ADDED from /Users/xianghao/GitHub/JioNow-App/app/src/main/AndroidManifest.xml:13:9-35
 	android:label
-		ADDED from /Users/xianghao/JioNow-App/app/src/main/AndroidManifest.xml:11:9-45
+		ADDED from /Users/xianghao/GitHub/JioNow-App/app/src/main/AndroidManifest.xml:11:9-45
 	android:roundIcon
-		ADDED from /Users/xianghao/JioNow-App/app/src/main/AndroidManifest.xml:12:9-54
+		ADDED from /Users/xianghao/GitHub/JioNow-App/app/src/main/AndroidManifest.xml:12:9-54
 	android:icon
-		ADDED from /Users/xianghao/JioNow-App/app/src/main/AndroidManifest.xml:10:9-43
+		ADDED from /Users/xianghao/GitHub/JioNow-App/app/src/main/AndroidManifest.xml:10:9-43
 	android:allowBackup
-		ADDED from /Users/xianghao/JioNow-App/app/src/main/AndroidManifest.xml:9:9-35
+		ADDED from /Users/xianghao/GitHub/JioNow-App/app/src/main/AndroidManifest.xml:9:9-35
 	android:theme
-		ADDED from /Users/xianghao/JioNow-App/app/src/main/AndroidManifest.xml:15:9-44
+		ADDED from /Users/xianghao/GitHub/JioNow-App/app/src/main/AndroidManifest.xml:15:9-44
 	android:name
-		ADDED from /Users/xianghao/JioNow-App/app/src/main/AndroidManifest.xml:14:9-89
+		ADDED from /Users/xianghao/GitHub/JioNow-App/app/src/main/AndroidManifest.xml:14:9-89
 activity#com.google.codelabs.mdc.java.jionow.MainActivity
-ADDED from /Users/xianghao/JioNow-App/app/src/main/AndroidManifest.xml:16:9-22:20
+ADDED from /Users/xianghao/GitHub/JioNow-App/app/src/main/AndroidManifest.xml:16:9-22:20
 	android:name
-		ADDED from /Users/xianghao/JioNow-App/app/src/main/AndroidManifest.xml:16:19-47
+		ADDED from /Users/xianghao/GitHub/JioNow-App/app/src/main/AndroidManifest.xml:16:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/xianghao/JioNow-App/app/src/main/AndroidManifest.xml:17:13-21:29
+ADDED from /Users/xianghao/GitHub/JioNow-App/app/src/main/AndroidManifest.xml:17:13-21:29
 action#android.intent.action.MAIN
-ADDED from /Users/xianghao/JioNow-App/app/src/main/AndroidManifest.xml:18:17-69
+ADDED from /Users/xianghao/GitHub/JioNow-App/app/src/main/AndroidManifest.xml:18:17-69
 	android:name
-		ADDED from /Users/xianghao/JioNow-App/app/src/main/AndroidManifest.xml:18:25-66
+		ADDED from /Users/xianghao/GitHub/JioNow-App/app/src/main/AndroidManifest.xml:18:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/xianghao/JioNow-App/app/src/main/AndroidManifest.xml:20:17-77
+ADDED from /Users/xianghao/GitHub/JioNow-App/app/src/main/AndroidManifest.xml:20:17-77
 	android:name
-		ADDED from /Users/xianghao/JioNow-App/app/src/main/AndroidManifest.xml:20:27-74
+		ADDED from /Users/xianghao/GitHub/JioNow-App/app/src/main/AndroidManifest.xml:20:27-74
 uses-sdk
-INJECTED from /Users/xianghao/JioNow-App/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/xianghao/JioNow-App/app/src/main/AndroidManifest.xml
-INJECTED from /Users/xianghao/JioNow-App/app/src/main/AndroidManifest.xml
+INJECTED from /Users/xianghao/GitHub/JioNow-App/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/xianghao/GitHub/JioNow-App/app/src/main/AndroidManifest.xml
+INJECTED from /Users/xianghao/GitHub/JioNow-App/app/src/main/AndroidManifest.xml
 MERGED from [com.android.support:design:28.0.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/dc8a9e9862963b71938c3f6e953c4d79/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:design:28.0.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/dc8a9e9862963b71938c3f6e953c4d79/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:multidex:1.0.2] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/60971a9390b03bb0cd4d7a2cf0edc112/AndroidManifest.xml:20:5-43
@@ -334,16 +334,16 @@ MERGED from [com.google.firebase:firebase-database-collection:16.0.1] /Users/xia
 MERGED from [com.google.firebase:firebase-database-collection:16.0.1] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/firebase-database-collection-16.0.1.aar/ff979dd14641d469354d9648185f4a1f/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:protolite-well-known-types:16.0.1] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/protolite-well-known-types-16.0.1.aar/56bc8e9c6028cb6177c58a6fa77afab7/AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.firebase:protolite-well-known-types:16.0.1] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/protolite-well-known-types-16.0.1.aar/56bc8e9c6028cb6177c58a6fa77afab7/AndroidManifest.xml:7:5-9:41
-INJECTED from /Users/xianghao/JioNow-App/app/src/main/AndroidManifest.xml
-INJECTED from /Users/xianghao/JioNow-App/app/src/main/AndroidManifest.xml
+INJECTED from /Users/xianghao/GitHub/JioNow-App/app/src/main/AndroidManifest.xml
+INJECTED from /Users/xianghao/GitHub/JioNow-App/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /Users/xianghao/JioNow-App/app/src/main/AndroidManifest.xml
-		ADDED from /Users/xianghao/JioNow-App/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/xianghao/JioNow-App/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/xianghao/GitHub/JioNow-App/app/src/main/AndroidManifest.xml
+		ADDED from /Users/xianghao/GitHub/JioNow-App/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/xianghao/GitHub/JioNow-App/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/xianghao/JioNow-App/app/src/main/AndroidManifest.xml
-		ADDED from /Users/xianghao/JioNow-App/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/xianghao/JioNow-App/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/xianghao/GitHub/JioNow-App/app/src/main/AndroidManifest.xml
+		ADDED from /Users/xianghao/GitHub/JioNow-App/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/xianghao/GitHub/JioNow-App/app/src/main/AndroidManifest.xml
 service#com.google.firebase.components.ComponentDiscoveryService
 ADDED from [com.google.firebase:firebase-firestore:18.2.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/firebase-firestore-18.2.0.aar/87c9a8d9e5df396bf94fb27a116efdcd/AndroidManifest.xml:17:9-21:19
 MERGED from [com.google.android.gms:play-services-measurement-api:16.4.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-16.4.0.aar/61f7dedaacbe829189c9641ab20c809b/AndroidManifest.xml:27:9-33:19

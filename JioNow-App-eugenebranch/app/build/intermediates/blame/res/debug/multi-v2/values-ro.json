@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/xianghao/Desktop/JioNow-App-eugenebranch/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ro/values-ro.xml",
+            "outputFile": "/Users/xianghao/GitHub/JioNow-App-eugenebranch/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ro/values-ro.xml",
             "map": [
                 {
                     "source": "/Users/xianghao/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/7f5424793dbacbc4f165a669dcc13ebe/res/values-ro/values.xml",

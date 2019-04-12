@@ -1156,8 +1156,6 @@ id coordinator
 id custom
 id customPanel
 id dark
-id date_edit_text
-id date_text_input
 id decor_content_parent
 id default_activity_button
 id description_edit_text
@@ -1178,6 +1176,8 @@ id dishes_row1
 id dishes_row2
 id edit_query
 id end
+id end_DateTime_edit_text
+id end_DateTime_text_input
 id end_padder
 id enterAlways
 id enterAlwaysCollapsed
@@ -1310,6 +1310,8 @@ id src_in
 id src_over
 id standard
 id start
+id start_DateTime_edit_text
+id start_DateTime_text_input
 id status
 id status_bar_latest_event_content
 id stretch
@@ -1350,8 +1352,6 @@ id textinput_counter
 id textinput_error
 id textinput_helper_text
 id time
-id time_edit_text
-id time_text_input
 id title
 id titleDividerNoCustom
 id title_template

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/xianghao/Desktop/JioNow-App-eugenebranch/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "outputFile": "/Users/xianghao/GitHub/JioNow-App-eugenebranch/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
             "map": [
                 {
                     "source": "/Users/xianghao/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/3576a18e977862009485b78817b6943f/res/values/values.xml",
@@ -20,23 +20,6 @@
                         "endLines": "24,3008,3837,3926",
                         "endColumns": "60,12,24,24",
                         "endOffsets": "1257,197747,250098,255309"
-                    }
-                },
-                {
-                    "source": "/Users/xianghao/Desktop/JioNow-App-eugenebranch/app/src/main/res/values/dimens.xml",
-                    "from": {
-                        "startLines": "4,6,2,3,17,15,16,14,11,12,13,9,10",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "172,235,55,111,971,811,891,732,505,580,656,361,433",
-                        "endColumns": "61,62,55,60,80,79,79,78,74,75,75,71,71",
-                        "endOffsets": "229,293,106,167,1047,886,966,806,575,651,727,428,500"
-                    },
-                    "to": {
-                        "startLines": "477,478,479,480,481,482,483,484,485,486,487,488,489",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "28831,28893,28956,29012,29073,29154,29234,29314,29393,29468,29544,29620,29692",
-                        "endColumns": "61,62,55,60,80,79,79,78,74,75,75,71,71",
-                        "endOffsets": "28888,28951,29007,29068,29149,29229,29309,29388,29463,29539,29615,29687,29759"
                     }
                 },
                 {
@@ -59,23 +42,6 @@
                     }
                 },
                 {
-                    "source": "/Users/xianghao/Desktop/JioNow-App-eugenebranch/app/src/main/res/values/colors.xml",
-                    "from": {
-                        "startLines": "4,2,3,6,7,5",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "153,55,102,250,309,199",
-                        "endColumns": "45,46,50,58,60,50",
-                        "endOffsets": "194,97,148,304,365,245"
-                    },
-                    "to": {
-                        "startLines": "192,193,194,224,256,267",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "9973,10019,10066,12232,14324,15082",
-                        "endColumns": "45,46,50,58,60,50",
-                        "endOffsets": "10014,10061,10112,12286,14380,15128"
-                    }
-                },
-                {
                     "source": "/Users/xianghao/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/b45314a1d89c2fc2ae6f0d3b99e1129f/res/values/values.xml",
                     "from": {
                         "startLines": "30,31,32,33,34,35,36,2",
@@ -92,6 +58,25 @@
                         "endLines": "401,402,403,411,412,413,510,4374",
                         "endColumns": "58,47,55,74,75,71,65,24",
                         "endOffsets": "24060,24108,24164,24850,24926,24998,30917,281443"
+                    }
+                },
+                {
+                    "source": "/Users/xianghao/GitHub/JioNow-App-eugenebranch/app/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "3,10",
+                        "startColumns": "4,4",
+                        "startOffsets": "54,385",
+                        "endLines": "8,14",
+                        "endColumns": "12,12",
+                        "endOffsets": "379,695"
+                    },
+                    "to": {
+                        "startLines": "2596,3001",
+                        "startColumns": "4,4",
+                        "startOffsets": "170291,197292",
+                        "endLines": "2601,3005",
+                        "endColumns": "12,12",
+                        "endOffsets": "170616,197602"
                     }
                 },
                 {
@@ -186,39 +171,37 @@
                     }
                 },
                 {
-                    "source": "/Users/xianghao/Desktop/JioNow-App-eugenebranch/app/build/generated/res/google-services/debug/values/values.xml",
+                    "source": "/Users/xianghao/GitHub/JioNow-App-eugenebranch/app/src/main/res/values/strings.xml",
                     "from": {
-                        "startLines": "2,3,4,5,6,7,8",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "55,167,248,352,454,574,675",
-                        "endColumns": "111,80,103,101,119,100,77",
-                        "endOffsets": "162,243,347,449,569,670,748"
+                        "startLines": "13,19,24,18,1,22,5,4,23,6,17,7,3,2,10,9,8,20,21,12,14,11",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "688,947,1215,889,16,1107,224,175,1161,277,833,369,120,65,525,473,421,1009,1059,642,732,592",
+                        "endColumns": "43,61,56,57,48,53,52,48,53,91,55,51,54,54,66,51,51,49,47,45,58,49",
+                        "endOffsets": "727,1004,1267,942,60,1156,272,219,1210,364,884,416,170,115,587,520,468,1054,1102,683,786,637"
                     },
                     "to": {
-                        "startLines": "619,620,621,622,623,624,633",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "39148,39260,39341,39445,39547,39667,40843",
-                        "endColumns": "111,80,103,101,119,100,77",
-                        "endOffsets": "39255,39336,39440,39542,39662,39763,40916"
+                        "startLines": "626,635,636,637,638,639,640,641,642,643,644,645,646,647,648,649,650,651,652,653,654,655",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "39916,40974,41036,41093,41151,41200,41254,41307,41356,41410,41502,41558,41610,41665,41720,41787,41839,41891,41941,41989,42035,42094",
+                        "endColumns": "43,61,56,57,48,53,52,48,53,91,55,51,54,54,66,51,51,49,47,45,58,49",
+                        "endOffsets": "39955,41031,41088,41146,41195,41249,41302,41351,41405,41497,41553,41605,41660,41715,41782,41834,41886,41936,41984,42030,42089,42139"
                     }
                 },
                 {
-                    "source": "/Users/xianghao/Desktop/JioNow-App-eugenebranch/app/src/main/res/values/styles.xml",
+                    "source": "/Users/xianghao/GitHub/JioNow-App-eugenebranch/app/src/main/res/values/dimens.xml",
                     "from": {
-                        "startLines": "3,10",
-                        "startColumns": "4,4",
-                        "startOffsets": "54,385",
-                        "endLines": "8,14",
-                        "endColumns": "12,12",
-                        "endOffsets": "379,695"
+                        "startLines": "4,6,2,3,17,15,16,14,11,12,13,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "172,235,55,111,971,811,891,732,505,580,656,361,433",
+                        "endColumns": "61,62,55,60,80,79,79,78,74,75,75,71,71",
+                        "endOffsets": "229,293,106,167,1047,886,966,806,575,651,727,428,500"
                     },
                     "to": {
-                        "startLines": "2596,3001",
-                        "startColumns": "4,4",
-                        "startOffsets": "170291,197292",
-                        "endLines": "2601,3005",
-                        "endColumns": "12,12",
-                        "endOffsets": "170616,197602"
+                        "startLines": "477,478,479,480,481,482,483,484,485,486,487,488,489",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "28831,28893,28956,29012,29073,29154,29234,29314,29393,29468,29544,29620,29692",
+                        "endColumns": "61,62,55,60,80,79,79,78,74,75,75,71,71",
+                        "endOffsets": "28888,28951,29007,29068,29149,29229,29309,29388,29463,29539,29615,29687,29759"
                     }
                 },
                 {
@@ -258,20 +241,37 @@
                     }
                 },
                 {
-                    "source": "/Users/xianghao/Desktop/JioNow-App-eugenebranch/app/src/main/res/values/strings.xml",
+                    "source": "/Users/xianghao/GitHub/JioNow-App-eugenebranch/app/src/main/res/values/colors.xml",
                     "from": {
-                        "startLines": "13,19,24,18,1,22,5,4,23,6,17,7,3,2,10,9,8,20,21,12,14,11",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "688,947,1215,889,16,1107,224,175,1161,277,833,369,120,65,525,473,421,1009,1059,642,732,592",
-                        "endColumns": "43,61,56,57,48,53,52,48,53,91,55,51,54,54,66,51,51,49,47,45,58,49",
-                        "endOffsets": "727,1004,1267,942,60,1156,272,219,1210,364,884,416,170,115,587,520,468,1054,1102,683,786,637"
+                        "startLines": "4,2,3,6,7,5",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "153,55,102,250,309,199",
+                        "endColumns": "45,46,50,58,60,50",
+                        "endOffsets": "194,97,148,304,365,245"
                     },
                     "to": {
-                        "startLines": "626,635,636,637,638,639,640,641,642,643,644,645,646,647,648,649,650,651,652,653,654,655",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "39916,40974,41036,41093,41151,41200,41254,41307,41356,41410,41502,41558,41610,41665,41720,41787,41839,41891,41941,41989,42035,42094",
-                        "endColumns": "43,61,56,57,48,53,52,48,53,91,55,51,54,54,66,51,51,49,47,45,58,49",
-                        "endOffsets": "39955,41031,41088,41146,41195,41249,41302,41351,41405,41497,41553,41605,41660,41715,41782,41834,41886,41936,41984,42030,42089,42139"
+                        "startLines": "192,193,194,224,256,267",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "9973,10019,10066,12232,14324,15082",
+                        "endColumns": "45,46,50,58,60,50",
+                        "endOffsets": "10014,10061,10112,12286,14380,15128"
+                    }
+                },
+                {
+                    "source": "/Users/xianghao/GitHub/JioNow-App-eugenebranch/app/build/generated/res/google-services/debug/values/values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,167,248,352,454,574,675",
+                        "endColumns": "111,80,103,101,119,100,77",
+                        "endOffsets": "162,243,347,449,569,670,748"
+                    },
+                    "to": {
+                        "startLines": "619,620,621,622,623,624,633",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "39148,39260,39341,39445,39547,39667,40843",
+                        "endColumns": "111,80,103,101,119,100,77",
+                        "endOffsets": "39255,39336,39440,39542,39662,39763,40916"
                     }
                 },
                 {

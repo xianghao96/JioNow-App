@@ -16,7 +16,7 @@ public class Payments {
         this.Name = Name;
         this.Owed = Owed;
         this.Host = Host;
-        Log.d(TAG, String.valueOf(this.Owed.get("eugenechia95")));
+        //Log.d(TAG, String.valueOf(this.Owed.get("eugenechia95")));
     }
 
     public Map<String, Object> getOwed() {

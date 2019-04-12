@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/xianghao/Desktop/JioNow-App-eugenebranch/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
+            "outputFile": "/Users/xianghao/GitHub/JioNow-App-eugenebranch/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
             "map": [
                 {
                     "source": "/Users/xianghao/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/7d93e87268f0858e8305f726e60737b8/res/values-v23/values-v23.xml",

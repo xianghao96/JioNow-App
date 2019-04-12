@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/xianghao/JioNow-App/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-my/values-my.xml",
+            "outputFile": "/Users/xianghao/GitHub/JioNow-App/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-my/values-my.xml",
             "map": [
                 {
                     "source": "/Users/xianghao/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.2.0.aar/c93d637c20c649400a3c87f607e9f7f6/res/values-my/values.xml",
