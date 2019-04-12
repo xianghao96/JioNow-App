@@ -1,0 +1,85 @@
+{
+  "project_info": {
+    "project_number": "87601938231",
+    "firebase_url": "https://esc-project-3bdec.firebaseio.com",
+    "project_id": "esc-project-3bdec",
+    "storage_bucket": "esc-project-3bdec.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:87601938231:android:e610ed36354ff53f",
+        "android_client_info": {
+          "package_name": "com.eugene.jionow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "87601938231-esdsvbqa68p6qbkqqadohli1i8m9g7aa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.eugene.jionow",
+            "certificate_hash": "f65c18e2241294e224e04a1129368db024a9ca1b"
+          }
+        },
+        {
+          "client_id": "87601938231-lmed5slpl8slga9c2b4earr5n4kbf9bh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.eugene.jionow",
+            "certificate_hash": "f6ba1ba23f13faa4ff6a28b7451b4a55f83bc09d"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDri6M3_n4K2CGgnf6_ZtCDfiZrQdjIdwM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "87601938231-0a0ldsejteoa560a622cguv8j1pijqha.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:87601938231:android:fe7b2d2a66b40542",
+        "android_client_info": {
+          "package_name": "com.google.codelabs.mdc.java.jionow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "87601938231-d5a2g00hf4aead7idi5pinouo56f5evv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.google.codelabs.mdc.java.jionow",
+            "certificate_hash": "f6ba1ba23f13faa4ff6a28b7451b4a55f83bc09d"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDri6M3_n4K2CGgnf6_ZtCDfiZrQdjIdwM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "87601938231-0a0ldsejteoa560a622cguv8j1pijqha.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

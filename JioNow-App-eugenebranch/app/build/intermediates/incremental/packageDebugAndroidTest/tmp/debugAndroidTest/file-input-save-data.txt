@@ -1,0 +1,11 @@
+#Internal package file, do not edit.
+#Fri Apr 12 10:01:54 SGT 2019
+1.base=/Users/xianghao/GitHub/JioNow-App-eugenebranch/app/build/intermediates/transforms/dexMerger/androidTest/debug/0
+0.baseType=DIRECTORY
+1.baseType=DIRECTORY
+count=2
+1.set=DEX
+0.path=classes.dex
+0.set=DEX
+0.base=/Users/xianghao/GitHub/JioNow-App-eugenebranch/app/build/intermediates/transforms/dexMerger/androidTest/debug/1
+1.path=classes.dex
