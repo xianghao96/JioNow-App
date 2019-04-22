@@ -1151,6 +1151,7 @@ id CropProgressBar
 id FUNCTION
 id ImageView_image
 id META
+id Product_Grid_Fragment
 id SHIFT
 id SYM
 id SeventhRow
@@ -1397,7 +1398,6 @@ id standard
 id start
 id start_DateTime_edit_text
 id start_DateTime_text_input
-id status
 id status_bar_latest_event_content
 id still
 id stretch
@@ -1417,7 +1417,6 @@ id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
-id textView
 id text_input_password_toggle
 id text_view_event
 id text_view_event_description
@@ -1567,7 +1566,6 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout shr_create_event_fragment
-layout shr_login_failed_fragment
 layout shr_login_fragment
 layout shr_login_fragment2
 layout shr_main_activity

@@ -4,7 +4,7 @@
             "outputFile": "/Users/xianghao/GitHub/JioNow-App-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ru-rRU/values-ru-rRU.xml",
             "map": [
                 {
-                    "source": "/Users/xianghao/.gradle/caches/transforms-1/files-1.1/android-image-cropper-2.5.1.aar/9be6c13b042bd904084a525b926f1289/res/values-ru-rRU/values-ru-rRU.xml",
+                    "source": "/Users/xianghao/.gradle/caches/transforms-1/files-1.1/android-image-cropper-2.5.1.aar/5c66767c49fcad9cdc3571f437c0cec1/res/values-ru-rRU/values-ru-rRU.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8",
                         "startColumns": "4,4,4,4,4,4,4",

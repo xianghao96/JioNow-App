@@ -2,7 +2,8 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:id="@+id/Product_Grid_Fragment">
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
@@ -24,8 +25,7 @@
         android:layout_marginBottom="30dp"
         android:layout_marginLeft="40dp"
         android:layout_marginRight="16dp"
-
-        app:cardBackgroundColor="?attr/colorPrimaryDark"
+        app:cardBackgroundColor="@color/colorPrimaryDark"
         app:cardCornerRadius="6dp">
 
         <LinearLayout
@@ -56,8 +56,7 @@
         android:layout_marginBottom="30dp"
         android:layout_marginLeft="230dp"
         android:layout_marginRight="16dp"
-
-        app:cardBackgroundColor="?attr/colorPrimaryDark"
+        app:cardBackgroundColor="@color/colorPrimaryDark"
         app:cardCornerRadius="6dp">
 
         <LinearLayout
@@ -88,8 +87,7 @@
         android:layout_marginBottom="30dp"
         android:layout_marginLeft="40dp"
         android:layout_marginRight="16dp"
-
-        app:cardBackgroundColor="?attr/colorPrimaryDark"
+        app:cardBackgroundColor="@color/colorPrimaryDark"
         app:cardCornerRadius="6dp">
 
         <LinearLayout
@@ -120,8 +118,7 @@
         android:layout_marginBottom="30dp"
         android:layout_marginLeft="230dp"
         android:layout_marginRight="16dp"
-
-        app:cardBackgroundColor="?attr/colorPrimaryDark"
+        app:cardBackgroundColor="@color/colorPrimaryDark"
         app:cardCornerRadius="6dp">
 
         <LinearLayout
