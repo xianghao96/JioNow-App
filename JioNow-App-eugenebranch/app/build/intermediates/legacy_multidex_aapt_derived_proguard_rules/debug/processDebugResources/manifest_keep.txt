@@ -1,2 +1,0 @@
-# Referenced at /Users/xianghao/GitHub/JioNow-App-eugenebranch/app/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:17
--keep class com.google.codelabs.mdc.java.jionow.application.ShrineApplication { <init>(...); }

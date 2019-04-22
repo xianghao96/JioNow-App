@@ -1,4 +1,0 @@
-#Thu Apr 11 16:59:47 SGT 2019
-base.0=C\:\\SUTD\\Term 8\\Elements of Software Construction\\JioNow-App\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\1
-path.0=classes.dex
-renamed.0=classes.dex

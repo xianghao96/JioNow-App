@@ -1,2 +1,0 @@
-# Referenced at /Users/xianghao/GitHub/JioNow-App-eugenebranch/app/build/intermediates/merged_manifests/debugAndroidTest/processDebugAndroidTestManifest/merged/AndroidManifest.xml:9
--keep class android.support.test.runner.AndroidJUnitRunner { <init>(...); }

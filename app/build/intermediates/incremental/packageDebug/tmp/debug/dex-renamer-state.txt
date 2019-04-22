@@ -1,10 +1,10 @@
-#Thu Apr 11 23:46:53 SGT 2019
+#Mon Apr 22 14:12:59 SGT 2019
 path.2=classes2.dex
 path.1=classes.dex
 path.0=classes.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex
-base.2=/Users/xianghao/GitHub/JioNow-App/app/build/intermediates/transforms/dexMerger/debug/1
-base.1=/Users/xianghao/GitHub/JioNow-App/app/build/intermediates/transforms/dexMerger/debug/0
-base.0=/Users/xianghao/GitHub/JioNow-App/app/build/intermediates/transforms/dexMerger/debug/1
+base.2=/Users/xianghao/GitHub/JioNow-App-master/app/build/intermediates/transforms/dexMerger/debug/1
+base.1=/Users/xianghao/GitHub/JioNow-App-master/app/build/intermediates/transforms/dexMerger/debug/1
+base.0=/Users/xianghao/GitHub/JioNow-App-master/app/build/intermediates/transforms/dexMerger/debug/0

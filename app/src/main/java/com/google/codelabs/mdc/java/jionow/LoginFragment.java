@@ -9,6 +9,7 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import com.google.android.gms.auth.api.Auth;
@@ -31,6 +32,7 @@ public class LoginFragment extends Fragment implements GoogleApiClient.OnConnect
     private int RC_SIGN_IN = 0;
     private GoogleApiClient mGoogleApiClient;
     private SignInButton signInButton;
+    private Button disconnectButton, signOutButton;
     private LinearLayout signOutView;
     private TextView mStatusTextView;
     private ProgressDialog mProgressDialog;
@@ -108,6 +110,7 @@ public class LoginFragment extends Fragment implements GoogleApiClient.OnConnect
     }
 
     private void updateUI(GoogleSignInAccount signedIn) {
+
         ((NavigationHost) getActivity()).navigateTo(new ProductGridFragment(), false); // Navigate to the next Fragment
     }
 

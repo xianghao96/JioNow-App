@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/xianghao/GitHub/JioNow-App/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-watch-v21/values-watch-v21.xml",
+            "outputFile": "/Users/xianghao/GitHub/JioNow-App-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-watch-v21/values-watch-v21.xml",
             "map": [
                 {
                     "source": "/Users/xianghao/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/0f2feea63b314d71cf89390ee9c24f54/res/values-watch-v21/values-watch-v21.xml",
