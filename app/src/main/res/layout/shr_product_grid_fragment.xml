@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/app_bar"
+            style="@style/Widget.Shrine.Toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:title="Jio Now" />
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.design.card.MaterialCardView
+        android:id="@+id/outstandingPaymentsCardView"
+        android:layout_width="138dp"
+        android:layout_height="124dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="16dp"
+
+        app:cardBackgroundColor="?attr/colorPrimaryDark"
+        app:cardCornerRadius="6dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="#1e5cb3"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="1dp"
+                android:text="Payments"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:gravity="center"/>
+
+        </LinearLayout>
+    </android.support.design.card.MaterialCardView>
+
+    <android.support.design.card.MaterialCardView
+        android:id="@+id/createEventsCardView"
+        android:layout_width="138dp"
+        android:layout_height="124dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="230dp"
+        android:layout_marginRight="16dp"
+
+        app:cardBackgroundColor="?attr/colorPrimaryDark"
+        app:cardCornerRadius="6dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="#1e5cb3"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="1dp"
+                android:text="Create Event"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:gravity="center"/>
+
+        </LinearLayout>
+    </android.support.design.card.MaterialCardView>
+
+    <android.support.design.card.MaterialCardView
+        android:id="@+id/scanReceiptCardView"
+        android:layout_width="138dp"
+        android:layout_height="124dp"
+        android:layout_marginTop="275dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="16dp"
+
+        app:cardBackgroundColor="?attr/colorPrimaryDark"
+        app:cardCornerRadius="6dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="#1e5cb3"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="1dp"
+                android:text="Scan Receipt"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:gravity="center"/>
+
+        </LinearLayout>
+    </android.support.design.card.MaterialCardView>
+
+    <android.support.design.card.MaterialCardView
+        android:id="@+id/myEventsCardView"
+        android:layout_width="138dp"
+        android:layout_height="124dp"
+        android:layout_marginTop="275dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="230dp"
+        android:layout_marginRight="16dp"
+
+        app:cardBackgroundColor="?attr/colorPrimaryDark"
+        app:cardCornerRadius="6dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="#1e5cb3"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="1dp"
+                android:text="My Events"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:gravity="center"/>
+
+        </LinearLayout>
+    </android.support.design.card.MaterialCardView>
+
+    <LinearLayout
+        android:id="@+id/SixthRow"
+        android:layout_width="fill_parent"
+        android:layout_height="993dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/sign_out_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/sign_out" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/SeventhRow"
+        android:layout_width="match_parent"
+        android:layout_height="570dp"
+        android:gravity="bottom|center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/sign_in_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+</FrameLayout>
