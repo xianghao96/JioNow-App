@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Tue Apr 23 03:36:02 SGT 2019
+#Tue Apr 23 03:58:58 SGT 2019
 17.baseType=DIRECTORY
 4.path=lib/mips64/libjpge.so
 25.base=/Users/xianghao/GitHub/JioNow-App-master/app/build/intermediates/transforms/dexMerger/debug/0
