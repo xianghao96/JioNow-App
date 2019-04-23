@@ -60,6 +60,7 @@ public class DialogActivity extends Activity{
         Intent intent = getIntent();
         ArrayList<String> Events =  (ArrayList<String>)intent.getSerializableExtra(ProductGridFragment.events);
 
+        list.clear();
         for (int i= 0; i<Events.size();i++){
             list.add(String.valueOf(Events.get(i)));
         }
@@ -86,5 +87,9 @@ public class DialogActivity extends Activity{
 
     }
 
-
+    @Override
+    protected void onStop() {
+        super.onStop();
+        list.clear();
+    }
 }

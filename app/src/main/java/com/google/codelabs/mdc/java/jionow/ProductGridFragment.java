@@ -53,6 +53,8 @@ public class ProductGridFragment extends Fragment {
         MaterialCardView scanReceiptCardView = v.findViewById(R.id.scanReceiptCardView);
         MaterialCardView myEventsCardView = v.findViewById(R.id.myEventsCardView);
 
+        //Flush eventslist and read from firestore each time activity is generated
+
         db.collection("GlobalEvents")
                 .whereEqualTo("Host", testuser)
                 .get()

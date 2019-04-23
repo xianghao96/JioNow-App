@@ -19,6 +19,7 @@ import java.util.Map;
 public class ReceiptList extends AppCompatActivity {
 
     private static String chosen_event;
+    private static String receiptnumber;
     static Map<String, Object> receiptmap;
 
     // Info scanned from receipt should replace this
@@ -35,7 +36,6 @@ public class ReceiptList extends AppCompatActivity {
         Intent intent = getIntent();
         chosen_event =  intent.getStringExtra(CropGalleryImage.chosenevent);
         receiptmap = (Map) intent.getSerializableExtra(CropGalleryImage.mappedreceipt);
-        Log.d("received",String.valueOf(receiptmap));
         Log.d("received",String.valueOf(receiptmap));
 
         ListView mListView = (ListView) findViewById(R.id.receipt_list);

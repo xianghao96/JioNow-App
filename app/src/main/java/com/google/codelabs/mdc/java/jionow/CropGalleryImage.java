@@ -60,6 +60,7 @@ public class CropGalleryImage extends Activity{
     private Double gst = 0.00;
     private Double servicecharge = 0.00;
     private Double total = 0.00;
+    private static int receiptnumber;
     Button pickimage;
     Button identify;
     ImageView imageview;
@@ -197,28 +198,6 @@ public class CropGalleryImage extends Activity{
 
     private void processString(String text){
 
-        db.collection("GlobalEvents")
-                .whereEqualTo("Name", chosen_event)
-                .get()
-                .addOnCompleteListener(new OnCompleteListener<QuerySnapshot>() {
-                    @Override
-                    public void onComplete(@NonNull Task<QuerySnapshot> task) {
-                        if (task.isSuccessful()) {
-                            for (QueryDocumentSnapshot document : task.getResult()) {
-                                int receiptnumber = 1;
-                                for (int i = 1; i<=5; i++){
-                                    String receiptname = "Receipt"+i;
-                                    if (document.get(receiptname)!= null){
-                                        receiptnumber += 1;
-                                    }
-                                }
-                                Log.d("ReceiptNumber",String.valueOf(receiptnumber));
-                            }
-                        } else {
-                            Log.d("ReceiptNumber", "Error getting documents: ", task.getException());
-                        }
-                    }
-                });
         String lines[] = text.split("\n");
         receiptmap= new HashMap<String, Object>();
 
