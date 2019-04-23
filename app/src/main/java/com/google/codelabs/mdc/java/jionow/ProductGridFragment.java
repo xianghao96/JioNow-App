@@ -4,10 +4,12 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
+import android.support.annotation.Nullable;
 import android.support.design.button.MaterialButton;
 import android.support.design.card.MaterialCardView;
 import android.support.v4.app.Fragment;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -18,11 +20,27 @@ import com.google.android.gms.auth.api.signin.GoogleSignIn;
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
 import com.google.android.gms.auth.api.signin.GoogleSignInClient;
 import com.google.android.gms.common.api.GoogleApiClient;
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
+import com.google.firebase.Timestamp;
+import com.google.firebase.firestore.DocumentSnapshot;
+import com.google.firebase.firestore.EventListener;
+import com.google.firebase.firestore.FirebaseFirestore;
+import com.google.firebase.firestore.FirebaseFirestoreException;
+import com.google.firebase.firestore.QueryDocumentSnapshot;
+import com.google.firebase.firestore.QuerySnapshot;
+
+import java.util.ArrayList;
 
 public class ProductGridFragment extends Fragment {
 
     private GoogleApiClient mGoogleApiClient;
     private GoogleSignInClient mGoogleSignInClient;
+    private String testuser = "xianghao96";
+    public final static String events = "Events";
+    public final String TAG = "Logcatevents";
+    private ArrayList<String> eventslist = new ArrayList<>();
+    private FirebaseFirestore db = FirebaseFirestore.getInstance();
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup parent, Bundle savedInstanceState) {
@@ -34,6 +52,33 @@ public class ProductGridFragment extends Fragment {
         MaterialCardView createEventsCardView = v.findViewById(R.id.createEventsCardView);
         MaterialCardView scanReceiptCardView = v.findViewById(R.id.scanReceiptCardView);
         MaterialCardView myEventsCardView = v.findViewById(R.id.myEventsCardView);
+
+        db.collection("GlobalEvents")
+                .whereEqualTo("Host", testuser)
+                .get()
+                .addOnCompleteListener(new OnCompleteListener<QuerySnapshot>() {
+                    @Override
+                    public void onComplete(@NonNull Task<QuerySnapshot> task) {
+                        if (task.isSuccessful()) {
+                            eventslist.clear();
+                            for (QueryDocumentSnapshot document : task.getResult()) {
+                                Timestamp startdate = (Timestamp) document.get("StartDate");
+                                long now=System.currentTimeMillis()/1000;
+                                //long diff = now.getTime() - startdate.getTime();
+                                long starttime = startdate.getSeconds();
+                                //only past events less than 3 months ago will be displayed
+                                if (now-starttime < 7.884e+6 && now-starttime>0){
+                                    String eventname = (String) document.get("Name");
+                                    Log.d(TAG,eventname);
+                                    eventslist.add(String.valueOf(eventname));
+                                }
+                            }
+                        } else {
+                            Log.d(TAG, "Error getting documents: ", task.getException());
+                        }
+                    }
+                });
+
 
         outstandingPaymentsCardView.setOnClickListener(new View.OnClickListener(){
             @Override
@@ -56,6 +101,7 @@ public class ProductGridFragment extends Fragment {
             public void onClick(View v){
                 Context context = v.getContext();
                 Intent intent = new Intent(context, DialogActivity.class);
+                intent.putExtra(events, eventslist);
                 context.startActivity(intent);
             }
         });

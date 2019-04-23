@@ -1078,6 +1078,7 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
+drawable btn_rounded
 drawable camera
 drawable common_full_open_on_phone
 drawable common_google_signin_btn_icon_dark
@@ -1143,8 +1144,6 @@ drawable shr_search
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 id ALT
-id Access_Camera
-id Access_Gallery
 id CTRL
 id CropOverlayView
 id CropProgressBar
@@ -1193,9 +1192,9 @@ id buttonPanel
 id button_pay
 id button_remindall
 id button_view_event
+id button_viewpayments
 id camView
 id cameraBtn
-id camera_image
 id cancel_action
 id cancel_button
 id center
@@ -1262,7 +1261,6 @@ id focusMarkerContainer
 id food1
 id forever
 id front
-id gallery_image
 id ghost_view
 id gone
 id graphic_overlay
@@ -1310,6 +1308,7 @@ id multiply
 id myEventsCardView
 id navigation_header_container
 id never
+id next
 id next_button
 id none
 id normal
@@ -1322,6 +1321,9 @@ id onTouch
 id outline
 id outstandingPaymentsCardView
 id oval
+id owed_amount
+id owed_users
+id owedheader
 id packed
 id parallax
 id parent
@@ -1329,6 +1331,7 @@ id parentPanel
 id parent_matrix
 id password_edit_text
 id password_text_input
+id paymentlistView
 id percent
 id pickimage
 id picture
@@ -1373,6 +1376,7 @@ id search_src_text
 id search_voice_btn
 id select_dialog_listview
 id selected
+id settlepayment
 id shortcut
 id showCustom
 id showHome
@@ -1387,6 +1391,7 @@ id snap
 id snapMargins
 id spacer
 id speed
+id spinner
 id split_action_bar
 id spread
 id spread_inside
@@ -1464,6 +1469,7 @@ id unlabeled
 id up
 id useLogo
 id view_offset_helper
+id viewpayments_adapter
 id visible
 id webview
 id wide
@@ -1577,6 +1583,8 @@ layout shr_staggered_product_card_third
 layout support_simple_spinner_dropdown_item
 layout surface_view
 layout texture_view
+layout viewpayments
+layout viewpayments_adapter
 menu crop_image_menu
 menu shr_toolbar_menu
 mipmap ic_launcher

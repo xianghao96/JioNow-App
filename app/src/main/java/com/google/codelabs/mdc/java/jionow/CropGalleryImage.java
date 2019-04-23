@@ -23,8 +23,14 @@ import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.Toolbar;
 
+import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.android.gms.tasks.Task;
+import com.google.firebase.Timestamp;
+import com.google.firebase.firestore.FirebaseFirestore;
+import com.google.firebase.firestore.QueryDocumentSnapshot;
+import com.google.firebase.firestore.QuerySnapshot;
 import com.google.firebase.ml.vision.FirebaseVision;
 import com.google.firebase.ml.vision.common.FirebaseVisionImage;
 import com.google.firebase.ml.vision.text.FirebaseVisionText;
@@ -35,6 +41,7 @@ import com.theartofdev.edmodo.cropper.CropImageView;
 import java.io.IOException;
 import java.net.URI;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -42,19 +49,32 @@ import butterknife.BindView;
 
 public class CropGalleryImage extends Activity{
 
+    public final static String chosenevent = "Event";
+    public final static String mappedreceipt = "receipt";
+    private static String chosen_event;
+    private static Map<String, Object> receiptmap;
     private static final int REQUEST_WRITE_PERMISSION = 786;
+    private FirebaseFirestore db = FirebaseFirestore.getInstance();
+    private static Context currentcontext;
+    private Double subtotal = 0.00;
+    private Double gst = 0.00;
+    private Double servicecharge = 0.00;
+    private Double total = 0.00;
     Button pickimage;
     Button identify;
     ImageView imageview;
     Uri image;
     Bitmap bitmapimage;
     String processedreceipt;
-    Map receiptmap;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.receiptview);
+
+        Intent intent = getIntent();
+        chosen_event =  intent.getStringExtra(DialogActivity.event);
+        Log.d("chosen",chosen_event);
 
         imageview = findViewById(R.id.imageview);
         pickimage = findViewById(R.id.pickimage);
@@ -79,6 +99,7 @@ public class CropGalleryImage extends Activity{
                 //IF THE ANDROID SDK UP TO MARSMALLOW BUILD NUMBER
                 if (imageview.getDrawable() != null) {
                     try {
+                        currentcontext = v.getContext();
                         runTextRecognition(v.getContext(), image);
                     } catch (IOException e) {
                         e.printStackTrace();
@@ -175,11 +196,36 @@ public class CropGalleryImage extends Activity{
     }
 
     private void processString(String text){
+
+        db.collection("GlobalEvents")
+                .whereEqualTo("Name", chosen_event)
+                .get()
+                .addOnCompleteListener(new OnCompleteListener<QuerySnapshot>() {
+                    @Override
+                    public void onComplete(@NonNull Task<QuerySnapshot> task) {
+                        if (task.isSuccessful()) {
+                            for (QueryDocumentSnapshot document : task.getResult()) {
+                                int receiptnumber = 1;
+                                for (int i = 1; i<=5; i++){
+                                    String receiptname = "Receipt"+i;
+                                    if (document.get(receiptname)!= null){
+                                        receiptnumber += 1;
+                                    }
+                                }
+                                Log.d("ReceiptNumber",String.valueOf(receiptnumber));
+                            }
+                        } else {
+                            Log.d("ReceiptNumber", "Error getting documents: ", task.getException());
+                        }
+                    }
+                });
         String lines[] = text.split("\n");
+        receiptmap= new HashMap<String, Object>();
+
         ArrayList<String> items = new ArrayList<String>();
         ArrayList<String> quantity = new ArrayList<String>();
         ArrayList<String> values = new ArrayList<String>();
-        Double subtotal = 0.00;
+
         for (int i=0; i<lines.length; i++){
             if (lines[i].contains(",")){
                 String price = lines[i].replace(',','.');
@@ -198,6 +244,23 @@ public class CropGalleryImage extends Activity{
             subtotal += Double.valueOf(quantity.get(i))*Double.valueOf(values.get(i));
         }
 
+        servicecharge = (double) roundAvoid(0.1*subtotal,2);
+        gst = (double) roundAvoid(0.07*(subtotal+servicecharge),2);
+        total = subtotal+servicecharge+gst;
+
+        //Put into itemmap for each item in receipt
+        for (int j = 0; j<items.size(); j++){
+            Map<String, Object> itemmap= new HashMap<String, Object>();
+            itemmap.put("Price",values.get(j));
+            itemmap.put("Quantity", quantity.get(j));
+            receiptmap.put(String.valueOf(items.get(j)), itemmap);
+        }
+        receiptmap.put("Subtotal", subtotal);
+        receiptmap.put("ServiceCharge", servicecharge);
+        receiptmap.put("GST", gst);
+        receiptmap.put("Total", total);
+
+        //For debugging processed items from receipt
         Log.d("TAG","Passed!");
         for (int j = 0; j<items.size(); j++){
             Log.d("items",String.valueOf(items.get(j)));
@@ -205,7 +268,23 @@ public class CropGalleryImage extends Activity{
             Log.d("items",String.valueOf(values.get(j)));
         }
         Log.d("items",String.valueOf(subtotal));
+        Log.d("items",String.valueOf(servicecharge));
+        Log.d("items",String.valueOf(gst));
+        Log.d("items",String.valueOf(total));
 
+        //For debugging map to be sent to next page
+        Log.d("items",String.valueOf(receiptmap));
+
+        Intent intent = new Intent(currentcontext, ReceiptList.class);
+        intent.putExtra(chosenevent, chosen_event);
+        intent.putExtra(mappedreceipt, (HashMap) receiptmap);
+        currentcontext.startActivity(intent);
+
+    }
+
+    public static double roundAvoid(double value, int places) {
+        double scale = Math.pow(10, places);
+        return Math.round(value * scale) / scale;
     }
 
 }

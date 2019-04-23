@@ -12,10 +12,17 @@ import android.widget.TextView;
 
 import com.firebase.ui.firestore.FirestoreRecyclerAdapter;
 import com.firebase.ui.firestore.FirestoreRecyclerOptions;
+import com.google.firebase.firestore.DocumentSnapshot;
+
+import java.util.HashMap;
+import java.util.Map;
 
 public class PaymentsAdapter extends FirestoreRecyclerAdapter<Payments, PaymentsAdapter.NoteHolder> {
 
     private String user;
+    public static final String EVENT = "event";
+    public static final String OWEDPAYMENTS = "owed";
+    private static Map<String, Object> Owed;
 
     public PaymentsAdapter(@NonNull FirestoreRecyclerOptions<Payments> options, String User) {
         super(options);
@@ -30,6 +37,7 @@ public class PaymentsAdapter extends FirestoreRecyclerAdapter<Payments, Payments
         holder.textViewOwed.setText(model.getPayment(this.user));
         holder.textViewRecipient.setText(model.getHost());
         holder.textViewOutstandingHostAmount.setText(model.getHostPayment());
+        Owed = model.getOwed();
 
         if (model.getHost().equals(this.user)){
             holder.buttonPayView.setVisibility(View.INVISIBLE);
@@ -39,6 +47,7 @@ public class PaymentsAdapter extends FirestoreRecyclerAdapter<Payments, Payments
             holder.textViewOwed.setVisibility(View.INVISIBLE);
         }
         else{
+            holder.buttonViewPaymentsView.setVisibility(View.INVISIBLE);
             holder.buttonRemindView.setVisibility(View.INVISIBLE);
             holder.texttViewHost.setVisibility(View.INVISIBLE);
             holder.textViewOutstandingHostAmountDescription.setVisibility(View.INVISIBLE);
@@ -65,6 +74,7 @@ public class PaymentsAdapter extends FirestoreRecyclerAdapter<Payments, Payments
         TextView textViewOutstandingHostAmount;
         Button buttonPayView;
         Button buttonRemindView;
+        Button buttonViewPaymentsView;
 
         public NoteHolder(View itemView) {
             super(itemView);
@@ -78,6 +88,7 @@ public class PaymentsAdapter extends FirestoreRecyclerAdapter<Payments, Payments
             textViewOutstandingHostAmount = itemView.findViewById(R.id.text_view_outstanding_host_amount);
             buttonPayView = itemView.findViewById(R.id.button_pay);
             buttonRemindView = itemView.findViewById(R.id.button_remindall);
+            buttonViewPaymentsView = itemView.findViewById(R.id.button_viewpayments);
 
             buttonPayView.setOnClickListener(new View.OnClickListener() {
                 @Override
@@ -97,6 +108,17 @@ public class PaymentsAdapter extends FirestoreRecyclerAdapter<Payments, Payments
                 }
             });
 
+            buttonViewPaymentsView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Context context = v.getContext();
+                    Intent intent = new Intent(context, ViewPayments.class);
+                    String eventname = String.valueOf(textViewEvent.getText());
+                    intent.putExtra(EVENT, eventname);
+                    intent.putExtra(OWEDPAYMENTS, (HashMap) Owed);
+                    context.startActivity(intent);
+                }
+            });
 
         }
 

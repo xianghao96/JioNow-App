@@ -35,6 +35,8 @@
         </activity>
         <activity android:name=".OutstandingPayments">
         </activity>
+        <activity android:name=".ViewPayments">
+        </activity>
         <activity android:name=".CropGalleryImage">
         </activity>
         <activity android:name="com.theartofdev.edmodo.cropper.CropImageActivity"

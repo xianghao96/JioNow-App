@@ -1,9 +1,11 @@
 package com.google.codelabs.mdc.java.jionow;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v4.app.Fragment;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -12,8 +14,12 @@ import android.widget.ListView;
 import android.widget.TextView;
 
 import java.util.ArrayList;
+import java.util.Map;
 
 public class ReceiptList extends AppCompatActivity {
+
+    private static String chosen_event;
+    static Map<String, Object> receiptmap;
 
     // Info scanned from receipt should replace this
     String[] foodNames = {"Chicken Rice", "Fried Rice", "Nuggets"};
@@ -25,6 +31,12 @@ public class ReceiptList extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.receipt_display);
+
+        Intent intent = getIntent();
+        chosen_event =  intent.getStringExtra(CropGalleryImage.chosenevent);
+        receiptmap = (Map) intent.getSerializableExtra(CropGalleryImage.mappedreceipt);
+        Log.d("received",String.valueOf(receiptmap));
+        Log.d("received",String.valueOf(receiptmap));
 
         ListView mListView = (ListView) findViewById(R.id.receipt_list);
 

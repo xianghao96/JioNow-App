@@ -69,14 +69,28 @@
             android:layout_alignParentRight="true"
             android:text="Pay" />
 
-        <Button
-            android:id="@+id/button_remindall"
-            android:layout_height="wrap_content"
+        <LinearLayout
             android:layout_width="wrap_content"
-            android:layout_centerVertical= "true"
-            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
-            android:text="Remind" />
+            android:layout_centerVertical="true"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/button_remindall"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:layout_gravity="center_horizontal"
+                android:text="Remind" />
+            <Button
+                android:id="@+id/button_viewpayments"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:layout_gravity="center_horizontal"
+                android:layout_below="@id/button_remindall"
+                android:text="View" />
+        </LinearLayout>
 
         <TextView
             android:id="@+id/text_view_owed_description"

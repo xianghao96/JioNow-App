@@ -60,6 +60,8 @@
         </activity>
         <activity android:name="com.google.codelabs.mdc.java.jionow.OutstandingPayments" >
         </activity>
+        <activity android:name="com.google.codelabs.mdc.java.jionow.ViewPayments" >
+        </activity>
         <activity android:name="com.google.codelabs.mdc.java.jionow.CropGalleryImage" >
         </activity>
         <activity
