@@ -84,10 +84,7 @@ public class CreateEventFragment extends Fragment {
                 }
 
 
-                GoogleSignInAccount acct = GoogleSignIn.getLastSignedInAccount(getActivity());
-                if (acct != null) {
-                    personName = acct.getDisplayName();
-                }
+                personName = ProductGridFragment.USER;
 
 
                 String Name = eventEditText.getText().toString();

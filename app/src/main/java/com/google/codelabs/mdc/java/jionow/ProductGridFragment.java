@@ -34,9 +34,9 @@ import java.util.ArrayList;
 
 public class ProductGridFragment extends Fragment {
 
+    public static String USER;
     private GoogleApiClient mGoogleApiClient;
     private GoogleSignInClient mGoogleSignInClient;
-    private String testuser = "xianghao96";
     public final static String events = "Events";
     public final String TAG = "Logcatevents";
     private ArrayList<String> eventslist = new ArrayList<>();
@@ -55,32 +55,15 @@ public class ProductGridFragment extends Fragment {
 
         //Flush eventslist and read from firestore each time activity is generated
 
-        db.collection("GlobalEvents")
-                .whereEqualTo("Host", testuser)
-                .get()
-                .addOnCompleteListener(new OnCompleteListener<QuerySnapshot>() {
-                    @Override
-                    public void onComplete(@NonNull Task<QuerySnapshot> task) {
-                        if (task.isSuccessful()) {
-                            eventslist.clear();
-                            for (QueryDocumentSnapshot document : task.getResult()) {
-                                Timestamp startdate = (Timestamp) document.get("StartDate");
-                                long now=System.currentTimeMillis()/1000;
-                                //long diff = now.getTime() - startdate.getTime();
-                                long starttime = startdate.getSeconds();
-                                //only past events less than 3 months ago will be displayed
-                                if (now-starttime < 7.884e+6 && now-starttime>0){
-                                    String eventname = (String) document.get("Name");
-                                    Log.d(TAG,eventname);
-                                    eventslist.add(String.valueOf(eventname));
-                                }
-                            }
-                        } else {
-                            Log.d(TAG, "Error getting documents: ", task.getException());
-                        }
-                    }
-                });
-
+        GoogleSignInAccount acct = GoogleSignIn.getLastSignedInAccount(getActivity());
+        if (acct != null) {
+            String personEmail = acct.getEmail();
+            //String personEmail = "eugenechia95@gmail.com";
+            viewEmail.setText(personEmail);
+            String[] user =personEmail.split("@");
+            USER = user[0];
+            getEvents();
+        }
 
         outstandingPaymentsCardView.setOnClickListener(new View.OnClickListener(){
             @Override
@@ -116,12 +99,6 @@ public class ProductGridFragment extends Fragment {
                 context.startActivity(intent);            }
         });
 
-        GoogleSignInAccount acct = GoogleSignIn.getLastSignedInAccount(getActivity());
-        if (acct != null) {
-            String personEmail = acct.getEmail();
-            viewEmail.setText(personEmail);
-        }
-
         // This has been changed to display the receipt view for now!
         signOutButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -144,5 +121,33 @@ public class ProductGridFragment extends Fragment {
 //        });
 
         return v;
+    }
+
+    public void getEvents(){
+        db.collection("GlobalEvents")
+                .whereEqualTo("Host", USER)
+                .get()
+                .addOnCompleteListener(new OnCompleteListener<QuerySnapshot>() {
+                    @Override
+                    public void onComplete(@NonNull Task<QuerySnapshot> task) {
+                        if (task.isSuccessful()) {
+                            eventslist.clear();
+                            for (QueryDocumentSnapshot document : task.getResult()) {
+                                Timestamp startdate = (Timestamp) document.get("StartDate");
+                                long now=System.currentTimeMillis()/1000;
+                                //long diff = now.getTime() - startdate.getTime();
+                                long starttime = startdate.getSeconds();
+                                //only past events less than 3 months ago will be displayed
+                                if (now-starttime < 7.884e+6 && now-starttime>0){
+                                    String eventname = (String) document.get("Name");
+                                    Log.d(TAG,eventname);
+                                    eventslist.add(String.valueOf(eventname));
+                                }
+                            }
+                        } else {
+                            Log.d(TAG, "Error getting documents: ", task.getException());
+                        }
+                    }
+                });
     }
 }

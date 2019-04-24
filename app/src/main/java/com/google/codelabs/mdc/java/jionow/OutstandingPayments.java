@@ -12,7 +12,7 @@ import com.google.firebase.firestore.Query;
 
 public class OutstandingPayments extends AppCompatActivity {
 
-    private String testuser = "xianghao96";
+    private String testuser = ProductGridFragment.USER;
     private FirebaseFirestore db = FirebaseFirestore.getInstance();
     private Query notebook_ref = db.collection("GlobalEvents")
             .whereArrayContains("OwedParticipants",testuser);
@@ -26,6 +26,7 @@ public class OutstandingPayments extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.outstanding_payments);
+
 
         setUpRecyclerView();
 

@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="arm64-v8a,armeabi-v7a,armeabi"
-    api-level="28"
+    abi="x86"
+    api-level="26"
     build-mode="COLD"
-    density="xxhdpi"
+    density="420dpi"
     format="10"
-    ir-eligibility="FIELD_REMOVED"
+    ir-eligibility="COMPATIBLE"
     plugin-version="3.3.0-alpha03"
-    timestamp="1556020965359"
+    timestamp="1556085250789"
     token="-7037898247453600278"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="4333" />
+        duration="6564" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="132" />
+        duration="150" />
     <task
         name="verifier"
-        duration="89" />
+        duration="9" />
 
     <artifact
         location="C:\SUTD\Term 8\Elements of Software Construction\Project\FINAL\JioNow-App\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
@@ -30,8 +30,11 @@
 
     <build
         build-mode="FULL"
-        timestamp="1556008824645"
+        timestamp="1556080801427"
         verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="C:\SUTD\Term 8\Elements of Software Construction\Project\FINAL\JioNow-App\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            type="SPLIT" />
         <artifact
             location="C:\SUTD\Term 8\Elements of Software Construction\Project\FINAL\JioNow-App\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
             type="SPLIT" />
@@ -42,31 +45,28 @@
             location="C:\SUTD\Term 8\Elements of Software Construction\Project\FINAL\JioNow-App\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
             type="SPLIT" />
         <artifact
-            location="C:\SUTD\Term 8\Elements of Software Construction\Project\FINAL\JioNow-App\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\SUTD\Term 8\Elements of Software Construction\Project\FINAL\JioNow-App\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\SUTD\Term 8\Elements of Software Construction\Project\FINAL\JioNow-App\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
-            type="SPLIT" />
-        <artifact
             location="C:\SUTD\Term 8\Elements of Software Construction\Project\FINAL\JioNow-App\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\SUTD\Term 8\Elements of Software Construction\Project\FINAL\JioNow-App\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
             type="SPLIT" />
         <artifact
             location="C:\SUTD\Term 8\Elements of Software Construction\Project\FINAL\JioNow-App\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
             type="SPLIT" />
         <artifact
-            location="C:\SUTD\Term 8\Elements of Software Construction\Project\FINAL\JioNow-App\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            location="C:\SUTD\Term 8\Elements of Software Construction\Project\FINAL\JioNow-App\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
             type="SPLIT" />
         <artifact
             location="C:\SUTD\Term 8\Elements of Software Construction\Project\FINAL\JioNow-App\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
             type="SPLIT" />
         <artifact
-            location="C:\SUTD\Term 8\Elements of Software Construction\Project\FINAL\JioNow-App\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+            location="C:\SUTD\Term 8\Elements of Software Construction\Project\FINAL\JioNow-App\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\SUTD\Term 8\Elements of Software Construction\Project\FINAL\JioNow-App\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\SUTD\Term 8\Elements of Software Construction\Project\FINAL\JioNow-App\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\SUTD\Term 8\Elements of Software Construction\Project\FINAL\JioNow-App\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
             type="SPLIT" />
         <artifact
             location="C:\SUTD\Term 8\Elements of Software Construction\Project\FINAL\JioNow-App\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
@@ -74,41 +74,8 @@
     </build>
     <build
         build-mode="COLD"
-        ir-eligibility="R_CLASS_CHANGE"
-        timestamp="1556018357676"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="C:\SUTD\Term 8\Elements of Software Construction\Project\FINAL\JioNow-App\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\SUTD\Term 8\Elements of Software Construction\Project\FINAL\JioNow-App\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\SUTD\Term 8\Elements of Software Construction\Project\FINAL\JioNow-App\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\SUTD\Term 8\Elements of Software Construction\Project\FINAL\JioNow-App\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\SUTD\Term 8\Elements of Software Construction\Project\FINAL\JioNow-App\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\SUTD\Term 8\Elements of Software Construction\Project\FINAL\JioNow-App\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\SUTD\Term 8\Elements of Software Construction\Project\FINAL\JioNow-App\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\SUTD\Term 8\Elements of Software Construction\Project\FINAL\JioNow-App\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\SUTD\Term 8\Elements of Software Construction\Project\FINAL\JioNow-App\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
-            type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        ir-eligibility="FIELD_REMOVED"
-        timestamp="1556020965359"
+        ir-eligibility="COMPATIBLE"
+        timestamp="1556085250789"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\SUTD\Term 8\Elements of Software Construction\Project\FINAL\JioNow-App\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
