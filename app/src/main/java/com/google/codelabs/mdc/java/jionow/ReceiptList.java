@@ -60,6 +60,8 @@ public class ReceiptList extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
+                // TODO: upload the receipt into fire store
+
             }
         });
 

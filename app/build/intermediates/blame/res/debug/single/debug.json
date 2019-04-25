@@ -180,6 +180,10 @@
         "source": "/Users/xianghao/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/dc8a9e9862963b71938c3f6e953c4d79/res/drawable-xxhdpi-v4/design_ic_visibility_off.png"
     },
     {
+        "merged": "/Users/xianghao/GitHub/JioNow-App/app/build/intermediates/res/merged/debug/drawable-hdpi_money.png.flat",
+        "source": "/Users/xianghao/GitHub/JioNow-App/app/src/main/res/drawable-hdpi/money.png"
+    },
+    {
         "merged": "/Users/xianghao/GitHub/JioNow-App/app/build/intermediates/res/merged/debug/drawable_abc_ic_go_search_api_material.xml.flat",
         "source": "/Users/xianghao/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/0f2feea63b314d71cf89390ee9c24f54/res/drawable/abc_ic_go_search_api_material.xml"
     },
@@ -512,6 +516,10 @@
         "source": "/Users/xianghao/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/0f2feea63b314d71cf89390ee9c24f54/res/drawable-xxxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png"
     },
     {
+        "merged": "/Users/xianghao/GitHub/JioNow-App/app/build/intermediates/res/merged/debug/drawable-hdpi_scanner.png.flat",
+        "source": "/Users/xianghao/GitHub/JioNow-App/app/src/main/res/drawable-hdpi/scanner.png"
+    },
+    {
         "merged": "/Users/xianghao/GitHub/JioNow-App/app/build/intermediates/res/merged/debug/color-v23_abc_tint_edittext.xml.flat",
         "source": "/Users/xianghao/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/0f2feea63b314d71cf89390ee9c24f54/res/color-v23/abc_tint_edittext.xml"
     },
@@ -842,6 +850,10 @@
     {
         "merged": "/Users/xianghao/GitHub/JioNow-App/app/build/intermediates/res/merged/debug/layout_viewpayments_adapter.xml.flat",
         "source": "/Users/xianghao/GitHub/JioNow-App/app/src/main/res/layout/viewpayments_adapter.xml"
+    },
+    {
+        "merged": "/Users/xianghao/GitHub/JioNow-App/app/build/intermediates/res/merged/debug/drawable-hdpi_calendar.png.flat",
+        "source": "/Users/xianghao/GitHub/JioNow-App/app/src/main/res/drawable-hdpi/calendar.png"
     },
     {
         "merged": "/Users/xianghao/GitHub/JioNow-App/app/build/intermediates/res/merged/debug/color_design_tint_password_toggle.xml.flat",
@@ -1302,6 +1314,10 @@
     {
         "merged": "/Users/xianghao/GitHub/JioNow-App/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
         "source": "/Users/xianghao/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/0f2feea63b314d71cf89390ee9c24f54/res/drawable-xhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/xianghao/GitHub/JioNow-App/app/build/intermediates/res/merged/debug/drawable-hdpi_food.png.flat",
+        "source": "/Users/xianghao/GitHub/JioNow-App/app/src/main/res/drawable-hdpi/food.png"
     },
     {
         "merged": "/Users/xianghao/GitHub/JioNow-App/app/build/intermediates/res/merged/debug/anim_abc_tooltip_exit.xml.flat",

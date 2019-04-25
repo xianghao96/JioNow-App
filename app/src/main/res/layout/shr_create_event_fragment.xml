@@ -44,7 +44,7 @@
             android:id="@+id/start_DateTime_edit_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="datetime" />
+            android:inputType="text" />
     </android.support.design.widget.TextInputLayout>
 
     <!-- For the text box for ending DateTime -->
@@ -58,7 +58,7 @@
             android:id="@+id/end_DateTime_edit_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="datetime" />
+            android:inputType="text" />
     </android.support.design.widget.TextInputLayout>
 
     <!-- For the text box for Invitees -->
