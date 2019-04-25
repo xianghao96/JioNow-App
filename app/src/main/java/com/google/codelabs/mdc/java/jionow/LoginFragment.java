@@ -29,7 +29,6 @@ public class LoginFragment extends Fragment implements View.OnClickListener {
     private GoogleSignInClient mGoogleSignInClient;
 
     private SignInButton signInButton;
-    private String email = null;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup parent, Bundle savedInstanceState) {

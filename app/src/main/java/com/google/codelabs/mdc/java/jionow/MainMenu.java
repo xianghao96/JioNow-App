@@ -4,6 +4,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
+import android.support.annotation.Nullable;
 import android.support.design.card.MaterialCardView;
 import android.support.v4.app.Fragment;
 import android.util.Log;
@@ -16,6 +17,7 @@ import android.widget.TextView;
 import com.google.android.gms.auth.api.signin.GoogleSignIn;
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
 import com.google.android.gms.auth.api.signin.GoogleSignInClient;
+import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
@@ -40,7 +42,7 @@ public class MainMenu extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup parent, Bundle savedInstanceState) {
         View v = inflater.inflate(R.layout.main_menu, parent, false);
 
-        final Button signOutButton =  v.findViewById(R.id.sign_out_button);
+        Button signOutButton =  v.findViewById(R.id.sign_out_button);
         TextView viewEmail = v.findViewById(R.id.sign_in_email);
         MaterialCardView outstandingPaymentsCardView = v.findViewById(R.id.outstandingPaymentsCardView);
         MaterialCardView createEventsCardView = v.findViewById(R.id.createEventsCardView);
@@ -90,31 +92,42 @@ public class MainMenu extends Fragment {
             public void onClick(View v){
                 Context context = v.getContext();
                 Intent intent = new Intent(context, EventsDisplay.class);
-                context.startActivity(intent);            }
-        });
-
-        // This has been changed to display the receipt view for now!
-        signOutButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Context context = v.getContext();
-                Intent intent = new Intent(context, ReceiptList.class);
                 context.startActivity(intent);
             }
         });
 
-//        signOutButton.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                switch (v.getId()) {
-//                    case R.id.sign_out_button:
-//                        mGoogleSignInClient.signOut();
-//                        break;
-//                }
-//            }
-//        });
+        GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
+                .build();
 
+        mGoogleSignInClient = GoogleSignIn.getClient(getActivity(), gso);
+
+        signOutButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                switch (v.getId()) {
+                    case R.id.sign_out_button:
+                        signOut();
+                        break;
+                }
+            }
+        });
         return v;
+    }
+
+    private void signOut() {
+        mGoogleSignInClient.signOut().addOnCompleteListener(getActivity(), new OnCompleteListener<Void>() {
+            @Override
+            public void onComplete(@NonNull Task<Void> task) {
+//                ((NavigationHost) getActivity()).navigateTo(new LoginFragment(), true);
+                updateUI(null);
+            }
+        });
+    }
+
+    private void updateUI(@Nullable GoogleSignInAccount account) {
+        if (account == null) {
+            ((NavigationHost) getActivity()).navigateTo(new LoginFragment(), true);
+        }
     }
 
     public void getEvents(){
