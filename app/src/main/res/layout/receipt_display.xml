@@ -27,10 +27,21 @@
         android:layout_weight="1" />
 
 
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="top|right">
+        >
+
+        <TextView
+            android:id="@+id/total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_alignParentLeft="true"
+            android:textColor="#040404"
+            android:textSize="20sp"
+            android:typeface="sans"
+            android:text="Total: "/>
 
         <TextView
             android:id="@+id/total_bill"
@@ -38,9 +49,10 @@
             android:layout_height="wrap_content"
             android:layout_marginEnd="16dp"
             android:textSize="17sp"
-            android:text="Total: $23.50"/>
+            android:layout_alignParentRight="true"
+            android:text="$23.50"/>
 
-    </LinearLayout>
+    </RelativeLayout>
 
     <LinearLayout
         android:layout_width="match_parent"

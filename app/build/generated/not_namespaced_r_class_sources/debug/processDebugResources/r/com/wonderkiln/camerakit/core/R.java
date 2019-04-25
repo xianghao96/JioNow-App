@@ -771,10 +771,10 @@ public final class R {
         public static final int title_template = 0x7f080135;
         public static final int topPanel = 0x7f080137;
         public static final int torch = 0x7f080138;
-        public static final int uniform = 0x7f080141;
-        public static final int up = 0x7f080143;
-        public static final int wide = 0x7f080149;
-        public static final int wrap_content = 0x7f08014c;
+        public static final int uniform = 0x7f080142;
+        public static final int up = 0x7f080144;
+        public static final int wide = 0x7f08014a;
+        public static final int wrap_content = 0x7f08014d;
     }
     public static final class integer {
         private integer() {}

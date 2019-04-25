@@ -1460,6 +1460,7 @@ id title_template
 id top
 id topPanel
 id torch
+id total
 id total_bill
 id total_price_for_dish
 id touch_outside
