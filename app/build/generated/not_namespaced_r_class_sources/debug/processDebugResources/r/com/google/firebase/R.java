@@ -109,8 +109,8 @@ public final class R {
         public static final int status_bar_latest_event_content = 0x7f080104;
         public static final int text = 0x7f080112;
         public static final int text2 = 0x7f080113;
-        public static final int time = 0x7f080131;
-        public static final int title = 0x7f080133;
+        public static final int time = 0x7f080130;
+        public static final int title = 0x7f080132;
     }
     public static final class integer {
         private integer() {}

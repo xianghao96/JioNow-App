@@ -715,15 +715,15 @@ public final class R {
         public static final int text2 = 0x7f080113;
         public static final int textSpacerNoButtons = 0x7f080114;
         public static final int textSpacerNoTitle = 0x7f080115;
-        public static final int time = 0x7f080131;
-        public static final int title = 0x7f080133;
-        public static final int titleDividerNoCustom = 0x7f080134;
-        public static final int title_template = 0x7f080135;
-        public static final int top = 0x7f080136;
-        public static final int topPanel = 0x7f080137;
-        public static final int uniform = 0x7f080141;
-        public static final int up = 0x7f080143;
-        public static final int wrap_content = 0x7f08014c;
+        public static final int time = 0x7f080130;
+        public static final int title = 0x7f080132;
+        public static final int titleDividerNoCustom = 0x7f080133;
+        public static final int title_template = 0x7f080134;
+        public static final int top = 0x7f080135;
+        public static final int topPanel = 0x7f080136;
+        public static final int uniform = 0x7f080140;
+        public static final int up = 0x7f080142;
+        public static final int wrap_content = 0x7f08014b;
     }
     public static final class integer {
         private integer() {}
@@ -774,7 +774,7 @@ public final class R {
         public static final int select_dialog_item_material = 0x7f0b0049;
         public static final int select_dialog_multichoice_material = 0x7f0b004a;
         public static final int select_dialog_singlechoice_material = 0x7f0b004b;
-        public static final int support_simple_spinner_dropdown_item = 0x7f0b0054;
+        public static final int support_simple_spinner_dropdown_item = 0x7f0b0053;
     }
     public static final class string {
         private string() {}

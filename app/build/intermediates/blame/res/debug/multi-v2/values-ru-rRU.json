@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\SUTD\\Term 8\\Elements of Software Construction\\Project\\FINAL\\JioNow-App\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ru-rRU\\values-ru-rRU.xml",
+            "outputFile": "/Users/xianghao/GitHub/JioNow-App/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ru-rRU/values-ru-rRU.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Eugene\\.gradle\\caches\\transforms-1\\files-1.1\\android-image-cropper-2.5.1.aar\\fa5c9fa3d4ec32d00c280194d7dd3c2d\\res\\values-ru-rRU\\values-ru-rRU.xml",
+                    "source": "/Users/xianghao/.gradle/caches/transforms-1/files-1.1/android-image-cropper-2.5.1.aar/9be6c13b042bd904084a525b926f1289/res/values-ru-rRU/values-ru-rRU.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8",
                         "startColumns": "4,4,4,4,4,4,4",
