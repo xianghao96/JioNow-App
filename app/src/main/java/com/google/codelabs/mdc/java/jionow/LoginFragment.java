@@ -11,9 +11,6 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
-import android.widget.LinearLayout;
-import android.widget.TextView;
 import com.google.android.gms.auth.api.Auth;
 import com.google.android.gms.auth.api.signin.GoogleSignIn;
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
@@ -21,21 +18,24 @@ import com.google.android.gms.auth.api.signin.GoogleSignInClient;
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
 import com.google.android.gms.auth.api.signin.GoogleSignInResult;
 import com.google.android.gms.common.ConnectionResult;
+import com.google.android.gms.common.Scopes;
 import com.google.android.gms.common.SignInButton;
 import com.google.android.gms.common.api.ApiException;
 import com.google.android.gms.common.api.GoogleApiClient;
+import com.google.android.gms.common.api.Scope;
 import com.google.android.gms.tasks.Task;
 
 /**
  * Fragment representing the login screen for Jio Now.
  */
-public class LoginFragment extends Fragment implements View.OnClickListener, GoogleApiClient.OnConnectionFailedListener{
+public class LoginFragment extends Fragment implements View.OnClickListener {
 
-    private static final String TAG = "JioNow";
-    private static final int REQ_CODE = 9001;
-    private GoogleApiClient mGoogleApiClient;
+    private static final String TAG = "SignInActivity";
+    private static final int RC_SIGN_IN = 9001;
+    private GoogleSignInClient mGoogleSignInClient;
+
     private SignInButton signInButton;
-    private ProgressDialog mProgressDialog;
+    //    private ProgressDialog mProgressDialog;
     private String email = null;
 
     @Override
@@ -47,13 +47,60 @@ public class LoginFragment extends Fragment implements View.OnClickListener, Goo
 
         // Configure sign-in to request the user's ID, email address, and basic
         // profile. ID and basic profile are included in DEFAULT_SIGN_IN.
-        GoogleSignInOptions signInOptions = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN).requestEmail().build();
+        GoogleSignInOptions signInOptions = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
+                .requestScopes(new Scope(Scopes.PLUS_ME))
+                .requestEmail()
+                .build();
 
         // Build a GoogleApiClient with access to the Google Sign-In API and the
         // options specified by gso.
-        mGoogleApiClient = new GoogleApiClient.Builder(getActivity()).addApi(Auth.GOOGLE_SIGN_IN_API,signInOptions).build();
+        mGoogleSignInClient = GoogleSignIn.getClient(getActivity(), signInOptions);
 
         return v;
+    }
+
+    @Override
+    public void onStart() {
+        super.onStart();
+
+        GoogleSignInAccount account = GoogleSignIn.getLastSignedInAccount(getActivity());
+        updateUI(account);
+    }
+
+    @Override
+    public void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+
+        // Result returned from launching the Intent from GoogleSignInApi.getSignInIntent(...);
+        if (requestCode == RC_SIGN_IN) {
+            Task<GoogleSignInAccount> task = GoogleSignIn.getSignedInAccountFromIntent(data);
+            handleSignInResult(task);
+        }
+    }
+
+    private void handleSignInResult(Task<GoogleSignInAccount> completedTask) {
+        try {
+            GoogleSignInAccount accounts = completedTask.getResult(ApiException.class);
+            updateUI(accounts);
+        } catch (ApiException e) {
+            // The ApiException status code indicates the detailed failure reason.
+            // Please refer to the GoogleSignInStatusCodes class reference for more information.
+            Log.w(TAG, "signInResult:failed code=" + e.getStatusCode());
+            updateUI(null);
+        }
+    }
+
+    private void signIn() {
+        Intent signInIntent = mGoogleSignInClient.getSignInIntent();
+        startActivityForResult(signInIntent, RC_SIGN_IN);
+    }
+
+    private void updateUI(@Nullable GoogleSignInAccount account) {
+        if (account != null) {
+            ((NavigationHost) getActivity()).navigateTo(new ProductGridFragment(), false);
+        } else {
+            new LoginFragment();
+        }
     }
 
     @Override
@@ -65,57 +112,4 @@ public class LoginFragment extends Fragment implements View.OnClickListener, Goo
         }
     }
 
-    private void signIn() {
-        Intent signInIntent = Auth.GoogleSignInApi.getSignInIntent(mGoogleApiClient);
-        startActivityForResult(signInIntent, REQ_CODE);
-    }
-
-    @Override
-    public void onActivityResult(int requestCode, int resultCode, Intent data) {
-        super.onActivityResult(requestCode, resultCode, data);
-
-        // Result returned from launching the Intent from GoogleSignInApi.getSignInIntent(...);
-        if (requestCode == REQ_CODE) {
-            GoogleSignInResult googleSignInResult = Auth.GoogleSignInApi.getSignInResultFromIntent(data);
-            handleSignInResult(googleSignInResult);
-        }
-    }
-
-    private void handleSignInResult(GoogleSignInResult googleSignInResult) {
-        if (googleSignInResult.isSuccess()){
-            updateUI(true);
-        } else {
-            updateUI(false);
-        }
-    }
-
-    private void updateUI(boolean isSignedIn) {
-        if(isSignedIn){
-            ((NavigationHost) getActivity()).navigateTo(new ProductGridFragment(), false);
-        } else {
-            new LoginFragment();
-        }
-    }
-
-    public void onConnectionFailed(ConnectionResult connectionResult) {
-        // An unresolvable error has occurred and Google APIs (including Sign-In) will not
-        // be available.
-        Log.d(TAG, "onConnectionFailed:" + connectionResult);
-    }
-
-    private void showProgressDialog() {
-        if (mProgressDialog == null) {
-            mProgressDialog = new ProgressDialog(getActivity());
-            mProgressDialog.setMessage(getString(R.string.loading));
-            mProgressDialog.setIndeterminate(true);
-        }
-
-        mProgressDialog.show();
-    }
-
-    private void hideProgressDialog() {
-        if (mProgressDialog != null && mProgressDialog.isShowing()) {
-            mProgressDialog.hide();
-        }
-    }
 }

@@ -67,4 +67,8 @@ public class ReceiptList extends AppCompatActivity {
         }
     }
 
+    // TODO update to firestore, find out which receipt number to use
+    // receipt number as key, map as values to add into firestore
+
+
 }
