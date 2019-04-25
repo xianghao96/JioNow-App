@@ -14,23 +14,13 @@ import android.provider.MediaStore;
 import android.support.annotation.NonNull;
 import android.util.Log;
 import android.view.View;
-import android.view.Window;
 import android.widget.Button;
-import android.widget.ImageButton;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
-import android.widget.TextView;
 import android.widget.Toast;
-import android.widget.Toolbar;
 
-import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
-import com.google.android.gms.tasks.Task;
-import com.google.firebase.Timestamp;
 import com.google.firebase.firestore.FirebaseFirestore;
-import com.google.firebase.firestore.QueryDocumentSnapshot;
-import com.google.firebase.firestore.QuerySnapshot;
 import com.google.firebase.ml.vision.FirebaseVision;
 import com.google.firebase.ml.vision.common.FirebaseVisionImage;
 import com.google.firebase.ml.vision.text.FirebaseVisionText;
@@ -39,18 +29,18 @@ import com.theartofdev.edmodo.cropper.CropImage;
 import com.theartofdev.edmodo.cropper.CropImageView;
 
 import java.io.IOException;
-import java.net.URI;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import butterknife.BindView;
-
 public class CropGalleryImage extends Activity{
 
     public final static String chosenevent = "Event";
     public final static String mappedreceipt = "receipt";
+    public final static String ITEMS = "ITEMS";
+    public final static String QUANTITY = "QTY";
+    public final static String VALUES = "VAL";
     private static String chosen_event;
     private static Map<String, Object> receiptmap;
     private static final int REQUEST_WRITE_PERMISSION = 786;
@@ -204,6 +194,7 @@ public class CropGalleryImage extends Activity{
         ArrayList<String> items = new ArrayList<String>();
         ArrayList<String> quantity = new ArrayList<String>();
         ArrayList<String> values = new ArrayList<String>();
+        ArrayList<Double> eachDish = new ArrayList<>();
 
         for (int i=0; i<lines.length; i++){
             if (lines[i].contains(",")){
@@ -217,6 +208,12 @@ public class CropGalleryImage extends Activity{
                 items.add(lines[i].substring(2));
                 quantity.add(lines[i].substring(0,1));
             }
+        }
+
+        for (int i = 0; i<items.size();i++){
+            double priceOfEachDish = ((Double.valueOf(values.get(i)) / Double.valueOf(quantity.get(i))));
+            eachDish.add(priceOfEachDish);
+            Log.d("DishTAG", String.valueOf(eachDish));
         }
 
         for (int i = 0; i<items.size();i++){
@@ -256,6 +253,9 @@ public class CropGalleryImage extends Activity{
 
         Intent intent = new Intent(currentcontext, ReceiptList.class);
         intent.putExtra(chosenevent, chosen_event);
+        intent.putExtra(ITEMS, items);
+        intent.putExtra(QUANTITY, quantity);
+        intent.putExtra(VALUES, values);
         intent.putExtra(mappedreceipt, (HashMap) receiptmap);
         currentcontext.startActivity(intent);
 

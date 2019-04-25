@@ -1,6 +1,5 @@
 package com.google.codelabs.mdc.java.jionow;
 
-import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -9,19 +8,14 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
-import android.widget.LinearLayout;
-import android.widget.TextView;
-import com.google.android.gms.auth.api.Auth;
+
 import com.google.android.gms.auth.api.signin.GoogleSignIn;
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
 import com.google.android.gms.auth.api.signin.GoogleSignInClient;
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
-import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.Scopes;
 import com.google.android.gms.common.SignInButton;
 import com.google.android.gms.common.api.ApiException;
-import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.common.api.Scope;
 import com.google.android.gms.tasks.Task;
 
@@ -96,7 +90,7 @@ public class LoginFragment extends Fragment implements View.OnClickListener {
 
     private void updateUI(@Nullable GoogleSignInAccount account) {
         if (account != null) {
-            ((NavigationHost) getActivity()).navigateTo(new ProductGridFragment(), false);
+            ((NavigationHost) getActivity()).navigateTo(new MainMenu(), false);
         } else {
             new LoginFragment();
         }

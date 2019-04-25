@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.widget.Button;
 
 import com.firebase.ui.firestore.FirestoreRecyclerOptions;
@@ -12,7 +13,7 @@ import com.google.firebase.firestore.Query;
 
 public class OutstandingPayments extends AppCompatActivity {
 
-    private String testuser = ProductGridFragment.USER;
+    private String testuser = MainMenu.USER;
     private FirebaseFirestore db = FirebaseFirestore.getInstance();
     private Query notebook_ref = db.collection("GlobalEvents")
             .whereArrayContains("OwedParticipants",testuser);
@@ -26,6 +27,7 @@ public class OutstandingPayments extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.outstanding_payments);
+        Log.d("testuser",testuser);
 
 
         setUpRecyclerView();

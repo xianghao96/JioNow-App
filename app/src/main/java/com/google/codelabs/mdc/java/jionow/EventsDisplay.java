@@ -11,7 +11,7 @@ import com.google.firebase.firestore.Query;
 
 public class EventsDisplay extends AppCompatActivity {
 
-    private String testuser = ProductGridFragment.USER;;
+    private String testuser = MainMenu.USER;;
     private FirebaseFirestore db = FirebaseFirestore.getInstance();
     private Query events_ref = db.collection("GlobalEvents")
             .whereArrayContains("Participants",testuser);

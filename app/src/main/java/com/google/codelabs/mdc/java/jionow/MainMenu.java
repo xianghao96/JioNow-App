@@ -4,11 +4,8 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
-import android.support.design.button.MaterialButton;
 import android.support.design.card.MaterialCardView;
 import android.support.v4.app.Fragment;
-import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -23,16 +20,13 @@ import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.Timestamp;
-import com.google.firebase.firestore.DocumentSnapshot;
-import com.google.firebase.firestore.EventListener;
 import com.google.firebase.firestore.FirebaseFirestore;
-import com.google.firebase.firestore.FirebaseFirestoreException;
 import com.google.firebase.firestore.QueryDocumentSnapshot;
 import com.google.firebase.firestore.QuerySnapshot;
 
 import java.util.ArrayList;
 
-public class ProductGridFragment extends Fragment {
+public class MainMenu extends Fragment {
 
     public static String USER;
     private GoogleApiClient mGoogleApiClient;
@@ -44,7 +38,7 @@ public class ProductGridFragment extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup parent, Bundle savedInstanceState) {
-        View v = inflater.inflate(R.layout.shr_product_grid_fragment, parent, false);
+        View v = inflater.inflate(R.layout.main_menu, parent, false);
 
         final Button signOutButton =  v.findViewById(R.id.sign_out_button);
         TextView viewEmail = v.findViewById(R.id.sign_in_email);
@@ -59,9 +53,9 @@ public class ProductGridFragment extends Fragment {
         if (acct != null) {
             String personEmail = acct.getEmail();
             //String personEmail = "eugenechia95@gmail.com";
-            viewEmail.setText(personEmail);
             String[] user =personEmail.split("@");
             USER = user[0];
+            viewEmail.setText("Logged in as: " + USER);
             getEvents();
         }
 

@@ -396,10 +396,6 @@
         "source": "/Users/xianghao/GitHub/JioNow-App/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/Users/xianghao/GitHub/JioNow-App/app/build/intermediates/res/merged/debug/layout_shr_product_grid_fragment.xml.flat",
-        "source": "/Users/xianghao/GitHub/JioNow-App/app/src/main/res/layout/shr_product_grid_fragment.xml"
-    },
-    {
         "merged": "/Users/xianghao/GitHub/JioNow-App/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_text_dark.xml.flat",
         "source": "/Users/xianghao/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/7f5424793dbacbc4f165a669dcc13ebe/res/drawable/common_google_signin_btn_text_dark.xml"
     },
@@ -1358,6 +1354,10 @@
     {
         "merged": "/Users/xianghao/GitHub/JioNow-App/app/build/intermediates/res/merged/debug/anim-v21_design_bottom_sheet_slide_in.xml.flat",
         "source": "/Users/xianghao/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/dc8a9e9862963b71938c3f6e953c4d79/res/anim-v21/design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "/Users/xianghao/GitHub/JioNow-App/app/build/intermediates/res/merged/debug/layout_main_menu.xml.flat",
+        "source": "/Users/xianghao/GitHub/JioNow-App/app/src/main/res/layout/main_menu.xml"
     },
     {
         "merged": "/Users/xianghao/GitHub/JioNow-App/app/build/intermediates/res/merged/debug/layout_abc_action_mode_bar.xml.flat",
