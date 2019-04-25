@@ -118,16 +118,9 @@ public class MainMenu extends Fragment {
         mGoogleSignInClient.signOut().addOnCompleteListener(getActivity(), new OnCompleteListener<Void>() {
             @Override
             public void onComplete(@NonNull Task<Void> task) {
-//                ((NavigationHost) getActivity()).navigateTo(new LoginFragment(), true);
-                updateUI(null);
+                ((NavigationHost) getActivity()).navigateTo(new LoginFragment(), true);
             }
         });
-    }
-
-    private void updateUI(@Nullable GoogleSignInAccount account) {
-        if (account == null) {
-            ((NavigationHost) getActivity()).navigateTo(new LoginFragment(), true);
-        }
     }
 
     public void getEvents(){

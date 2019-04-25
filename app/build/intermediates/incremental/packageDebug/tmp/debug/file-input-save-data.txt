@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Fri Apr 26 00:51:49 SGT 2019
+#Fri Apr 26 00:58:12 SGT 2019
 17.baseType=DIRECTORY
 4.path=lib/arm64-v8a/libjpge.so
 25.base=/Users/xianghao/GitHub/JioNow-App/app/build/intermediates/transforms/mergeJniLibs/debug/0
