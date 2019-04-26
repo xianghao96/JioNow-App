@@ -226,9 +226,9 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/xianghao/.gr
 	android:label
 		ADDED from /Users/xianghao/GitHub/JioNow-App/app/src/main/AndroidManifest.xml:15:9-45
 	android:roundIcon
-		ADDED from /Users/xianghao/GitHub/JioNow-App/app/src/main/AndroidManifest.xml:16:9-54
+		ADDED from /Users/xianghao/GitHub/JioNow-App/app/src/main/AndroidManifest.xml:16:9-43
 	android:icon
-		ADDED from /Users/xianghao/GitHub/JioNow-App/app/src/main/AndroidManifest.xml:14:9-43
+		ADDED from /Users/xianghao/GitHub/JioNow-App/app/src/main/AndroidManifest.xml:14:9-38
 	android:allowBackup
 		ADDED from /Users/xianghao/GitHub/JioNow-App/app/src/main/AndroidManifest.xml:13:9-35
 	android:theme

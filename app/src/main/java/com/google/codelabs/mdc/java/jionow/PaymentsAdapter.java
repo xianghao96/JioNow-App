@@ -30,7 +30,6 @@ public class PaymentsAdapter extends FirestoreRecyclerAdapter<Payments, Payments
     }
 
 
-
     @Override
     protected void onBindViewHolder(@NonNull NoteHolder holder, int position, @NonNull Payments model) {
         holder.textViewEvent.setText(model.getName());

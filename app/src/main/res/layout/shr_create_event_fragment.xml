@@ -2,12 +2,28 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:padding="10dp">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/app_bar"
+            style="@style/Widget.Shrine.Toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="30dp"
+            app:titleTextColor="#ffff"
+            app:title="Jio Now" />
+    </android.support.design.widget.AppBarLayout>
 
     <!-- For the text box for Event -->
     <android.support.design.widget.TextInputLayout
         android:id="@+id/event_text_input"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Event Name" >
@@ -22,6 +38,7 @@
     <!-- For the text box for Description -->
     <android.support.design.widget.TextInputLayout
         android:id="@+id/description_text_input"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Description">
@@ -36,6 +53,7 @@
     <!-- For the text box for starting DateTime -->
     <android.support.design.widget.TextInputLayout
         android:id="@+id/start_DateTime_text_input"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="dd-MM-yyyy-HH:mm">
@@ -50,6 +68,7 @@
     <!-- For the text box for ending DateTime -->
     <android.support.design.widget.TextInputLayout
         android:id="@+id/end_DateTime_text_input"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="dd-MM-yyyy-HH:mm">
@@ -64,6 +83,7 @@
     <!-- For the text box for Invitees -->
     <android.support.design.widget.TextInputLayout
         android:id="@+id/invitees_text_input"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Guests' Email">
