@@ -60,7 +60,7 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
+                android:layout_gravity="center"
                 android:padding="15dp"
                 android:src="@drawable/money" />
 
@@ -102,8 +102,8 @@
 
             <ImageView
                 android:layout_width="wrap_content"
-                android:layout_height="143dp"
-                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
                 android:padding="15dp"
                 android:src="@drawable/calendar" />
 
@@ -147,8 +147,8 @@
 
             <ImageView
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
+                android:layout_height="126dp"
+                android:layout_gravity="center"
                 android:padding="15dp"
                 android:src="@drawable/scanner" />
 
@@ -190,7 +190,7 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
+                android:layout_gravity="center"
                 android:padding="15dp"
                 android:src="@drawable/food" />
 
@@ -220,7 +220,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:paddingBottom="20dp">
 
         <Button
             android:id="@+id/sign_out_button"
@@ -232,6 +233,7 @@
 
     <LinearLayout
         android:id="@+id/SeventhRow"
+        android:paddingBottom="15dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="bottom|center"

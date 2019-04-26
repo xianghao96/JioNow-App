@@ -8,6 +8,7 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Toast;
 
 import com.google.android.gms.auth.api.signin.GoogleSignIn;
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
@@ -92,6 +93,8 @@ public class LoginFragment extends Fragment implements View.OnClickListener {
             ((NavigationHost) getActivity()).navigateTo(new MainMenu(), false);
         } else {
             new LoginFragment();
+            Toast toast=Toast.makeText(getActivity(),"Sign in failed. Try again!", Toast.LENGTH_SHORT);
+            toast.show();
         }
     }
 
