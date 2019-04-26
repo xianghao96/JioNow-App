@@ -32,7 +32,7 @@ public class LoginFragment extends Fragment implements View.OnClickListener {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup parent, Bundle savedInstanceState) {
-        View v = inflater.inflate(R.layout.shr_login_fragment2, parent, false);
+        View v = inflater.inflate(R.layout.login_fragment, parent, false);
 
         signInButton = (SignInButton) v.findViewById(R.id.sign_in_button);
         signInButton.setOnClickListener(this);

@@ -4,9 +4,10 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
 import android.support.design.card.MaterialCardView;
 import android.support.v4.app.Fragment;
+import android.support.v7.widget.GridLayout;
+
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -18,7 +19,6 @@ import com.google.android.gms.auth.api.signin.GoogleSignIn;
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
 import com.google.android.gms.auth.api.signin.GoogleSignInClient;
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
-import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.Timestamp;
@@ -31,12 +31,13 @@ import java.util.ArrayList;
 public class MainMenu extends Fragment {
 
     public static String USER;
-    private GoogleApiClient mGoogleApiClient;
     private GoogleSignInClient mGoogleSignInClient;
     public final static String events = "Events";
     public final String TAG = "Logcatevents";
     private ArrayList<String> eventslist = new ArrayList<>();
     private FirebaseFirestore db = FirebaseFirestore.getInstance();
+
+    GridLayout mainGrid;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup parent, Bundle savedInstanceState) {
@@ -49,7 +50,7 @@ public class MainMenu extends Fragment {
         MaterialCardView scanReceiptCardView = v.findViewById(R.id.scanReceiptCardView);
         MaterialCardView myEventsCardView = v.findViewById(R.id.myEventsCardView);
 
-        //Flush eventslist and read from firestore each time activity is generated
+        // Flush eventslist and read from firestore each time activity is generated
 
         GoogleSignInAccount acct = GoogleSignIn.getLastSignedInAccount(getActivity());
         if (acct != null) {

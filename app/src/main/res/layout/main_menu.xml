@@ -13,6 +13,8 @@
             style="@style/Widget.Shrine.Toolbar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:paddingStart="30dp"
+            app:titleTextColor="#ffff"
             app:title="Jio Now" />
     </android.support.design.widget.AppBarLayout>
 

@@ -12,9 +12,8 @@ import android.widget.TextView;
 
 import com.firebase.ui.firestore.FirestoreRecyclerAdapter;
 import com.firebase.ui.firestore.FirestoreRecyclerOptions;
-import com.google.firebase.firestore.DocumentSnapshot;
+import com.google.firebase.firestore.FirebaseFirestore;
 
-import java.util.HashMap;
 import java.util.Map;
 
 public class PaymentsAdapter extends FirestoreRecyclerAdapter<Payments, PaymentsAdapter.NoteHolder> {
@@ -22,7 +21,8 @@ public class PaymentsAdapter extends FirestoreRecyclerAdapter<Payments, Payments
     private String user;
     public static final String EVENT = "event";
     public static final String OWEDPAYMENTS = "owed";
-    private static Map<String, Object> Owed;
+    private FirebaseFirestore db = FirebaseFirestore.getInstance();
+    private static Map<String, String> Owed;
 
     public PaymentsAdapter(@NonNull FirestoreRecyclerOptions<Payments> options, String User) {
         super(options);
@@ -37,7 +37,7 @@ public class PaymentsAdapter extends FirestoreRecyclerAdapter<Payments, Payments
         holder.textViewOwed.setText(model.getPayment(this.user));
         holder.textViewRecipient.setText(model.getHost());
         holder.textViewOutstandingHostAmount.setText(model.getHostPayment());
-        Owed = model.getOwed();
+        holder.OwedMap.setText(String.valueOf(model.getOwed()));
 
         if (model.getHost().equals(this.user)){
             holder.buttonPayView.setVisibility(View.INVISIBLE);
@@ -45,6 +45,7 @@ public class PaymentsAdapter extends FirestoreRecyclerAdapter<Payments, Payments
             holder.textViewRecipientDescription.setVisibility(View.INVISIBLE);
             holder.texttViewOwedDescription.setVisibility(View.INVISIBLE);
             holder.textViewOwed.setVisibility(View.INVISIBLE);
+            holder.OwedMap.setVisibility(View.INVISIBLE);
         }
         else{
             holder.buttonViewPaymentsView.setVisibility(View.INVISIBLE);
@@ -52,6 +53,7 @@ public class PaymentsAdapter extends FirestoreRecyclerAdapter<Payments, Payments
             holder.texttViewHost.setVisibility(View.INVISIBLE);
             holder.textViewOutstandingHostAmountDescription.setVisibility(View.INVISIBLE);
             holder.textViewOutstandingHostAmount.setVisibility(View.INVISIBLE);
+            holder.OwedMap.setVisibility(View.INVISIBLE);
         }
 
     }
@@ -72,6 +74,7 @@ public class PaymentsAdapter extends FirestoreRecyclerAdapter<Payments, Payments
         TextView texttViewOwedDescription;
         TextView textViewOutstandingHostAmountDescription;
         TextView textViewOutstandingHostAmount;
+        TextView OwedMap;
         Button buttonPayView;
         Button buttonRemindView;
         Button buttonViewPaymentsView;
@@ -89,6 +92,8 @@ public class PaymentsAdapter extends FirestoreRecyclerAdapter<Payments, Payments
             buttonPayView = itemView.findViewById(R.id.button_pay);
             buttonRemindView = itemView.findViewById(R.id.button_remindall);
             buttonViewPaymentsView = itemView.findViewById(R.id.button_viewpayments);
+            OwedMap = itemView.findViewById(R.id.owedmap);
+
 
             buttonPayView.setOnClickListener(new View.OnClickListener() {
                 @Override
@@ -110,19 +115,17 @@ public class PaymentsAdapter extends FirestoreRecyclerAdapter<Payments, Payments
 
             buttonViewPaymentsView.setOnClickListener(new View.OnClickListener() {
                 @Override
-                public void onClick(View v) {
+                public void onClick(final View v) {
+                    String eventname = String.valueOf(textViewEvent.getText());
                     Context context = v.getContext();
                     Intent intent = new Intent(context, ViewPayments.class);
-                    String eventname = String.valueOf(textViewEvent.getText());
                     intent.putExtra(EVENT, eventname);
-                    intent.putExtra(OWEDPAYMENTS, (HashMap) Owed);
+                    intent.putExtra(OWEDPAYMENTS, OwedMap.getText());
                     context.startActivity(intent);
+
                 }
             });
-
         }
-
-
 
     }
 }

@@ -42,7 +42,7 @@ public class ViewPayments extends AppCompatActivity {
     private static ArrayList<String> amount = new ArrayList<String>();
     ListView mListView;
     public static CustomAdapter customAdapter;
-    private static Map<String, Object> Owed;
+    private static Map<String, Object> Owed = new HashMap<String, Object>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -52,10 +52,21 @@ public class ViewPayments extends AppCompatActivity {
         amount.clear();
 
         Intent intent = getIntent();
-        Owed =  (Map<String, Object>) intent.getSerializableExtra(PaymentsAdapter.OWEDPAYMENTS);
+        String owedmap =  intent.getStringExtra(PaymentsAdapter.OWEDPAYMENTS);
+        Log.d("abcdef", owedmap);
+        owedmap = owedmap.substring(1, owedmap.length()-1);           //remove curly brackets
+        String[] keyValuePairs = owedmap.split(",");              //split the string to creat key-value pairs
+
+        Owed.clear();
+        for(String pair : keyValuePairs)                        //iterate over the pairs
+        {
+            String[] entry = pair.split("=");                   //split the pairs to get key and value
+            Owed.put(entry[0].trim(), entry[1].trim());          //add them to the hashmap and trim whitespaces
+        }
+
         chosen_event =  intent.getStringExtra(PaymentsAdapter.EVENT);
 
-        for ( String key : Owed.keySet() ) {
+        for ( String key : Owed.keySet() ) { ;
             owedusers.add(key);
             amount.add(String.valueOf(Owed.get(key)));
         }

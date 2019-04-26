@@ -42,6 +42,7 @@ MERGED from [com.wonderkiln:camerakit:0.13.1] /Users/xianghao/.gradle/caches/tra
 MERGED from [com.theartofdev.edmodo:android-image-cropper:2.5.1] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/android-image-cropper-2.5.1.aar/9be6c13b042bd904084a525b926f1289/AndroidManifest.xml:2:1-12:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/0f2feea63b314d71cf89390ee9c24f54/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.volley:volley:1.1.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/volley-1.1.0.aar/a8e298da9cb735faa637a1efff162abc/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:gridlayout-v7:28.0.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/gridlayout-v7-28.0.0.aar/628cf6b0cb8d0cfadfcc9920277795c3/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-fragment:28.0.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/4d7bc4a99029e22013ffc6674573b500/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/b45314a1d89c2fc2ae6f0d3b99e1129f/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/1bc0d2cf1f0e9a5349b998cd8b0f7b8a/AndroidManifest.xml:17:1-22:12
@@ -376,6 +377,8 @@ MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/xianghao/.gradle/ca
 MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/0f2feea63b314d71cf89390ee9c24f54/AndroidManifest.xml:20:5-44
 MERGED from [com.android.volley:volley:1.1.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/volley-1.1.0.aar/a8e298da9cb735faa637a1efff162abc/AndroidManifest.xml:7:5-43
 MERGED from [com.android.volley:volley:1.1.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/volley-1.1.0.aar/a8e298da9cb735faa637a1efff162abc/AndroidManifest.xml:7:5-43
+MERGED from [com.android.support:gridlayout-v7:28.0.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/gridlayout-v7-28.0.0.aar/628cf6b0cb8d0cfadfcc9920277795c3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:gridlayout-v7:28.0.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/gridlayout-v7-28.0.0.aar/628cf6b0cb8d0cfadfcc9920277795c3/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-fragment:28.0.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/4d7bc4a99029e22013ffc6674573b500/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-fragment:28.0.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/4d7bc4a99029e22013ffc6674573b500/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/xianghao/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/b45314a1d89c2fc2ae6f0d3b99e1129f/AndroidManifest.xml:20:5-44

@@ -52,12 +52,12 @@
         "source": "/Users/xianghao/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/7f5424793dbacbc4f165a669dcc13ebe/res/drawable-xhdpi-v4/googleg_disabled_color_18.png"
     },
     {
-        "merged": "/Users/xianghao/GitHub/JioNow-App/app/build/intermediates/res/merged/debug/color-v23_abc_btn_colored_text_material.xml.flat",
-        "source": "/Users/xianghao/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/0f2feea63b314d71cf89390ee9c24f54/res/color-v23/abc_btn_colored_text_material.xml"
-    },
-    {
         "merged": "/Users/xianghao/GitHub/JioNow-App/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
         "source": "/Users/xianghao/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/0f2feea63b314d71cf89390ee9c24f54/res/drawable-xxxhdpi-v4/abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/xianghao/GitHub/JioNow-App/app/build/intermediates/res/merged/debug/color-v23_abc_btn_colored_text_material.xml.flat",
+        "source": "/Users/xianghao/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/0f2feea63b314d71cf89390ee9c24f54/res/color-v23/abc_btn_colored_text_material.xml"
     },
     {
         "merged": "/Users/xianghao/GitHub/JioNow-App/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_normal.9.png.flat",
@@ -526,6 +526,10 @@
     {
         "merged": "/Users/xianghao/GitHub/JioNow-App/app/build/intermediates/res/merged/debug/layout_design_text_input_password_icon.xml.flat",
         "source": "/Users/xianghao/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/dc8a9e9862963b71938c3f6e953c4d79/res/layout/design_text_input_password_icon.xml"
+    },
+    {
+        "merged": "/Users/xianghao/GitHub/JioNow-App/app/build/intermediates/res/merged/debug/drawable-hdpi_logo.png.flat",
+        "source": "/Users/xianghao/GitHub/JioNow-App/app/src/main/res/drawable-hdpi/logo.png"
     },
     {
         "merged": "/Users/xianghao/GitHub/JioNow-App/app/build/intermediates/res/merged/debug/drawable_abc_btn_default_mtrl_shape.xml.flat",
@@ -2024,6 +2028,10 @@
         "source": "/Users/xianghao/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/0f2feea63b314d71cf89390ee9c24f54/res/drawable-hdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
+        "merged": "/Users/xianghao/GitHub/JioNow-App/app/build/intermediates/res/merged/debug/layout_login_fragment.xml.flat",
+        "source": "/Users/xianghao/GitHub/JioNow-App/app/src/main/res/layout/login_fragment.xml"
+    },
+    {
         "merged": "/Users/xianghao/GitHub/JioNow-App/app/build/intermediates/res/merged/debug/drawable_design_fab_background.xml.flat",
         "source": "/Users/xianghao/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/dc8a9e9862963b71938c3f6e953c4d79/res/drawable/design_fab_background.xml"
     },
@@ -2066,10 +2074,6 @@
     {
         "merged": "/Users/xianghao/GitHub/JioNow-App/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_crop_image_menu_flip.png.flat",
         "source": "/Users/xianghao/.gradle/caches/transforms-1/files-1.1/android-image-cropper-2.5.1.aar/9be6c13b042bd904084a525b926f1289/res/drawable-xxhdpi-v4/crop_image_menu_flip.png"
-    },
-    {
-        "merged": "/Users/xianghao/GitHub/JioNow-App/app/build/intermediates/res/merged/debug/layout_shr_login_fragment2.xml.flat",
-        "source": "/Users/xianghao/GitHub/JioNow-App/app/src/main/res/layout/shr_login_fragment2.xml"
     },
     {
         "merged": "/Users/xianghao/GitHub/JioNow-App/app/build/intermediates/res/merged/debug/anim_abc_slide_in_bottom.xml.flat",
@@ -2290,10 +2294,6 @@
     {
         "merged": "/Users/xianghao/GitHub/JioNow-App/app/build/intermediates/res/merged/debug/color_common_google_signin_btn_text_dark.xml.flat",
         "source": "/Users/xianghao/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/7f5424793dbacbc4f165a669dcc13ebe/res/color/common_google_signin_btn_text_dark.xml"
-    },
-    {
-        "merged": "/Users/xianghao/GitHub/JioNow-App/app/build/intermediates/res/merged/debug/drawable_shr_logo.xml.flat",
-        "source": "/Users/xianghao/GitHub/JioNow-App/app/src/main/res/drawable/shr_logo.xml"
     },
     {
         "merged": "/Users/xianghao/GitHub/JioNow-App/app/build/intermediates/res/merged/debug/drawable_ic_mtrl_chip_checked_black.xml.flat",

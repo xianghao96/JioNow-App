@@ -64,6 +64,7 @@ attr alertDialogButtonGroupStyle
 attr alertDialogCenterButtons
 attr alertDialogStyle
 attr alertDialogTheme
+attr alignmentMode
 attr allowStacking
 attr alpha
 attr alphabeticModifiers
@@ -188,6 +189,8 @@ attr colorPrimaryDark
 attr colorScheme
 attr colorSecondary
 attr colorSwitchThumbNormal
+attr columnCount
+attr columnOrderPreserved
 attr commitIcon
 attr constraintSet
 attr constraint_referenced_ids
@@ -355,6 +358,9 @@ attr layout_anchorGravity
 attr layout_behavior
 attr layout_collapseMode
 attr layout_collapseParallaxMultiplier
+attr layout_column
+attr layout_columnSpan
+attr layout_columnWeight
 attr layout_constrainedHeight
 attr layout_constrainedWidth
 attr layout_constraintBaseline_creator
@@ -405,9 +411,13 @@ attr layout_goneMarginLeft
 attr layout_goneMarginRight
 attr layout_goneMarginStart
 attr layout_goneMarginTop
+attr layout_gravity
 attr layout_insetEdge
 attr layout_keyline
 attr layout_optimizationLevel
+attr layout_row
+attr layout_rowSpan
+attr layout_rowWeight
 attr layout_scrollFlags
 attr layout_scrollInterpolator
 attr liftOnScroll
@@ -439,6 +449,7 @@ attr navigationIcon
 attr navigationMode
 attr navigationViewStyle
 attr numericModifiers
+attr orientation
 attr overlapAnchor
 attr paddingBottomNoButtons
 attr paddingEnd
@@ -467,6 +478,8 @@ attr ratingBarStyleIndicator
 attr ratingBarStyleSmall
 attr reverseLayout
 attr rippleColor
+attr rowCount
+attr rowOrderPreserved
 attr scopeUris
 attr scrimAnimationDuration
 attr scrimBackground
@@ -599,6 +612,7 @@ attr trackTint
 attr trackTintMode
 attr ttcIndex
 attr useCompatPadding
+attr useDefaultMargins
 attr viewInflaterClass
 attr voiceIcon
 attr windowActionBar
@@ -845,6 +859,7 @@ dimen compat_button_padding_vertical_material
 dimen compat_control_corner_material
 dimen compat_notification_large_icon_max_height
 dimen compat_notification_large_icon_max_width
+dimen default_gap
 dimen design_appbar_elevation
 dimen design_bottom_navigation_active_item_max_width
 dimen design_bottom_navigation_active_item_min_width
@@ -1120,6 +1135,7 @@ drawable ic_launcher_foreground
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable logo
 drawable money
 drawable mtrl_snackbar_background
 drawable mtrl_tabs_default_indicator
@@ -1141,7 +1157,6 @@ drawable scanner
 drawable shr_branded_menu
 drawable shr_close_menu
 drawable shr_filter
-drawable shr_logo
 drawable shr_menu
 drawable shr_product_grid_background_shape
 drawable shr_search
@@ -1182,6 +1197,8 @@ id add
 id adjust_height
 id adjust_width
 id alertTitle
+id alignBounds
+id alignMargins
 id all
 id always
 id app_bar
@@ -1272,6 +1289,7 @@ id groups
 id highest
 id home
 id homeAsUp
+id horizontal
 id icon
 id icon_group
 id icon_only
@@ -1326,6 +1344,7 @@ id oval
 id owed_amount
 id owed_users
 id owedheader
+id owedmap
 id packed
 id parallax
 id parent
@@ -1468,6 +1487,7 @@ id uniform
 id unlabeled
 id up
 id useLogo
+id vertical
 id view_offset_helper
 id viewpayments_adapter
 id visible
@@ -1546,6 +1566,7 @@ layout eventdetails
 layout events
 layout floating_activity
 layout layout_focus_marker
+layout login_fragment
 layout main_menu
 layout mtrl_layout_snackbar
 layout mtrl_layout_snackbar_include
@@ -1574,7 +1595,6 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout shr_create_event_fragment
-layout shr_login_fragment2
 layout shr_main_activity
 layout shr_staggered_product_card_second
 layout shr_staggered_product_card_third
@@ -2007,6 +2027,8 @@ style TextAppearance_MaterialComponents_Overline
 style TextAppearance_MaterialComponents_Subtitle1
 style TextAppearance_MaterialComponents_Subtitle2
 style TextAppearance_MaterialComponents_Tab
+style TextAppearance_Shrine_Title
+style TextAppearance_Shrine_Toolbar
 style TextAppearance_Widget_AppCompat_ExpandedMenu_Item
 style TextAppearance_Widget_AppCompat_Toolbar_Subtitle
 style TextAppearance_Widget_AppCompat_Toolbar_Title
@@ -2198,6 +2220,7 @@ style Widget_MaterialComponents_TextInputLayout_FilledBox_Dense
 style Widget_MaterialComponents_TextInputLayout_OutlinedBox
 style Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense
 style Widget_MaterialComponents_Toolbar
+style Widget_Shrine_Backdrop
 style Widget_Shrine_Toolbar
 style Widget_Support_CoordinatorLayout
 styleable ActionBar background backgroundSplit backgroundStacked contentInsetEnd contentInsetEndWithActions contentInsetLeft contentInsetRight contentInsetStart contentInsetStartWithNavigation customNavigationLayout displayOptions divider elevation height hideOnContentScroll homeAsUpIndicator homeLayout icon indeterminateProgressStyle itemPadding logo navigationMode popupTheme progressBarPadding progressBarStyle subtitle subtitleTextStyle title titleTextStyle
@@ -2246,6 +2269,8 @@ styleable FontFamilyFont android_font android_fontWeight android_fontStyle andro
 styleable ForegroundLinearLayout android_foreground android_foregroundGravity foregroundInsidePadding
 styleable GradientColor android_startColor android_endColor android_type android_centerX android_centerY android_gradientRadius android_tileMode android_centerColor android_startX android_startY android_endX android_endY
 styleable GradientColorItem android_color android_offset
+styleable GridLayout alignmentMode columnCount columnOrderPreserved orientation rowCount rowOrderPreserved useDefaultMargins
+styleable GridLayout_Layout android_layout_width android_layout_height android_layout_margin android_layout_marginLeft android_layout_marginTop android_layout_marginRight android_layout_marginBottom layout_column layout_columnSpan layout_columnWeight layout_gravity layout_row layout_rowSpan layout_rowWeight
 styleable LinearConstraintLayout android_orientation
 styleable LinearLayoutCompat android_gravity android_orientation android_baselineAligned android_baselineAlignedChildIndex android_weightSum divider dividerPadding measureWithLargestChild showDividers
 styleable LinearLayoutCompat_Layout android_layout_gravity android_layout_width android_layout_height android_layout_weight
