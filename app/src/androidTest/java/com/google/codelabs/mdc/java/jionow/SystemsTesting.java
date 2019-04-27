@@ -22,6 +22,7 @@ import androidx.test.uiautomator.UiSelector;
 
 import static android.support.test.espresso.Espresso.onView;
 import static android.support.test.espresso.action.ViewActions.click;
+import static android.support.test.espresso.action.ViewActions.replaceText;
 import static android.support.test.espresso.assertion.ViewAssertions.matches;
 import static android.support.test.espresso.matcher.ViewMatchers.isDisplayed;
 import static android.support.test.espresso.matcher.ViewMatchers.withId;
@@ -116,6 +117,13 @@ public class SystemsTesting {
         onView(withId(R.id.invitees_edit_text)).check(matches(isDisplayed()));
         onView(withId(R.id.invitees_text_input)).check(matches(isDisplayed()));
         onView(withId(R.id.save_button)).check(matches(isDisplayed()));
+        onView(withId(R.id.event_text_input)).perform(replaceText("testing yo"));
+        onView(withId(R.id.description_text_input)).perform(replaceText("test"));
+        onView(withId(R.id.start_DateTime_edit_text)).perform(replaceText("12-12-2019-10:30"));
+        onView(withId(R.id.end_DateTime_text_input)).perform(replaceText("12-12-2019-12:20"));
+        onView(withId(R.id.invitees_text_input)).perform(replaceText("eugenechia95@gmail.com"));
+        onView(withId(R.id.save_button)).perform(click());
+        mDevice.pressBack();
         mDevice.pressBack();
         Thread.sleep(1500);
 

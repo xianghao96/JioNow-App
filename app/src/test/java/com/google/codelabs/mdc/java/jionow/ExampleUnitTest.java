@@ -44,4 +44,10 @@ public class ExampleUnitTest {
         assertEquals("2.5", testpayment.getPayment("testuser2"));
         assertEquals(Owed, testpayment.getOwed());
     }
+
+    @Test
+    public void round() {
+        assertEquals(String.valueOf(5.25), String.valueOf(CropGalleryImage.roundAvoid(5.252,2)));
+        assertEquals(String.valueOf(3.646), String.valueOf(CropGalleryImage.roundAvoid(3.6457,3)));
+    }
 }
