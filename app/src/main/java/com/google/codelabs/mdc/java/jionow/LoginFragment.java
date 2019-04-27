@@ -92,9 +92,9 @@ public class LoginFragment extends Fragment implements View.OnClickListener {
         if (account != null) {
             ((NavigationHost) getActivity()).navigateTo(new MainMenu(), false);
         } else {
-            new LoginFragment();
             Toast toast=Toast.makeText(getActivity(),"Sign in failed. Try again!", Toast.LENGTH_SHORT);
             toast.show();
+            new LoginFragment();
         }
     }
 
