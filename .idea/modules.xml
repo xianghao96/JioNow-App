@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/JioNow-App-master.iml" filepath="$PROJECT_DIR$/JioNow-App-master.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/JioNow-App.iml" filepath="$PROJECT_DIR$/JioNow-App.iml" />
+>>>>>>> baa8e185bcc912b457ac2866888e12b56a6fa0f3
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

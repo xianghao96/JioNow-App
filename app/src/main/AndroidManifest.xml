@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.google.codelabs.mdc.java.jionow">
 
     <uses-permission android:name="android.permission.INTERNET" />
@@ -11,9 +12,9 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/logo"
         android:label="@string/shr_app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/logo"
         android:supportsRtl="true"
         android:name="com.google.codelabs.mdc.java.jionow.application.ShrineApplication"
         android:theme="@style/Theme.Shrine">
@@ -29,12 +30,20 @@
         </activity>
         <activity android:name=".EventsDisplay">
         </activity>
+<<<<<<< HEAD
+=======
         <activity android:name=".ReceiptList">
         </activity>
+>>>>>>> 1e033004180b455d016a1d2f8a75f17f3fa0b2ca
         <activity android:name=".EventsDetails">
         </activity>
         <activity android:name=".OutstandingPayments">
         </activity>
+<<<<<<< HEAD
+=======
+        <activity android:name=".ViewPayments">
+        </activity>
+>>>>>>> 1e033004180b455d016a1d2f8a75f17f3fa0b2ca
         <activity android:name=".CropGalleryImage">
         </activity>
         <activity android:name="com.theartofdev.edmodo.cropper.CropImageActivity"

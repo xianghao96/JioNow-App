@@ -64,6 +64,7 @@ attr alertDialogButtonGroupStyle
 attr alertDialogCenterButtons
 attr alertDialogStyle
 attr alertDialogTheme
+attr alignmentMode
 attr allowStacking
 attr alpha
 attr alphabeticModifiers
@@ -188,6 +189,8 @@ attr colorPrimaryDark
 attr colorScheme
 attr colorSecondary
 attr colorSwitchThumbNormal
+attr columnCount
+attr columnOrderPreserved
 attr commitIcon
 attr constraintSet
 attr constraint_referenced_ids
@@ -355,6 +358,9 @@ attr layout_anchorGravity
 attr layout_behavior
 attr layout_collapseMode
 attr layout_collapseParallaxMultiplier
+attr layout_column
+attr layout_columnSpan
+attr layout_columnWeight
 attr layout_constrainedHeight
 attr layout_constrainedWidth
 attr layout_constraintBaseline_creator
@@ -405,9 +411,13 @@ attr layout_goneMarginLeft
 attr layout_goneMarginRight
 attr layout_goneMarginStart
 attr layout_goneMarginTop
+attr layout_gravity
 attr layout_insetEdge
 attr layout_keyline
 attr layout_optimizationLevel
+attr layout_row
+attr layout_rowSpan
+attr layout_rowWeight
 attr layout_scrollFlags
 attr layout_scrollInterpolator
 attr liftOnScroll
@@ -439,6 +449,7 @@ attr navigationIcon
 attr navigationMode
 attr navigationViewStyle
 attr numericModifiers
+attr orientation
 attr overlapAnchor
 attr paddingBottomNoButtons
 attr paddingEnd
@@ -467,6 +478,8 @@ attr ratingBarStyleIndicator
 attr ratingBarStyleSmall
 attr reverseLayout
 attr rippleColor
+attr rowCount
+attr rowOrderPreserved
 attr scopeUris
 attr scrimAnimationDuration
 attr scrimBackground
@@ -599,6 +612,7 @@ attr trackTint
 attr trackTintMode
 attr ttcIndex
 attr useCompatPadding
+attr useDefaultMargins
 attr viewInflaterClass
 attr voiceIcon
 attr windowActionBar
@@ -845,6 +859,7 @@ dimen compat_button_padding_vertical_material
 dimen compat_control_corner_material
 dimen compat_notification_large_icon_max_height
 dimen compat_notification_large_icon_max_width
+dimen default_gap
 dimen design_appbar_elevation
 dimen design_bottom_navigation_active_item_max_width
 dimen design_bottom_navigation_active_item_min_width
@@ -1078,6 +1093,11 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
+<<<<<<< HEAD
+=======
+drawable btn_rounded
+drawable calendar
+>>>>>>> 1e033004180b455d016a1d2f8a75f17f3fa0b2ca
 drawable camera
 drawable common_full_open_on_phone
 drawable common_google_signin_btn_icon_dark
@@ -1109,6 +1129,10 @@ drawable design_password_eye
 drawable design_snackbar_background
 drawable focus_marker_fill
 drawable focus_marker_outline
+<<<<<<< HEAD
+=======
+drawable food
+>>>>>>> 1e033004180b455d016a1d2f8a75f17f3fa0b2ca
 drawable gallery
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
@@ -1117,6 +1141,8 @@ drawable ic_launcher_foreground
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable logo
+drawable money
 drawable mtrl_snackbar_background
 drawable mtrl_tabs_default_indicator
 drawable navigation_empty_icon
@@ -1133,10 +1159,13 @@ drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable profile
+<<<<<<< HEAD
+=======
+drawable scanner
+>>>>>>> 1e033004180b455d016a1d2f8a75f17f3fa0b2ca
 drawable shr_branded_menu
 drawable shr_close_menu
 drawable shr_filter
-drawable shr_logo
 drawable shr_menu
 drawable shr_product_grid_background_shape
 drawable shr_search
@@ -1149,9 +1178,13 @@ id CTRL
 id CropOverlayView
 id CropProgressBar
 id FUNCTION
+<<<<<<< HEAD
+id FifthRow
+id FourthRow
+=======
+>>>>>>> 1e033004180b455d016a1d2f8a75f17f3fa0b2ca
 id ImageView_image
 id META
-id Product_Grid_Fragment
 id SHIFT
 id SYM
 id SeventhRow
@@ -1180,6 +1213,8 @@ id add
 id adjust_height
 id adjust_width
 id alertTitle
+id alignBounds
+id alignMargins
 id all
 id always
 id app_bar
@@ -1194,11 +1229,17 @@ id buttonPanel
 id button_pay
 id button_remindall
 id button_view_event
+<<<<<<< HEAD
+id calendarButton
 id camView
 id cameraBtn
 id camera_image
+=======
+id button_viewpayments
+id camView
+id cameraBtn
+>>>>>>> 1e033004180b455d016a1d2f8a75f17f3fa0b2ca
 id cancel_action
-id cancel_button
 id center
 id centerCrop
 id centerInside
@@ -1215,7 +1256,10 @@ id content
 id contentPanel
 id continuous
 id coordinator
+<<<<<<< HEAD
+=======
 id createEventsCardView
+>>>>>>> 1e033004180b455d016a1d2f8a75f17f3fa0b2ca
 id cropImageView
 id crop_image_menu_crop
 id crop_image_menu_flip
@@ -1263,7 +1307,10 @@ id focusMarkerContainer
 id food1
 id forever
 id front
+<<<<<<< HEAD
 id gallery_image
+=======
+>>>>>>> 1e033004180b455d016a1d2f8a75f17f3fa0b2ca
 id ghost_view
 id gone
 id graphic_overlay
@@ -1272,6 +1319,7 @@ id groups
 id highest
 id home
 id homeAsUp
+id horizontal
 id icon
 id icon_group
 id icon_only
@@ -1295,6 +1343,10 @@ id line3
 id listMode
 id list_item
 id lowest
+<<<<<<< HEAD
+=======
+id mainGrid
+>>>>>>> 1e033004180b455d016a1d2f8a75f17f3fa0b2ca
 id main_layout
 id masked
 id max1080p
@@ -1311,7 +1363,7 @@ id multiply
 id myEventsCardView
 id navigation_header_container
 id never
-id next_button
+id next
 id none
 id normal
 id notification_background
@@ -1321,15 +1373,23 @@ id off
 id on
 id onTouch
 id outline
+<<<<<<< HEAD
+id outstandingPaymentsButton
+id oval
+=======
 id outstandingPaymentsCardView
 id oval
+id owed_amount
+id owed_users
+id owedheader
+id owedmap
+>>>>>>> 1e033004180b455d016a1d2f8a75f17f3fa0b2ca
 id packed
 id parallax
 id parent
 id parentPanel
 id parent_matrix
-id password_edit_text
-id password_text_input
+id paymentlistView
 id percent
 id pickimage
 id picture
@@ -1341,9 +1401,12 @@ id progress_circular
 id progress_horizontal
 id qvga
 id radio
+<<<<<<< HEAD
+=======
 id receipt_display
 id receipt_list
 id receipt_view_adapter
+>>>>>>> 1e033004180b455d016a1d2f8a75f17f3fa0b2ca
 id rectangle
 id recycler_view
 id recycler_view_events
@@ -1374,6 +1437,7 @@ id search_src_text
 id search_voice_btn
 id select_dialog_listview
 id selected
+id settlepayment
 id shortcut
 id showCustom
 id showHome
@@ -1388,7 +1452,12 @@ id snap
 id snapMargins
 id spacer
 id speed
+<<<<<<< HEAD
+=======
+id spinner
+>>>>>>> 1e033004180b455d016a1d2f8a75f17f3fa0b2ca
 id split_action_bar
+id split_button
 id spread
 id spread_inside
 id src_atop
@@ -1398,6 +1467,10 @@ id standard
 id start
 id start_DateTime_edit_text
 id start_DateTime_text_input
+<<<<<<< HEAD
+id status
+=======
+>>>>>>> 1e033004180b455d016a1d2f8a75f17f3fa0b2ca
 id status_bar_latest_event_content
 id still
 id stretch
@@ -1443,13 +1516,21 @@ id textinput_error
 id textinput_helper_text
 id texture_view
 id time
+<<<<<<< HEAD
+=======
 id times
+>>>>>>> 1e033004180b455d016a1d2f8a75f17f3fa0b2ca
 id title
 id titleDividerNoCustom
 id title_template
 id top
 id topPanel
+<<<<<<< HEAD
+id top_layout
+=======
+>>>>>>> 1e033004180b455d016a1d2f8a75f17f3fa0b2ca
 id torch
+id total
 id total_bill
 id total_price_for_dish
 id touch_outside
@@ -1462,7 +1543,9 @@ id uniform
 id unlabeled
 id up
 id useLogo
+id vertical
 id view_offset_helper
+id viewpayments_adapter
 id visible
 id webview
 id wide
@@ -1539,6 +1622,11 @@ layout eventdetails
 layout events
 layout floating_activity
 layout layout_focus_marker
+<<<<<<< HEAD
+=======
+layout login_fragment
+layout main_menu
+>>>>>>> 1e033004180b455d016a1d2f8a75f17f3fa0b2ca
 layout mtrl_layout_snackbar
 layout mtrl_layout_snackbar_include
 layout notification_action
@@ -1559,22 +1647,27 @@ layout notification_template_part_time
 layout outstanding_item
 layout outstanding_payments
 layout paylahview
+<<<<<<< HEAD
+=======
 layout receipt_display
 layout receipt_view_adapter
+>>>>>>> 1e033004180b455d016a1d2f8a75f17f3fa0b2ca
 layout receiptview
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout shr_create_event_fragment
-layout shr_login_fragment
-layout shr_login_fragment2
 layout shr_main_activity
-layout shr_product_grid_fragment
 layout shr_staggered_product_card_second
 layout shr_staggered_product_card_third
 layout support_simple_spinner_dropdown_item
 layout surface_view
 layout texture_view
+<<<<<<< HEAD
+=======
+layout viewpayments
+layout viewpayments_adapter
+>>>>>>> 1e033004180b455d016a1d2f8a75f17f3fa0b2ca
 menu crop_image_menu
 menu shr_toolbar_menu
 mipmap ic_launcher
@@ -1999,6 +2092,8 @@ style TextAppearance_MaterialComponents_Overline
 style TextAppearance_MaterialComponents_Subtitle1
 style TextAppearance_MaterialComponents_Subtitle2
 style TextAppearance_MaterialComponents_Tab
+style TextAppearance_Shrine_Title
+style TextAppearance_Shrine_Toolbar
 style TextAppearance_Widget_AppCompat_ExpandedMenu_Item
 style TextAppearance_Widget_AppCompat_Toolbar_Subtitle
 style TextAppearance_Widget_AppCompat_Toolbar_Title
@@ -2190,6 +2285,7 @@ style Widget_MaterialComponents_TextInputLayout_FilledBox_Dense
 style Widget_MaterialComponents_TextInputLayout_OutlinedBox
 style Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense
 style Widget_MaterialComponents_Toolbar
+style Widget_Shrine_Backdrop
 style Widget_Shrine_Toolbar
 style Widget_Support_CoordinatorLayout
 styleable ActionBar background backgroundSplit backgroundStacked contentInsetEnd contentInsetEndWithActions contentInsetLeft contentInsetRight contentInsetStart contentInsetStartWithNavigation customNavigationLayout displayOptions divider elevation height hideOnContentScroll homeAsUpIndicator homeLayout icon indeterminateProgressStyle itemPadding logo navigationMode popupTheme progressBarPadding progressBarStyle subtitle subtitleTextStyle title titleTextStyle
@@ -2238,6 +2334,8 @@ styleable FontFamilyFont android_font android_fontWeight android_fontStyle andro
 styleable ForegroundLinearLayout android_foreground android_foregroundGravity foregroundInsidePadding
 styleable GradientColor android_startColor android_endColor android_type android_centerX android_centerY android_gradientRadius android_tileMode android_centerColor android_startX android_startY android_endX android_endY
 styleable GradientColorItem android_color android_offset
+styleable GridLayout alignmentMode columnCount columnOrderPreserved orientation rowCount rowOrderPreserved useDefaultMargins
+styleable GridLayout_Layout android_layout_width android_layout_height android_layout_margin android_layout_marginLeft android_layout_marginTop android_layout_marginRight android_layout_marginBottom layout_column layout_columnSpan layout_columnWeight layout_gravity layout_row layout_rowSpan layout_rowWeight
 styleable LinearConstraintLayout android_orientation
 styleable LinearLayoutCompat android_gravity android_orientation android_baselineAligned android_baselineAlignedChildIndex android_weightSum divider dividerPadding measureWithLargestChild showDividers
 styleable LinearLayoutCompat_Layout android_layout_gravity android_layout_width android_layout_height android_layout_weight

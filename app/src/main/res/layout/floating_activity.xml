@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="260dip"
+<<<<<<< HEAD
     android:layout_height="200dip"
     android:paddingLeft="20dip"
     android:paddingRight="20dip"
@@ -9,6 +10,52 @@
     android:background="@color/colorPrimary">
 
     <LinearLayout
+=======
+    android:layout_height="260dip"
+    android:paddingTop="20dip"
+    android:paddingLeft="20dip"
+    android:paddingRight="20dip"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose Event"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:textSize="25sp"
+        android:textColor="#000000"
+        android:layout_marginBottom="10dp"
+        />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:id="@+id/spinner"
+        android:layout_marginBottom="10dp"
+        android:radius="2dp"
+        ></Spinner>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:layout_gravity="center_horizontal"
+
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:background="@drawable/btn_rounded"
+        android:id="@+id/next"
+        />
+
+    <!--<LinearLayout
+>>>>>>> 1e033004180b455d016a1d2f8a75f17f3fa0b2ca
         android:layout_width="100dip"
         android:layout_height="wrap_content"
         android:layout_weight="1"
@@ -54,6 +101,10 @@
             android:text="Take a photo"
             />
 
+<<<<<<< HEAD
     </LinearLayout>
+=======
+    </LinearLayout>-->
+>>>>>>> 1e033004180b455d016a1d2f8a75f17f3fa0b2ca
 
 </LinearLayout>

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/xianghao/GitHub/JioNow-App-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v17/values-v17.xml",
+            "outputFile": "C:\\SUTD\\Term 8\\Elements of Software Construction\\Project\\JioNow-App\\JioNow-App-eugenebranch\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v17\\values-v17.xml",
             "map": [
                 {
-                    "source": "/Users/xianghao/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/907c3d5e301c50abf47a33b97e6c8fd9/res/values-v17/values-v17.xml",
+                    "source": "C:\\Users\\Eugene\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\497e9d5b084c57dd69943e6243cd5c82\\res\\values-v17\\values-v17.xml",
                     "from": {
                         "startLines": "2,5,9,12,15,18,22,25,29,33,37,40,43,46,50,53,57",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

@@ -24,6 +24,10 @@ import com.google.firebase.firestore.auth.User;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+<<<<<<< HEAD
+=======
+import java.util.ArrayList;
+>>>>>>> 1e033004180b455d016a1d2f8a75f17f3fa0b2ca
 import java.util.Arrays;
 import java.util.Date;
 import java.util.GregorianCalendar;
@@ -35,6 +39,10 @@ import java.util.Map;
 public class CreateEventFragment extends Fragment {
 
     private FirebaseFirestore db = FirebaseFirestore.getInstance();
+<<<<<<< HEAD
+=======
+    private static List<String> Participants = new ArrayList<String>();
+>>>>>>> 1e033004180b455d016a1d2f8a75f17f3fa0b2ca
     public final String TAG = "Sent:";
 
     @Override
@@ -84,16 +92,37 @@ public class CreateEventFragment extends Fragment {
                 }
 
 
+<<<<<<< HEAD
                 GoogleSignInAccount acct = GoogleSignIn.getLastSignedInAccount(getActivity());
                 if (acct != null) {
                     personName = acct.getDisplayName();
                 }
+=======
+                personName = MainMenu.USER;
+>>>>>>> 1e033004180b455d016a1d2f8a75f17f3fa0b2ca
 
 
                 String Name = eventEditText.getText().toString();
                 String Description = descriptionEditText.getText().toString();
+<<<<<<< HEAD
                 //List<String> Participants = Arrays.asList(inviteesEditText.getText().toString());
                 List<String> Participants = Arrays.asList("xianghao96","eugenechia95");
+=======
+
+                String invitees = inviteesEditText.getText().toString();
+                String[] splitinvitees = invitees.split("@gmail.com");
+                Log.d("str", String.valueOf(splitinvitees));
+                for (int i = 0; i< splitinvitees.length; i++){
+                    String a;
+                    a = splitinvitees[i].replace(" ","");
+                    a = a.replace(",","");
+                    a = a.replace(";","");
+                    Log.d("str",String.valueOf(a));
+                    Participants.add(a);
+                }
+
+                Participants.add(MainMenu.USER);
+>>>>>>> 1e033004180b455d016a1d2f8a75f17f3fa0b2ca
 
                 Date startDate = startDateTime;
                 Date endDate = endDateTime;
@@ -103,7 +132,11 @@ public class CreateEventFragment extends Fragment {
                 newdoc.put("Name", Name);
                 newdoc.put("Description", Description);
                 newdoc.put("Participants", Participants);
+<<<<<<< HEAD
                 newdoc.put("Host", "xianghao96");
+=======
+                newdoc.put("Host", MainMenu.USER);
+>>>>>>> 1e033004180b455d016a1d2f8a75f17f3fa0b2ca
                 newdoc.put("StartDate", startDate);
                 newdoc.put("EndDate", endDate);
 

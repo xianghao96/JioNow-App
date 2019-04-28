@@ -1,0 +1,2 @@
+# Referenced at C:\SUTD\Term 8\Elements of Software Construction\Project\JioNow-App\JioNow-App-eugenebranch\app\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:19
+-keep class com.google.codelabs.mdc.java.jionow.application.ShrineApplication { <init>(...); }

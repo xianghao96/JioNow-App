@@ -14,6 +14,7 @@ import android.provider.MediaStore;
 import android.support.annotation.NonNull;
 import android.util.Log;
 import android.view.View;
+<<<<<<< HEAD
 import android.view.Window;
 import android.widget.Button;
 import android.widget.ImageButton;
@@ -25,6 +26,15 @@ import android.widget.Toolbar;
 
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
+=======
+import android.widget.Button;
+import android.widget.ImageView;
+import android.widget.Toast;
+
+import com.google.android.gms.tasks.OnFailureListener;
+import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.firebase.firestore.FirebaseFirestore;
+>>>>>>> 1e033004180b455d016a1d2f8a75f17f3fa0b2ca
 import com.google.firebase.ml.vision.FirebaseVision;
 import com.google.firebase.ml.vision.common.FirebaseVisionImage;
 import com.google.firebase.ml.vision.text.FirebaseVisionText;
@@ -33,6 +43,7 @@ import com.theartofdev.edmodo.cropper.CropImage;
 import com.theartofdev.edmodo.cropper.CropImageView;
 
 import java.io.IOException;
+<<<<<<< HEAD
 import java.net.URI;
 import java.util.ArrayList;
 import java.util.List;
@@ -43,19 +54,53 @@ import butterknife.BindView;
 public class CropGalleryImage extends Activity{
 
     private static final int REQUEST_WRITE_PERMISSION = 786;
+=======
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+public class CropGalleryImage extends Activity{
+
+    public final static String chosenevent = "Event";
+    public final static String mappedreceipt = "receipt";
+    public final static String ITEMS = "ITEMS";
+    public final static String QUANTITY = "QTY";
+    public final static String VALUES = "VAL";
+    private static String chosen_event;
+    private static Map<String, Object> receiptmap;
+    private static final int REQUEST_WRITE_PERMISSION = 786;
+    private FirebaseFirestore db = FirebaseFirestore.getInstance();
+    private static Context currentcontext;
+    private Double subtotal = 0.00;
+    private Double gst = 0.00;
+    private Double servicecharge = 0.00;
+    private Double total = 0.00;
+    private static int receiptnumber;
+>>>>>>> 1e033004180b455d016a1d2f8a75f17f3fa0b2ca
     Button pickimage;
     Button identify;
     ImageView imageview;
     Uri image;
     Bitmap bitmapimage;
     String processedreceipt;
+<<<<<<< HEAD
     Map receiptmap;
+=======
+>>>>>>> 1e033004180b455d016a1d2f8a75f17f3fa0b2ca
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.receiptview);
 
+<<<<<<< HEAD
+=======
+        Intent intent = getIntent();
+        chosen_event =  intent.getStringExtra(DialogActivity.event);
+        Log.d("chosen",chosen_event);
+
+>>>>>>> 1e033004180b455d016a1d2f8a75f17f3fa0b2ca
         imageview = findViewById(R.id.imageview);
         pickimage = findViewById(R.id.pickimage);
         identify = findViewById(R.id.identify);
@@ -79,6 +124,10 @@ public class CropGalleryImage extends Activity{
                 //IF THE ANDROID SDK UP TO MARSMALLOW BUILD NUMBER
                 if (imageview.getDrawable() != null) {
                     try {
+<<<<<<< HEAD
+=======
+                        currentcontext = v.getContext();
+>>>>>>> 1e033004180b455d016a1d2f8a75f17f3fa0b2ca
                         runTextRecognition(v.getContext(), image);
                     } catch (IOException e) {
                         e.printStackTrace();
@@ -175,11 +224,23 @@ public class CropGalleryImage extends Activity{
     }
 
     private void processString(String text){
+<<<<<<< HEAD
         String lines[] = text.split("\n");
         ArrayList<String> items = new ArrayList<String>();
         ArrayList<String> quantity = new ArrayList<String>();
         ArrayList<String> values = new ArrayList<String>();
         Double subtotal = 0.00;
+=======
+
+        String lines[] = text.split("\n");
+        receiptmap= new HashMap<String, Object>();
+
+        ArrayList<String> items = new ArrayList<String>();
+        ArrayList<String> quantity = new ArrayList<String>();
+        ArrayList<String> values = new ArrayList<String>();
+        ArrayList<Double> eachDish = new ArrayList<>();
+
+>>>>>>> 1e033004180b455d016a1d2f8a75f17f3fa0b2ca
         for (int i=0; i<lines.length; i++){
             if (lines[i].contains(",")){
                 String price = lines[i].replace(',','.');
@@ -195,9 +256,38 @@ public class CropGalleryImage extends Activity{
         }
 
         for (int i = 0; i<items.size();i++){
+<<<<<<< HEAD
             subtotal += Double.valueOf(quantity.get(i))*Double.valueOf(values.get(i));
         }
 
+=======
+            double priceOfEachDish = ((Double.valueOf(values.get(i)) / Double.valueOf(quantity.get(i))));
+            eachDish.add(priceOfEachDish);
+            Log.d("DishTAG", String.valueOf(eachDish));
+        }
+
+        for (int i = 0; i<items.size();i++){
+            subtotal += Double.valueOf(quantity.get(i))*Double.valueOf(values.get(i));
+        }
+
+        servicecharge = (double) roundAvoid(0.1*subtotal,2);
+        gst = (double) roundAvoid(0.07*(subtotal+servicecharge),2);
+        total = subtotal+servicecharge+gst;
+
+        //Put into itemmap for each item in receipt
+        for (int j = 0; j<items.size(); j++){
+            Map<String, Object> itemmap= new HashMap<String, Object>();
+            itemmap.put("Price",values.get(j));
+            itemmap.put("Quantity", quantity.get(j));
+            receiptmap.put(String.valueOf(items.get(j)), itemmap);
+        }
+        receiptmap.put("Subtotal", subtotal);
+        receiptmap.put("ServiceCharge", servicecharge);
+        receiptmap.put("GST", gst);
+        receiptmap.put("Total", total);
+
+        //For debugging processed items from receipt
+>>>>>>> 1e033004180b455d016a1d2f8a75f17f3fa0b2ca
         Log.d("TAG","Passed!");
         for (int j = 0; j<items.size(); j++){
             Log.d("items",String.valueOf(items.get(j)));
@@ -205,7 +295,30 @@ public class CropGalleryImage extends Activity{
             Log.d("items",String.valueOf(values.get(j)));
         }
         Log.d("items",String.valueOf(subtotal));
+<<<<<<< HEAD
 
+=======
+        Log.d("items",String.valueOf(servicecharge));
+        Log.d("items",String.valueOf(gst));
+        Log.d("items",String.valueOf(total));
+
+        //For debugging map to be sent to next page
+        Log.d("items",String.valueOf(receiptmap));
+
+        Intent intent = new Intent(currentcontext, ReceiptList.class);
+        intent.putExtra(chosenevent, chosen_event);
+        intent.putExtra(ITEMS, items);
+        intent.putExtra(QUANTITY, quantity);
+        intent.putExtra(VALUES, values);
+        intent.putExtra(mappedreceipt, (HashMap) receiptmap);
+        currentcontext.startActivity(intent);
+
+    }
+
+    public static double roundAvoid(double value, int places) {
+        double scale = Math.pow(10, places);
+        return Math.round(value * scale) / scale;
+>>>>>>> 1e033004180b455d016a1d2f8a75f17f3fa0b2ca
     }
 
 }
